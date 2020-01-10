@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=About Myself
+_Comment=Change personal information
+Exec=userinfo
+Terminal=false
+Type=Application
+Icon=user_icon
+Categories=Settings;X-GNOME-PersonalSettings;

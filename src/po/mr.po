@@ -1,0 +1,516 @@
+# translation of usermode.tip.mr.po to marathi
+# Marathi translations for PACKAGE package.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2004.
+# Rahul Bhalerao <rbhalera@redhat.com>, 2006.
+# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
+# sandeep shedmake <sandeep.shedmake@gmail.com>, 2007.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode.tip.mr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-29 10:14-0700\n"
+"PO-Revision-Date: 2008-03-12 17:00+0530\n"
+"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
+"Language-Team: marathi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "ठीक"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "बाहेर"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "रद्द"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "विशेषाधिकारांशिवाय चालवा"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(चालू) UNIX गुप्तशब्द: "
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "नविन UNIX गुप्तशब्द: "
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "नविन UNIX गुप्तशब्द पुन्हा टाइप करा: "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "वाइट गुप्तशब्द: हा खूपच छोटा आहे"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "वाइट गुप्तशब्द: हा खूप छोटा आहे"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "गुप्तशब्द बदलला नाही"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "माफ करा, गुप्तशब्द जुळत नाहीत"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "प्रणाली-व्यापी व्यूहरचना उपकरणे गुप्तशब्दाशिवाय सुरू करा."
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "प्रवेश: "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "गुप्तशब्द: "
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s सत्र व्यवस्थापकाशी जुळवणी करण्यास अपयशी: %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "प्रशासकाचे अधिकार सोडण्यास अयशस्वी: %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr "प्रशासकाचे अधिकार सोडण्यास अयशस्वी: pam_timestamp_check ने %d हा अपयश संकेत दिला. "
+
+#: ../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"तुम्ही सध्या प्रणाली-व्यापी रचना (ज्यांचा परिणाम सर्व उपयोक्त्यांवर होतो) त्या प्रशासकाचा "
+"गुप्तशब्द पुन्हा टाइप न करता व्यूहरचित करण्यास अधिकृत झाले आहात. तुम्ही ही अधिकृतता सोडू "
+"शकता."
+
+#: ../pam-panel-icon.c:151 ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "अधीप्रमाणन असू द्या"
+
+#: ../pam-panel-icon.c:154 ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "अधिप्रमाणन विसरून जा"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check हा setuid रूट नाही आहे"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "pam_timestamp_check साठी नियंत्रणकारी tty नाही"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "उपयोगकर्ता pam_timestamp_check ला अपरिचित"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "pam_timestamp_check मध्ये अनुमतींची चूक"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "pam_timestamp_check मध्ये अवैध नियंत्रणकारी tty"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "चूक: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "\"%s\" आदेश चालवण्यात अपयश: %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "IO channel nonblocking निर्धारित करण्यास अपयशी:%s\n"
+
+#: ../pam-panel-icon.c:476
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: सत्र व्यवस्थापकास जोडण्यास अपयशी\n"
+
+#: ../userhelper-wrap.c:204
+msgid "Unknown exit code."
+msgstr "अपरिचित बाहेर जाण्याचा कोड."
+
+#: ../userhelper-wrap.c:206
+msgid "Information updated."
+msgstr "माहिती अद्ययावत झाली."
+
+#: ../userhelper-wrap.c:208
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"तुम्ही टाइप केलेला गुप्तशब्द अवैध आहे.\n"
+"कृपया पुन्हा प्रयत्न करा."
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"बदललेल्या क्षेत्रांपैकी एक किंवा अधिक अवैध आहेत.\n"
+"हे कदाचित एखाद्या क्षेत्रातील स्वल्पविराम किंवा विसर्गामुळे असू शकते.\n"
+"कृपया त्यांना काढून पुन्हा प्रयत्न करा."
+
+#: ../userhelper-wrap.c:212
+msgid "Password resetting error."
+msgstr "गुप्तशब्द पुनर्निर्धारण चूक."
+
+#: ../userhelper-wrap.c:214
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"काही प्रणाली फाइल ताळाबंद आहेत.\n"
+"कृपया काही वेळाने पुन्हा प्रयत्न करा."
+
+#: ../userhelper-wrap.c:216
+msgid "Unknown user."
+msgstr "अज्ञात उपयोक्ता."
+
+#: ../userhelper-wrap.c:218
+msgid "Insufficient rights."
+msgstr "अपुरे हक्क."
+
+#: ../userhelper-wrap.c:220
+msgid "Invalid call to subprocess."
+msgstr "उपप्रक्रियेस अवैध कॉल."
+
+#: ../userhelper-wrap.c:222
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"तुमचा सध्याचा शेल /etc/shells मध्ये नमुद नाही.\n"
+"तुम्हास तुमचा शेल बदलण्याची संमती नाही.\n"
+"तुमच्या प्रणाली प्रशासकास संपर्क करा."
+
+#: ../userhelper-wrap.c:225
+msgid "Out of memory."
+msgstr "स्मृती बाहेर."
+
+#: ../userhelper-wrap.c:227
+msgid "The exec() call failed."
+msgstr "exec() कॉल अपयशी."
+
+#: ../userhelper-wrap.c:229
+msgid "Failed to find selected program."
+msgstr "निवडलेला कार्यक्रम शोधण्यात अपयशी."
+
+#: ../userhelper-wrap.c:232
+msgid "Request canceled."
+msgstr "विनंती रद्द."
+
+#: ../userhelper-wrap.c:234
+msgid "Internal PAM error occured."
+msgstr "अंतर्गत PAM चूक उद्भवली."
+
+#: ../userhelper-wrap.c:236
+msgid "Unknown error."
+msgstr "अज्ञात चूक."
+
+#: ../userhelper-wrap.c:504
+msgid "Query"
+msgstr "प्रश्न"
+
+#: ../userhelper-wrap.c:581 ../userhelper-wrap.c:732
+msgid "Error"
+msgstr "चूक"
+
+#: ../userhelper-wrap.c:581
+msgid "Information"
+msgstr "माहिती"
+
+#: ../userhelper-wrap.c:724
+msgid "Placeholder text."
+msgstr "स्थानधारक पाठ."
+
+#: ../userhelper-wrap.c:753 ../userhelper.c:627
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "\"%s\" च्या स्वरूपास प्रमाणीत करत आहे"
+
+#: ../userhelper-wrap.c:782
+msgid "Changing password."
+msgstr "गुप्तशब्द बदलत आहे."
+
+#: ../userhelper-wrap.c:784
+msgid "Changing personal information."
+msgstr "वय्यक्तिक माहिती बदलत आहे."
+
+#: ../userhelper-wrap.c:787
+msgid "Changing login shell."
+msgstr "लॉगीन शेल बदलत आहे."
+
+#: ../userhelper-wrap.c:791
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"तुम्ही \"%s\" चालवण्याचा प्रयत्न करत आहात जे प्रशासकीय अधिकारांपासून फायदेशीर असू \n"
+"शकते, परंतु तसे करण्यास अधिक माहितीची गरज आहे."
+
+#: ../userhelper-wrap.c:793
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"तुम्ही \"%s\" चालवण्याचा प्रयत्न करत आहात ज्यासाठी प्रशासकीय अधिकारांची\n"
+"आवश्यकता आहे, परंतु तसे करण्यास अधिक माहितीची गरज आहे."
+
+#: ../userhelper-wrap.c:798
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"तुम्ही एक आदेश चालवण्याचा प्रयत्न करत आहात जो प्रशासकीय अधिकारापासून फायदेशीर ठरू "
+"शकतो, परंतु तसे करण्यास अधिक माहितीची गरज आहे."
+
+#: ../userhelper-wrap.c:800
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"तुम्ही एक आदेश चालवण्याचा प्रयत्न करत आहात ज्यासाठी प्रशासकीय अधिकारांची आवश्यकता आहे, "
+"परंतु तसे करण्यास अधिक माहितीची गरज आहे."
+
+#: ../userhelper-wrap.c:810
+msgid "_Run Unprivileged"
+msgstr "विशेषाधिकारांशिवाय चालवा(_R)"
+
+#: ../userhelper-wrap.c:968
+#, c-format
+msgid "Pipe error.\n"
+msgstr "पाइप चूक.\n"
+
+#: ../userhelper-wrap.c:975
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "fork() करू शकत नाही.\n"
+
+#: ../userhelper-wrap.c:1001
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr " %s अक्षरसंच IO मार्गावर समर्थित करू शकत नाही: %s\n"
+
+#: ../userhelper-wrap.c:1077 ../userhelper-wrap.c:1081
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2() चूक.\n"
+
+#: ../userhelper-wrap.c:1093
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() चूक, errno=%d\n"
+
+#: ../userhelper.c:609
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"तुम्ही \"%s\" चालवण्याचा प्रयत्न करत आहात जे प्रशासक अधिकारापासून फायदेशीर असू \n"
+"शकते, परंतु तसे करण्यास अधिक माहितीची गरज आहे."
+
+#: ../userhelper.c:611
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"तुम्ही \"%s\" चालवण्याचा प्रयत्न करत आहात ज्यासाठी प्रशासकीय अधिकारांची\n"
+"आवश्यकता आहे, परंतु तसे करण्यास अधिक माहितीची गरज आहे."
+
+#: ../userhelper.c:615
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"तुम्ही एक आदेश चालवण्याचा प्रयत्न करत आहात जो प्रशासकीय अधिकारापासून\n"
+" फायदेशीर ठरू शकतो, परंतु तसे करण्यास अधिक माहितीची गरज आहे."
+
+#: ../userhelper.c:617
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"तुम्ही एक आदेश चालवण्याचा प्रयत्न करत आहात ज्यासाठी प्रशासकीय अधिकारांची\n"
+"आवश्यकता आहे, परंतु तसे करण्यास अधिक माहितीची गरज आहे."
+
+#: ../userhelper.c:2171
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "उपयोक्ता सहाय्यक setuid रूट असायला हवा\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2269
+#, c-format
+msgid "Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "आलेखीय खिडकी उघडण्यास असमर्थ, आणि नियंत्रक टर्मिनल शोधण्यास असमर्थ.\n"
+
+#: ../userinfo.c:370
+#, c-format
+msgid "Unexpected argument"
+msgstr "अनपेक्षित आर्ग्यूमेंट"
+
+#: ../userinfo.c:395
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "तुम्ही अस्तित्वात नाही.  निघून जा.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "माझ्याविषयी"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "व्यक्तिगत माहिती बदला"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "पूर्ण नाव:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "घरचा दूरध्वनी क्रमांक:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "लॉगीन शेल:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "कार्यालय दूरध्वनी क्रमांक:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "कार्यालय:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "उपयोक्ता माहिती"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "आरोहित करा(_M)"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "अनारोहित करा(_m)"
+
+#: ../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"तुमची खात्री आहे तुम्ही ही डिस्क स्वरूपित करू इच्छिता? तुम्ही त्यात असलेला सर्व डेटा हरवून "
+"बसाल."
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "निम्न-स्तरीय स्वरूपण पार पाडा(_l)."
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "निर्माण करावयाचा फाइलप्रणाली प्रकार निवडा(_f):"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"तुम्हास आरोहित किंवा अनारोहित करण्याची संमती असलेल्या फाइलप्रणाल्या नाहीत.\n"
+"तुमच्या प्रशासकास संपर्क करा."
+
+#. Create the dialog.
+#: ../usermount.c:508 ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "उपयोक्ता आरोहण उपकरण"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "स्वरूप(_F)"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "यंत्र"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "निर्देशिका"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "फाइलप्रणाली"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "यंत्र '%s' स्वरूपित करता येत नाही."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "डिस्क व्यवस्थापन"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "फाइलप्रणाल्या आरोहित आणि अनारोहित करा"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "तुमचा लॉगीन गुप्तशब्द बदला"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "गुप्तशब्द"
+

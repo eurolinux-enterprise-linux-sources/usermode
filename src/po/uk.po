@@ -1,0 +1,509 @@
+# Ukrainian translation of usermode
+# Previous translator: Yuriy Syrota <rasta@renome.rovno.ua
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-09 08:52+0000\n"
+"PO-Revision-Date: 2007-08-20 14:08+0200\n"
+"Last-Translator: Maxim Dzumanenko <dziumanenko@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "Гаразд"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "Вийти"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "Запустити без привілей"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(поточний) пароль (UNIX): "
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Новий пароль UNIX: "
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Підтвердження паролю UNIX: "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "ПОГАНИЙ ПАРОЛЬ: пароль НАДТО короткий"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "ПОГАНИЙ ПАРОЛЬ: надто короткий"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "Пароль не змінено"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "Вибачте, паролі не збігаються"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "Запускає загально-системні утиліти налаштовування без паролю."
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "реєстраційне ім'я: "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "Пароль: "
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s не вдається підключитись до менеджера сеансів: %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "Не вдається скинути привілеї адміністратора: %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr ""
+"Не вдається скинути привілеї адміністратора: pam_timestamp_check повернув "
+"код помилки %d"
+
+#: ../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"Наразі ви авторизовані для виконання налаштовування параметрів для усієї "
+"системи (що впливає на усіх користувачів) без повторного набору пароля "
+"адміністратора. Ви можете відмовитись від такої авторизації."
+
+#: ../pam-panel-icon.c:151 ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Зберегти авторизацію"
+
+#: ../pam-panel-icon.c:154 ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "Скинути авторизацію"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check не має встановленого біта setuid root"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "немає керуючої консолі tty для pam_timestamp_check"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "користувач невідомий для pam_timestamp_check"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "помилка прав доступу у pam_timestamp_check"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "неправильна керуюча консоль tty у pam_timestamp_check"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Помилка: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Не вдається запустити команду \"%s\": %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "Помилка встановлення каналу вводу-виводу у неблокований режим: %s\n"
+
+#: ../pam-panel-icon.c:476
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: не вдається підключитись до менеджера сеансів\n"
+
+#: ../userhelper-wrap.c:206
+msgid "Unknown exit code."
+msgstr "Невідомий код завершення."
+
+#: ../userhelper-wrap.c:208
+msgid "Information updated."
+msgstr "Інформацію оновлено."
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"Ви ввели правильний пароль.\n"
+"Спробуйте знову."
+
+#: ../userhelper-wrap.c:212
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"Одне чи більше зі змінених полів неправильне.\n"
+"Це напевно через двокрапки чи коми в одному з полів.\n"
+"Видаліть їх та спробуйте знову."
+
+#: ../userhelper-wrap.c:214
+msgid "Password resetting error."
+msgstr "Помилка скидання паролю."
+
+#: ../userhelper-wrap.c:216
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"Деякі файлові системи блоковано.\n"
+"Спробуйте знову через декілька секунд."
+
+#: ../userhelper-wrap.c:218
+msgid "Unknown user."
+msgstr "Невідомий користувач."
+
+#: ../userhelper-wrap.c:220
+msgid "Insufficient rights."
+msgstr "Недостатньо прав."
+
+#: ../userhelper-wrap.c:222
+msgid "Invalid call to subprocess."
+msgstr "Невірний виклик підпроцесу.."
+
+#: ../userhelper-wrap.c:224
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"Вашу поточну оболонку не вказано в списку /etc/shells.\n"
+"Ви не можете змінити свою оболонку.\n"
+"Проконсультуйтесь із своїм системним адміністратором."
+
+#: ../userhelper-wrap.c:227
+msgid "Out of memory."
+msgstr "Недостатньо оперативної пам'яті."
+
+#: ../userhelper-wrap.c:229
+msgid "The exec() call failed."
+msgstr "Помилка виклику exec()."
+
+#: ../userhelper-wrap.c:231
+msgid "Failed to find selected program."
+msgstr "Неможливо знайти вибрану програму."
+
+#: ../userhelper-wrap.c:234
+msgid "Request canceled."
+msgstr "Запит скасовано."
+
+#: ../userhelper-wrap.c:236
+msgid "Internal PAM error occured."
+msgstr "Внутрішня помилка PAM."
+
+#: ../userhelper-wrap.c:238
+msgid "Unknown error."
+msgstr "Невідома помилка."
+
+#: ../userhelper-wrap.c:488
+msgid "Query"
+msgstr "Запит"
+
+#: ../userhelper-wrap.c:547 ../userhelper.c:604
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "Проподиться перевірка автентичності як \"%s\""
+
+#: ../userhelper-wrap.c:566 ../userhelper-wrap.c:702
+msgid "Error"
+msgstr "Помилка"
+
+#: ../userhelper-wrap.c:566
+msgid "Information"
+msgstr "Інформація"
+
+#: ../userhelper-wrap.c:727
+msgid "Changing password."
+msgstr "Зміна паролю."
+
+#: ../userhelper-wrap.c:729
+msgid "Changing personal information."
+msgstr "Зміна персональної інформації."
+
+#: ../userhelper-wrap.c:732
+msgid "Changing login shell."
+msgstr "Зміна початкової оболонки."
+
+#: ../userhelper-wrap.c:736
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Ви намагаєтесь виконати програму \"%s\", яка може потребувати привілей "
+"адміністратора, але для цього потрібна додаткова інформація."
+
+#: ../userhelper-wrap.c:738
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"Ви намагаєтесь виконати \"%s\", яка вимагає привілей\n"
+"адміністратора, але для цього потрібна додаткова інформація."
+
+#: ../userhelper-wrap.c:742
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Ви намагаєтесь виконати команду,  яка може потребувати привілей "
+"адміністратора, але для цього потрібна додаткова інформація."
+
+#: ../userhelper-wrap.c:744
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Ви намагаєтесь виконати команду, яка вимагає привілей\n"
+"адміністратора, але для цього потрібна додаткова інформація."
+
+#: ../userhelper-wrap.c:781
+msgid "_Run Unprivileged"
+msgstr "_Запустити без привілей"
+
+#: ../userhelper-wrap.c:926
+#, c-format
+msgid "Pipe error.\n"
+msgstr "Помилка каналу.\n"
+
+#: ../userhelper-wrap.c:933
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Неможливо виконати fork().\n"
+
+#: ../userhelper-wrap.c:959
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr "Не вдається встановити кодування %s на каналі вводу-виводу: %s\n"
+
+#: ../userhelper-wrap.c:1031 ../userhelper-wrap.c:1035
+#, c-format
+msgid "dup2() error.\n"
+msgstr "помилка dup2().\n"
+
+#: ../userhelper-wrap.c:1046
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "помилка execl(), код помилки %d\n"
+
+#: ../userhelper.c:586
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Ви намагаєтесь виконати програму \"%s\", яка може потребувати привілей "
+"адміністратора, але для цього потрібна додаткова інформація."
+
+#: ../userhelper.c:588
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Ви намагаєтесь виконати програму \"%s\", яка вимагає привілей\n"
+"адміністратора, але для цього потрібна додаткова інформація."
+
+#: ../userhelper.c:592
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"Ви намагаєтесь виконати команду, яка може потребувати привілей "
+"адміністратора, але для цього потрібна додаткова інформація."
+
+#: ../userhelper.c:594
+#, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Ви намагаєтесь виконати команду, яка вимагає привілей\n"
+"адміністратора, але для цього потрібна додаткова інформація."
+
+#: ../userhelper.c:2025
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper повинен бути setuid root\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2117
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "Неможливо відкрити графічне вікно та знайти керуючий термінал.\n"
+
+#: ../userinfo.c:383
+#, c-format
+msgid "Unexpected argument"
+msgstr "Неочікуваний аргумент"
+
+#: ../userinfo.c:408
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Вас немає.  Ідіть звідси.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "Про мене"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "Зміна персональної інформації"
+
+#: ../usermode.ui.h:1
+msgid "Full Name:"
+msgstr "Повне ім'я:"
+
+#: ../usermode.ui.h:2
+msgid "Home Phone Number:"
+msgstr "Домашній телефон:"
+
+#: ../usermode.ui.h:3
+msgid "Login Shell:"
+msgstr "Оболонка:"
+
+#: ../usermode.ui.h:4
+msgid "Office Phone Number:"
+msgstr "Робочий телефон:"
+
+#: ../usermode.ui.h:5
+msgid "Office:"
+msgstr "Офіс:"
+
+#: ../usermode.ui.h:6
+msgid "User Information"
+msgstr "Користувач"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "_Підключити"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "_Відключити"
+
+#: ../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"Ви дійсно хочете відформатувати цей диск? Всі дані на ньому будуть знищені."
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "Виконати форматування _низького рівня."
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "Виберіть тип _файлової системи:"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"Немає файлових систем, які вам дозволено підключати чи відключати.\n"
+"Зверніться до системного адміністратора."
+
+#. Create the dialog.
+#: ../usermount.c:508 ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "Засіб монтування для користувачів"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "_Форматувати"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "Пристрій"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "Каталог"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "Файлова система"
+
+#: ../usermount.c:634
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Пристрій '%s' не можна форматувати."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "Керування дисками"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "Підключення та відключення файлових систем"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "Зміна власного паролю"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "Зміна паролю"
+
+

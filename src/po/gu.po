@@ -1,0 +1,521 @@
+# translation of usermode.tip.gu.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ankit Patel <ankit@redhat.com>, 2004, 2005, 2006, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode.tip.gu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-29 10:14-0700\n"
+"PO-Revision-Date: 2008-03-11 17:07+0530\n"
+"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
+"Language-Team: Gujarati <fedora-trans-gu@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "બરાબર"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "બહાર નીકળો"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "રદ કરો"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "નહિં સુધારાયેલ ચલાવો"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(વર્તમાન) યુનિક્સ પાસવર્ડ: "
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "નવો યુનિક્સ પાસવર્ડ: "
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "નવો યુનિક્સ પાસવર્ડ ફરીથી છાપો: "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "ખરાબ પાસવર્ડ: આ રસ્તો ખૂબ નાનો છે"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "ખરાબ પાસવર્ડ: આ ખૂબ નાનો છે"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "પાસવર્ડ બદલાયેલ નથી"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "માફ કરજો, પાસવર્ડ બંધબેસતા નથી"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "સિસ્ટમના રુપરેખાંકન સાધનો પાસવર્ડ વગર લાવો."
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "પ્રવેશો: "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "પાસવર્ડ: "
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s એ સત્ર વ્યવસ્થાપક સાથે જોડાવામાં નિષ્ફળ ગયું: %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "સંચાલન પૂર્વધારણાઓ મૂકવામાં નિષ્ફળ: %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr "સંચાલન પૂર્વધારણાઓ મૂકવામાં નિષ્ફળ: pam_timestamp_check એ નિષ્ફળતા કોડ %d આપ્યો"
+
+#: ../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"તમે system-wide સુયોજનો સાથે વર્તમાનમાં સત્તાધિકાર પામેલા છો (કે જે બધા વપરાશકર્તાઓને "
+"અસર કરે છે) સંચાલન પાસવર્ડ છાપ્યા વિના. તમે આ સત્તાધિકરણ આપી શકો છો."
+
+#: ../pam-panel-icon.c:151 ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "સત્તાધિકરણ સાચવી રાખો"
+
+#: ../pam-panel-icon.c:154 ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "સત્તાધિકરણ ભૂલી ગયા"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check એ setuid રુટ નથી"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "pam_timestamp_check માટે કોઈ નિયંત્રક tty નથી"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "pam_timestamp_check નો વપરાશકર્તા અજ્ઞાત"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "pam_timestamp_check માં પરવાનગી ભૂલ"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "pam_timestamp_check માં tty ને નિયંત્રિત કરવાનું અયોગ્ય"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "ભૂલ: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "\"%s\" આદેશ ચલાવવામાં નિષ્ફળ: %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "IO channel nonblocking સુયોજિત કરવામાં નિષ્ફળ: %s\n"
+
+#: ../pam-panel-icon.c:476
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: સત્ર વ્યવસ્થાપક સાથે સંપર્ક કરવામાં નિષ્ફળ\n"
+
+#: ../userhelper-wrap.c:204
+msgid "Unknown exit code."
+msgstr "બહાર નીકળવાનો અજ્ઞાત કોડ."
+
+#: ../userhelper-wrap.c:206
+msgid "Information updated."
+msgstr "જાણકારી સુધારાયેલ છે."
+
+#: ../userhelper-wrap.c:208
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"તમે લખેલો પાસવર્ડ અયોગ્ય છે.\n"
+"મહેરબાની કરીને ફરીથી પ્રયત્ન કરો."
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"એક અથવા વધુ બદલાયેલ ક્ષેત્ર અયોગ્ય છે.\n"
+"આ કદાચ તેમાંના કોઈએક ક્ષેત્રમાં ':' અથવા ',' ને લીધે હશે.\n"
+"મહેરબાની કરીને તેને દૂર કરો અને ફરીથી પ્રયત્ન કરો."
+
+#: ../userhelper-wrap.c:212
+msgid "Password resetting error."
+msgstr "પાસવર્ડ ફરીથી સુયોજિત કરવામાં ભૂલ."
+
+#: ../userhelper-wrap.c:214
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"અમુક સિસ્ટમ ફાઈલોને તાળુ મરાયેલ છે.\n"
+"મહેરબાની કરીને અમુક ક્ષણો માટે ફરીથી પ્રયત્ન કરો."
+
+#: ../userhelper-wrap.c:216
+msgid "Unknown user."
+msgstr "અજ્ઞાત વપરાશકર્તા."
+
+#: ../userhelper-wrap.c:218
+msgid "Insufficient rights."
+msgstr "અપૂરતા નિયમો."
+
+#: ../userhelper-wrap.c:220
+msgid "Invalid call to subprocess."
+msgstr "ઉપપ્રક્રિયાઓને અયોગ્ય બોલાવો."
+
+#: ../userhelper-wrap.c:222
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"તમારુ વર્તમાન શેલ /etc/shells માં યાદિત કરેલ નથી.\n"
+"તમે તમારું પ્રવેશ શેલ બદલવા સમર્થ નથી.\n"
+"તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો."
+
+#: ../userhelper-wrap.c:225
+msgid "Out of memory."
+msgstr "મેમરીની બહાર."
+
+#: ../userhelper-wrap.c:227
+msgid "The exec() call failed."
+msgstr "exec() કોલ નિષ્ફળ ગયો."
+
+#: ../userhelper-wrap.c:229
+msgid "Failed to find selected program."
+msgstr "પસંદ કરેલ કાર્યક્રમ શોધવામાં નિષ્ફળ."
+
+#: ../userhelper-wrap.c:232
+msgid "Request canceled."
+msgstr "અરજી રદ થઈ ગઈ."
+
+#: ../userhelper-wrap.c:234
+msgid "Internal PAM error occured."
+msgstr "આંતરિક PAM ભૂલ ઉદ્દભવી."
+
+#: ../userhelper-wrap.c:236
+msgid "Unknown error."
+msgstr "અજ્ઞાત ભૂલ."
+
+#: ../userhelper-wrap.c:504
+msgid "Query"
+msgstr "પ્રશ્ન"
+
+#: ../userhelper-wrap.c:581 ../userhelper-wrap.c:732
+msgid "Error"
+msgstr "ભૂલ"
+
+#: ../userhelper-wrap.c:581
+msgid "Information"
+msgstr "જાણકારી"
+
+#: ../userhelper-wrap.c:724
+msgid "Placeholder text."
+msgstr "જગ્યા વાપરનાર લખાણ."
+
+#: ../userhelper-wrap.c:753 ../userhelper.c:627
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "\"%s\" તરીકે સત્તાધિકારીત કરી રહ્યા છીએ"
+
+#: ../userhelper-wrap.c:782
+msgid "Changing password."
+msgstr "પાસવર્ડો બદલી રહ્યા છીએ."
+
+#: ../userhelper-wrap.c:784
+msgid "Changing personal information."
+msgstr "ખાનગી જાણકારી બદલી રહ્યા છીએ."
+
+#: ../userhelper-wrap.c:787
+msgid "Changing login shell."
+msgstr "પ્રવેશ શેલ બદલી રહ્યા છીએ."
+
+#: ../userhelper-wrap.c:791
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"તમે \"%s\" ચલાવવાનું પસંદ કરવા જઈ રહ્યા છીએ કે જે સંચાલન\n"
+"માટે લાભદાયક છે, પરંતુ એમ કરવા માટે વધુ જાણકારી જરુરી છે."
+
+#: ../userhelper-wrap.c:793
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"તમે \"%s\" ચલાવવાનું પસંદ કરવા જઈ રહ્યા છીએ કે જેના માટે સંચાલન\n"
+"જાણકારી જરુરી છે, પરંતુ એમ કરવા માટે વધુ જાણકારી જરુરી છે."
+
+#: ../userhelper-wrap.c:798
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"તમે આદેશ ચલાવવાનું પસંદ કરવા જઈ રહ્યા છીએ કે જે સંચાલન\n"
+"માટે લાભદાયક છે, પરંતુ એમ કરવા માટે વધુ જાણકારી જરુરી છે."
+
+#: ../userhelper-wrap.c:800
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"તમે આદેશ ચલાવવાનું પસંદ કરવા જઈ રહ્યા છીએ કે જેના માટે સંચાલન\n"
+"જાણકારી જરુરી છે, પરંતુ એમ કરવા માટે વધુ જાણકારી જરુરી છે."
+
+#: ../userhelper-wrap.c:810
+msgid "_Run Unprivileged"
+msgstr "પ્રિવિલેજ નહિં તે ચલાવો (_R)"
+
+#: ../userhelper-wrap.c:968
+#, c-format
+msgid "Pipe error.\n"
+msgstr "પાઈપ ભૂલ.\n"
+
+#: ../userhelper-wrap.c:975
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "fork() કરી શકતા નથી.\n"
+
+#: ../userhelper-wrap.c:1001
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr "અક્ષરસમૂહ %s ને IO ચેનલ પર સુયોજિત કરી શકતા નથી: %s\n"
+
+#: ../userhelper-wrap.c:1077 ../userhelper-wrap.c:1081
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2() ભૂલ.\n"
+
+#: ../userhelper-wrap.c:1093
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() ભૂલ, ભૂલ ક્રમાંક=%d\n"
+
+#: ../userhelper.c:609
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"તમે \"%s\" ચલાવવાનું પસંદ કરવા જઈ રહ્યા છીએ કે જે સંચાલન\n"
+"માટે લાભદાયક છે, પરંતુ એમ કરવા માટે વધુ જાણકારી જરુરી છે."
+
+#: ../userhelper.c:611
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"તમે \"%s\" ચલાવવાનું પસંદ કરવા જઈ રહ્યા છીએ કે જેના માટે સંચાલન\n"
+"જાણકારી જરુરી છે, પરંતુ એમ કરવા માટે વધુ જાણકારી જરુરી છે."
+
+#: ../userhelper.c:615
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"તમે આદેશ ચલાવવાનું પસંદ કરવા જઈ રહ્યા છીએ કે જે સંચાલન\n"
+"માટે લાભદાયક છે, પરંતુ એમ કરવા માટે વધુ જાણકારી જરુરી છે."
+
+#: ../userhelper.c:617
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"તમે આદેશ ચલાવવાનું પસંદ કરવા જઈ રહ્યા છીએ કે જેના માટે સંચાલન\n"
+"જાણકારી જરુરી છે, પરંતુ એમ કરવા માટે વધુ જાણકારી જરુરી છે."
+
+#: ../userhelper.c:2171
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "વપરાશકર્તા મદદગાર માટે uid રુટ જ સુયોજિત હોવું જોઈએ\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2269
+#, c-format
+msgid "Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "ગ્રાફિકવાળી વિન્ડો ખોલવા સમર્થ નથી, અને નિયંત્રક ટર્મિનલ ખોલવામાં અસમર્થ.\n"
+
+#: ../userinfo.c:370
+#, c-format
+msgid "Unexpected argument"
+msgstr "અનિચ્છનિય દલીલ"
+
+#: ../userinfo.c:395
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "તમે અસ્તિત્વમાં નથી.  દૂર જતા રહો.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "મારા વિશે"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "ખાનગી જાણકારી બદલો"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "પુરુ નામ:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "ઘરનો ફોન નંબર:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "પ્રવેશ શેલ:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "ઓફિસ ફોન નંબર:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "ઓફિસ:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "વપરાશકર્તા જાણકારી"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "માઉન્ટ (_M)"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "માઉન્ટ કરો નહિં (_m)"
+
+#: ../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"શું તમે ખરેખર આ ડિસ્કને ફોર્મેટ કરવા માંગો છો?  તમે હમણાં એ જે માહિતી સમાવે છે તે નાશ કરી "
+"નાંખશો."
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "નિમ્ન સ્તરનું ફોર્મેટ કરો (_l)."
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "બનાવવા માટે ફાઈલસિસ્ટમનો પ્રકાર પસંદ કરો (_f):"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"ત્યાં કોઈ ફાઈલ સિસ્ટમ નથી કે જે તમને માઉન્ટ અથવા માઉન્ટ નહિં કરવા માટે છે.\n"
+"તમારા સંચાલકનો સંપર્ક કરો."
+
+#. Create the dialog.
+#: ../usermount.c:508 ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "વપરાશકર્તા માઉન્ટ સાધન"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "બંધારણ (_F)"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "ઉપકરણ"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "ડિરેક્ટરી"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "ફાઈલસિસ્ટમ"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "ઉપકરણ '%s' નું બંધારણ ઘડી શકતા નથી."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "ડિસ્ક વ્યવસ્થાપન"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "ફાઈલસિસ્ટમો માઉન્ટ અને અનમાઉન્ટ કરો"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "તમારો પ્રવેશ પાસવર્ડ બદલો"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "પાસવર્ડ"
+

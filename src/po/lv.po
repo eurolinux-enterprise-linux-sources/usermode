@@ -1,0 +1,534 @@
+# translation of lv.po to Latvian
+# Copyright (C) 2008 THE lv'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lv package.
+# Gatis Kalnins <gatis.kalnins@metatrons.lv>, 2006.
+# Janis Ozolins <johnij@fedoraproject.org>, 2008.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: lv 8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-29 17:47+0000\n"
+"PO-Revision-Date: 2008-06-24 21:15+0100\n"
+"Last-Translator: Janis Ozolins <johnij@fedoraproject.org>\n"
+"Language-Team: Latvian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "Labi"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "Iziet"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "Izpildīt bez prioritātes"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(patreizējā) UNIX parole:"
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Jaunā UNIX parole:"
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Atkārtot jauno UNIX paroli:"
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "SLIKTA PAROLE: parole pārāk īsa"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "SLIKTA PAROLE: parole pārāk īsa"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "Parole nav izmainīta"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "Atvainojiet, paroles nesakrīt"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "Startē sistēmas iestatīšanas rīkus neprasot paroli."
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "lietotājvārds:"
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "Parole:"
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s kļūda pieslēdzoties sesiju menedžerim: %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "Kļūme administratora tiesību atcelšanā: %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr ""
+"Kļūme administratora tiesību atcelšanā: pam_timestamp_check kļūdas kods %d"
+
+#: ../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"Jūs esat autorizēts režīmā, kas ļauj mainīt visas sistēmas parametrus "
+"(ietekmē visus lietotājus), bez atkārtotas administratora paroles ievades. "
+"Jūs varat atteikties no šādas autorizācijas."
+
+#: ../pam-panel-icon.c:151 ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Saglabāt autorizāciju"
+
+#: ../pam-panel-icon.c:154 ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "Atcelt autorizāciju"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check nav uzstādīts setuid root"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "nav kontroles konsoles tty priekš pam_timestamp_check"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "nezināms lietotājs priekš pam_timestamp_check"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "kļūda atļauju līmenī priekš pam_timestamp_check"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "nepareiza kontroles konsole tty priekš pam_timestamp_check"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Kļūda: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Kļūda izpildot komandu \"%s\": %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "Kļūda uzstādot ievades-izvades kanālu nebloķējošā režīmā: %s\n"
+
+#: ../pam-panel-icon.c:476
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: kļūda pieslēdzoties sesiju menedžerim\n"
+
+#: ../userhelper-wrap.c:204
+msgid "Unknown exit code."
+msgstr "Nezināms izejas kods."
+
+#: ../userhelper-wrap.c:206
+msgid "Information updated."
+msgstr "Informācija atjaunota."
+
+#: ../userhelper-wrap.c:208
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"Jūsu ievadītā parole nav derīga.\n"
+"Mēģiniet, lūdzu, vēlreiz."
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"Viens vai vairāki ievades lauki ir nekorekti.\n"
+"Iespējamais iemesls ir punktu vai komatu esamība.\n"
+"Lūdzu, izdzēsiet tos un mēģiniet vēlreiz."
+
+#: ../userhelper-wrap.c:212
+msgid "Password resetting error."
+msgstr "Kļūda paroles atiestatīšanā."
+
+#: ../userhelper-wrap.c:214
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"Daži sistēmas faili ir bloķēti.\n"
+"Lūdzu, mēģiniet pēc laika vēlreiz."
+
+#: ../userhelper-wrap.c:216
+msgid "Unknown user."
+msgstr "Nezināms lietotājs."
+
+#: ../userhelper-wrap.c:218
+msgid "Insufficient rights."
+msgstr "Nav atbilstošu piekļuves tiesību."
+
+#: ../userhelper-wrap.c:220
+msgid "Invalid call to subprocess."
+msgstr "Kļūda apakšprocesa izsaukumā."
+
+#: ../userhelper-wrap.c:222
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"Jūsu izvēlētā sistēmčaula nav norādīta failā /etc/shells.\n"
+"Jums nav tiesību izmainīt savu sistēmčaulu.\n"
+"Sazinieties ar sistēmas administratoru."
+
+#: ../userhelper-wrap.c:225
+msgid "Out of memory."
+msgstr "Nepietiek atmiņas."
+
+#: ../userhelper-wrap.c:227
+msgid "The exec() call failed."
+msgstr "Kļūda izsaukumā exec()."
+
+#: ../userhelper-wrap.c:229
+msgid "Failed to find selected program."
+msgstr "Norādīto programmu atrast nav iespējams."
+
+#: ../userhelper-wrap.c:232
+msgid "Request canceled."
+msgstr "Pieprasījums atcelts."
+
+#: ../userhelper-wrap.c:234
+msgid "Internal PAM error occured."
+msgstr "Konstatēta iekšēja PAM kļūda."
+
+#: ../userhelper-wrap.c:236
+msgid "Unknown error."
+msgstr "Nezināma kļūda."
+
+#: ../userhelper-wrap.c:504
+msgid "Query"
+msgstr "Pieprasījums"
+
+#: ../userhelper-wrap.c:581 ../userhelper-wrap.c:732
+msgid "Error"
+msgstr "Kļūda"
+
+#: ../userhelper-wrap.c:581
+msgid "Information"
+msgstr "Informācija"
+
+#: ../userhelper-wrap.c:724
+msgid "Placeholder text."
+msgstr "Vieta tekstam."
+
+#: ../userhelper-wrap.c:753 ../userhelper.c:627
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "Autorizēties kā \"%s\""
+
+#: ../userhelper-wrap.c:782
+msgid "Changing password."
+msgstr "Maina paroli."
+
+#: ../userhelper-wrap.c:784
+msgid "Changing personal information."
+msgstr "Personiskās informācijas maiņa."
+
+#: ../userhelper-wrap.c:787
+msgid "Changing login shell."
+msgstr "Pieslēgšanās sistēmčaulas maiņa."
+
+#: ../userhelper-wrap.c:791
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Jūs mēģinat startēt \"%s\", kas iegūst papildus privilēģijas, ja startēta  "
+"administratora režīmā, bet tam nepieciešams vairāk informācijas."
+
+#: ../userhelper-wrap.c:793
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"Jūs mēģinat startēt \"%s\", kas nepieciešamas administratora privilēģijas, "
+"bet tam nepieciešams vairāk informācijas."
+
+#: ../userhelper-wrap.c:798
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Jūs mēģinat startēt komandu, kas iegūst papildus privilēģijas, ja startēta  "
+"administratora režīmā, bet tam nepieciešams vairāk informācijas."
+
+#: ../userhelper-wrap.c:800
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Jūs mēģinat startēt komandu, kas nepieciešamas administratora privilēģijas, "
+"bet tam nepieciešams vairāk informācijas."
+
+#: ../userhelper-wrap.c:810
+msgid "_Run Unprivileged"
+msgstr "Izpildīt bez privilēģijām"
+
+#: ../userhelper-wrap.c:968
+#, c-format
+msgid "Pipe error.\n"
+msgstr "Plūsmas kļūda.\n"
+
+#: ../userhelper-wrap.c:975
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Nevar izsaukt fork().\n"
+
+#: ../userhelper-wrap.c:1001
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr "Navar uzstādīt rakstzīmju komplektu %s ievades-izvades kanālā: %s\n"
+
+#: ../userhelper-wrap.c:1077 ../userhelper-wrap.c:1081
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2() kļūda.\n"
+
+#: ../userhelper-wrap.c:1093
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() kļūda, errno=%d\n"
+
+#: ../userhelper.c:609
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Jūs cenšaties startēt \"%s\", kas iegūst papildus iespējas, ja startēta "
+"administratora režīmā,\n"
+"bet priekš tam ir nepieciešama papildus info."
+
+#: ../userhelper.c:611
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Jūs cenšaties startēt \"%s\", kurai nepieciešamas administratora tiesības,\n"
+"bet priekš tam ir nepieciešama papildus info."
+
+#: ../userhelper.c:615
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"Jūs cenšaties startēt komandu, kas iegūst papildus iespējas, ja startēta "
+"administratora režīmā,\n"
+"bet priekš tam ir nepieciešama papildus info."
+
+#: ../userhelper.c:617
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Jūs cenšaties startēt komandu, kurai nepieciešamas administratora tiesības,\n"
+"bet priekš tam ir nepieciešama papildus info."
+
+#: ../userhelper.c:2171
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper jābūt uzstādītam setuid root\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2269
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr ""
+"Nav iespējams atvērt grafisko logu, un nevar atvērt kontroles terminālu.\n"
+
+#: ../userinfo.c:370
+#, c-format
+msgid "Unexpected argument"
+msgstr "Negaidīts arguments"
+
+#: ../userinfo.c:395
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Jūsu nav. Ejiet prom. :)\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "Par mani"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "Mainīt personisko informāciju"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "Pilns vārds:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "Mājas tālruņa numurs:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "Pieslēgšanās sistēmčaula:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "Biroja tālruņa numurs:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "Birojs:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "Informācija par lietotāju"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "Montēt"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "Nomontēt"
+
+#: ../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr "Vai tiešām vēlaties šo disku formatēt? Tiks dzēsts tā saturs."
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "Veikt zemākā līmeņa formatēšanu."
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "Izvēlēties veidojamo failsistēmu:"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"Nav failsistēmu, kuras jūs varat montēt vai nomontēt.\n"
+"Sazinieties ar administratoru."
+
+#. Create the dialog.
+#: ../usermount.c:508 ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "Lietotāja Montēšanas Rīks"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "Formatēt"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "Ierīce"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "Direktorija"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "Failsistēma"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Ierīce '%s' nevar būt formatizēta."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "Diska Pārvaldnieks"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "Montēt un nomontēt failsistēmas"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "Mainīt pieslēgšanās paroli"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "Parole"
+
+#, fuzzy
+#~ msgid "Could not set default context for %s for program %s.\n"
+#~ msgstr "Nevar uzstādīt izpildes saturu uz %s.\n"
+
+#~ msgid "Could not set exec context to %s.\n"
+#~ msgstr "Nevar uzstādīt izpildes saturu uz %s.\n"
+
+#~ msgid "Password for %s"
+#~ msgstr "Parole priekš %s"
+
+#~ msgid "Password for %s: "
+#~ msgstr "Parole priekš %s:"
+
+#~ msgid "Message"
+#~ msgstr "Paziņojums"
+
+#~ msgid "Help"
+#~ msgstr "Palīgs"
+
+#~ msgid "*"
+#~ msgstr "*"

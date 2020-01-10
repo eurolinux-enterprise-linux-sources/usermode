@@ -1,0 +1,473 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode.tip\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-17 01:50+0000\n"
+"PO-Revision-Date: 2008-10-18 05:25-0800\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik Fedora and Software Localization Team <victor.ibragimov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Tajik\n"
+"X-Poedit-Country: TAJIKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "OK"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "Хуруҷ"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "Бекор кардан"
+
+#: ../dummy.h:24
+#, fuzzy
+msgid "Run Unprivileged"
+msgstr "&Иҷро кардан"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(ҷорӣ) Пароли UNIX: "
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Пароли нави UNIX: "
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Пароли нави UNIX*ро такрор кунед: "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr ""
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr ""
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "Парол тағйир дода шуд"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr ""
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr ""
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "вурудот: "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "Парол:"
+
+#: ../gsmclient.c:362
+#, fuzzy, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "Оғознамоии Jabber Мудири Фиристодани Файл бо Нокомӣ анҷомид"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr ""
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid "Failed to drop administrator privileges: pam_timestamp_check returned failure code %d"
+msgstr ""
+
+#: ../pam-panel-icon.c:146
+msgid "You're currently authorized to configure system-wide settings (that affect all users) without typing the administrator password again. You can give up this authorization."
+msgstr ""
+
+#: ../pam-panel-icon.c:151
+#: ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Нигоҳ доштани муайянкунӣ"
+
+#: ../pam-panel-icon.c:154
+#: ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr ""
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr ""
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr ""
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr ""
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr ""
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr ""
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Хато: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Иҷроиши фармони \"%s\" қатъ карда шуд: %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr ""
+
+#: ../pam-panel-icon.c:476
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr ""
+
+#: ../userhelper-wrap.c:205
+msgid "Unknown exit code."
+msgstr "Хуруҷи рамзи номуайян."
+
+#: ../userhelper-wrap.c:207
+msgid "Information updated."
+msgstr "Иттилоот нав карда шуд."
+
+#: ../userhelper-wrap.c:209
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+
+#: ../userhelper-wrap.c:211
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+
+#: ../userhelper-wrap.c:213
+msgid "Password resetting error."
+msgstr "Бозсозии парол кор нашуд."
+
+#: ../userhelper-wrap.c:215
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+
+#: ../userhelper-wrap.c:217
+msgid "Unknown user."
+msgstr "Корбари номаълум"
+
+#: ../userhelper-wrap.c:219
+#, fuzzy
+msgid "Insufficient rights."
+msgstr "Ҳуқуқҳои Дастрасӣ"
+
+#: ../userhelper-wrap.c:221
+#, fuzzy
+msgid "Invalid call to subprocess."
+msgstr "Хатоги: Хусусиятҳои номумкини фармонҳои %1.\n"
+
+#: ../userhelper-wrap.c:223
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+
+#: ../userhelper-wrap.c:226
+msgid "Out of memory."
+msgstr "Хотира кофӣ аст"
+
+#: ../userhelper-wrap.c:228
+#, fuzzy
+msgid "The exec() call failed."
+msgstr "Занг ба '%1' қатъ карда шуд."
+
+#: ../userhelper-wrap.c:230
+msgid "Failed to find selected program."
+msgstr "Ҷустуҷӯи барномаи интихобшуда қатъ карда шуд."
+
+#: ../userhelper-wrap.c:233
+msgid "Request canceled."
+msgstr "Дархост қатъ карда шуд."
+
+#: ../userhelper-wrap.c:235
+#, fuzzy
+msgid "Internal PAM error occured."
+msgstr "хатогии дохилӣ - рамзи %1 номаълум аст"
+
+#: ../userhelper-wrap.c:237
+msgid "Unknown error."
+msgstr "Хатои номаълум."
+
+#: ../userhelper-wrap.c:502
+msgid "Query"
+msgstr "Дархост"
+
+#: ../userhelper-wrap.c:561
+#: ../userhelper.c:576
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "Муайянкунӣ ҳамчун \"%s\""
+
+#: ../userhelper-wrap.c:580
+#: ../userhelper-wrap.c:716
+msgid "Error"
+msgstr "Хато"
+
+#: ../userhelper-wrap.c:580
+msgid "Information"
+msgstr "Иттилоот"
+
+#: ../userhelper-wrap.c:741
+msgid "Changing password."
+msgstr "Парол тағйир шуда истодааст."
+
+#: ../userhelper-wrap.c:743
+#, fuzzy
+msgid "Changing personal information."
+msgstr "Мудири маълумоти шахсӣ"
+
+#: ../userhelper-wrap.c:746
+msgid "Changing login shell."
+msgstr ""
+
+#: ../userhelper-wrap.c:750
+#, c-format
+msgid "You are attempting to run \"%s\" which may benefit from administrative privileges, but more information is needed in order to do so."
+msgstr ""
+
+#: ../userhelper-wrap.c:752
+#, c-format
+msgid "You are attempting to run \"%s\" which requires administrative privileges, but more information is needed in order to do so."
+msgstr ""
+
+#: ../userhelper-wrap.c:756
+msgid "You are attempting to run a command which may benefit from administrative privileges, but more information is needed in order to do so."
+msgstr ""
+
+#: ../userhelper-wrap.c:758
+msgid "You are attempting to run a command which requires administrative privileges, but more information is needed in order to do so."
+msgstr ""
+
+#: ../userhelper-wrap.c:794
+#, fuzzy
+msgid "_Run Unprivileged"
+msgstr "&Иҷро кардан"
+
+#: ../userhelper-wrap.c:924
+#, fuzzy, c-format
+msgid "Pipe error.\n"
+msgstr "Хатои Kickstart"
+
+#: ../userhelper-wrap.c:931
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Пайваст нашуд().\n"
+
+#: ../userhelper-wrap.c:957
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr ""
+
+#: ../userhelper-wrap.c:1029
+#: ../userhelper-wrap.c:1033
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2() хато.\n"
+
+#: ../userhelper-wrap.c:1044
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() хато, errno=%d\n"
+
+#: ../userhelper.c:558
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+
+#: ../userhelper.c:560
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+
+#: ../userhelper.c:564
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+
+#: ../userhelper.c:566
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+
+#: ../userhelper.c:2000
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper бояд ҳамчун setuid root шавад\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2092
+#, c-format
+msgid "Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr ""
+
+#: ../userinfo.c:376
+#, c-format
+msgid "Unexpected argument"
+msgstr "Аргументи ногаҳонӣ"
+
+#: ../userinfo.c:401
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Корбар мавҷуд нест. Ба ҳар ҳол давом диҳед.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "Дар бораи худ"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "Тағйири иттилооти шахсӣ"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "Ному насаб:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "Рақами телефони хона:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "Ҷилди вуруд:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "Рақами телефони офис:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "Офис:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "Иттилооти корбар"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "_Оғози васл"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "_Манъи васл"
+
+#: ../usermount.c:289
+msgid "Are you sure you want to format this disk?  You will destroy any data it currently contains."
+msgstr ""
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr ""
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "Интихоби навъи _системаи файлҳо:"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+
+#. Create the dialog.
+#: ../usermount.c:508
+#: ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "Системаи васлкунии корбар"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "_Тағйир"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "Дастгоҳ"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "Феҳраст"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "Системаи файлҳо"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Дастгоҳи '%s' тағйир дода намешавад."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "Мудири диск"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr ""
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "Пароли вурудотро тағйир кунед"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "Парол"
+

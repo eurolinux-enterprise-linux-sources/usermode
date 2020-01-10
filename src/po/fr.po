@@ -1,0 +1,532 @@
+# translation of usermode.tip.po to french
+# Copyright (C) 2001 Red Hat, Inc.
+#
+# Nathalie Scholz <EMAIL@ADDRESS>, 2001.
+# Bettina De Monti <bdemonti@redhat.it>, 2001.
+# Audrey Simons <asimons@redhat.com>, 2003, 2005.
+# Jean-Paul Aubry <jpaubry@redhat.com>, 2003,2004.
+# Stephane Raimbault <stephane.raimbault@free.fr>, 2004.
+# Thomas Canniot <thomas.canniot@laposte.net>, 2007.
+# Gauthier Ancelin <gauthier.ancelin@laposte.net>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode.tip\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-29 17:47+0000\n"
+"PO-Revision-Date: 2008-03-20 22:23+0100\n"
+"Last-Translator: Gauthier Ancelin <gauthier.ancelin@laposte.net>\n"
+"Language-Team: french <fedora-trans-fr@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "OK "
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "Quitter"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "Exécuter sans privilèges"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "Mot de passe UNIX (actuel) : "
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Nouveau mot de passe UNIX : "
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Confirmer le nouveau mot de passe UNIX : "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "MOT DE PASSE INCORRECT : VRAIMENT trop court"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "MOT DE PASSE INCORRECT : trop court"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "Mot de passe inchangé"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "Désolé, les mots de passe ne correspondent pas"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "Démarrer les outils de configuration système sans mot de passe."
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "Identifiant : "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "Mot de passe : "
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr ""
+"%s n'a pas réussi à établir la connexion avec le gestionnaire de "
+"sessions : %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "Impossible d'abandonner les privilèges d'administrateur : %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr ""
+"Impossible d'abandonner les privilèges d'administrateur : "
+"pam_timestamp_check a renvoyé un code d'erreur %d"
+
+#: ../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"Vous êtes actuellement autorisé à configurer des paramètres pour l'ensemble "
+"du système (qui touchent tous les utilisateurs) sans devoir saisir à nouveau "
+"le mot de passe de l'administrateur. Vous pouvez renoncer à cette "
+"autorisation."
+
+#: ../pam-panel-icon.c:151 ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Garder l'autorisation"
+
+#: ../pam-panel-icon.c:154 ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "Abandonner l'autorisation"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check n'est pas setuid root"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "aucun tty de contrôle pour pam_timestamp_check"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "utilisateur inconnu de pam_timestamp_check"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "erreur de permissions dans pam_timestamp_check"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "tty de contrôle non valide dans pam_timestamp_check"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Erreur : %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Impossible d'exécuter la commande « %s » : %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "Impossible de paramétrer l'option de non blocage du canal d'E/S : %s\n"
+
+#: ../pam-panel-icon.c:476
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr ""
+"pam-panel-icon : impossible d'établir la connexion avec le gestionnaire de "
+"sessions\n"
+
+#: ../userhelper-wrap.c:204
+msgid "Unknown exit code."
+msgstr "Code de sortie inconnu."
+
+#: ../userhelper-wrap.c:206
+msgid "Information updated."
+msgstr "Informations mises à jour."
+
+#: ../userhelper-wrap.c:208
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"Le mot de passe n'est pas valide.\n"
+"Veuillez essayer à nouveau."
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"Un ou plusieurs des champs modifiés ne sont pas valides.\n"
+"Cela peut être dû à des caractères deux-points ou virgule dans\n"
+"l'un des champs. Veuillez les retirer et essayer à nouveau."
+
+#: ../userhelper-wrap.c:212
+msgid "Password resetting error."
+msgstr "Erreur de réinitialisation du mot de passe."
+
+#: ../userhelper-wrap.c:214
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"Certains fichiers système sont verrouillés.\n"
+"Veuillez essayer à nouveau un peu plus tard."
+
+#: ../userhelper-wrap.c:216
+msgid "Unknown user."
+msgstr "Utilisateur inconnu."
+
+#: ../userhelper-wrap.c:218
+msgid "Insufficient rights."
+msgstr "Droits insuffisants."
+
+#: ../userhelper-wrap.c:220
+msgid "Invalid call to subprocess."
+msgstr "Appel non valide à un sous-processus. "
+
+#: ../userhelper-wrap.c:222
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"Votre shell actuel ne figure pas dans le fichier /etc/shells.\n"
+"Vous n'êtes pas autorisé à changer votre shell.\n"
+"Consultez votre administrateur système."
+
+#: ../userhelper-wrap.c:225
+msgid "Out of memory."
+msgstr "Mémoire insuffisante."
+
+#: ../userhelper-wrap.c:227
+msgid "The exec() call failed."
+msgstr "L'appel à exec() a échoué."
+
+#: ../userhelper-wrap.c:229
+msgid "Failed to find selected program."
+msgstr "Impossible de trouver le programme sélectionné."
+
+#: ../userhelper-wrap.c:232
+msgid "Request canceled."
+msgstr "Requête annulée."
+
+#: ../userhelper-wrap.c:234
+msgid "Internal PAM error occured."
+msgstr "Une erreur interne PAM est survenue."
+
+#: ../userhelper-wrap.c:236
+msgid "Unknown error."
+msgstr "Erreur inconnue."
+
+#: ../userhelper-wrap.c:504
+msgid "Query"
+msgstr "Interroger"
+
+#: ../userhelper-wrap.c:581 ../userhelper-wrap.c:732
+msgid "Error"
+msgstr "Erreur"
+
+#: ../userhelper-wrap.c:581
+msgid "Information"
+msgstr "Informations"
+
+#: ../userhelper-wrap.c:724
+msgid "Placeholder text."
+msgstr "Texte fictif."
+
+#: ../userhelper-wrap.c:753 ../userhelper.c:627
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "Authentification en tant que « %s »"
+
+#: ../userhelper-wrap.c:782
+msgid "Changing password."
+msgstr "Modifier le mot de passe."
+
+#: ../userhelper-wrap.c:784
+msgid "Changing personal information."
+msgstr "Changement des informations personnelles."
+
+#: ../userhelper-wrap.c:787
+msgid "Changing login shell."
+msgstr "Changement du shell de connexion."
+
+#: ../userhelper-wrap.c:791
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Vous essayez d'exécuter « %s » qui pourrait nécessiter des privilèges de "
+"super-utilisateur. Des informations supplémentaires sont requises pour cette "
+"opération."
+
+#: ../userhelper-wrap.c:793
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"Vous essayez d'exécuter « %s » qui nécessite des privilèges de super-"
+"utilisateur. Des informations supplémentaires sont requises pour cette "
+"opération."
+
+#: ../userhelper-wrap.c:798
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Vous essayez d'exécuter une commande qui pourrait nécessiter des privilèges "
+"de super-utilisateur. Des informations supplémentaires sont requises pour cette "
+"opération."
+
+#: ../userhelper-wrap.c:800
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Vous essayez d'exécuter une commande qui nécessite des privilèges de super-"
+"utilisateur. Des informations supplémentaires sont requises pour cette "
+"opération."
+
+#: ../userhelper-wrap.c:810
+msgid "_Run Unprivileged"
+msgstr "Exécute_r sans privilèges"
+
+#: ../userhelper-wrap.c:968
+#, c-format
+msgid "Pipe error.\n"
+msgstr "Erreur de tube.\n"
+
+#: ../userhelper-wrap.c:975
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Erreur fork().\n"
+
+#: ../userhelper-wrap.c:1001
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr "Impossible d'associer le jeu de caractères %s au canal d'entrées/sorties : %s\n"
+
+#: ../userhelper-wrap.c:1077 ../userhelper-wrap.c:1081
+#, c-format
+msgid "dup2() error.\n"
+msgstr "Erreur dup2().\n"
+
+#: ../userhelper-wrap.c:1093
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "Erreur execl(), errno=%d\n"
+
+#: ../userhelper.c:609
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Vous essayez d'exécuter « %s » qui pourrait nécessiter des privilèges du "
+"super-utilisateur. Des informations supplémentaires sont requises pour cette "
+"opération."
+
+#: ../userhelper.c:611
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Vous essayez d'exécuter « %s » qui nécessite des privilèges du super-"
+"utilisateur. Des informations supplémentaires sont requises pour cette "
+"opération."
+
+#: ../userhelper.c:615
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"Vous essayez d'exécuter une commande qui pourrait nécessiter des privilèges\n"
+"du super-utilisateur. Des informations supplémentaires sont requises pour cette "
+"opération."
+
+#: ../userhelper.c:617
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Vous essayez d'exécuter une commande qui nécessite des privilèges du\n"
+"super-utilisateur. Des informations supplémentaires sont requises pour cette "
+"opération."
+
+#: ../userhelper.c:2171
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper doit être setuid root\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2269
+#, c-format
+msgid "Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr ""
+"Impossible d'ouvrir une fenêtre graphique et de trouver un terminal de "
+"contrôle.\n"
+
+#: ../userinfo.c:370
+#, c-format
+msgid "Unexpected argument"
+msgstr "Argument imprévu"
+
+#: ../userinfo.c:395
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Identité inexistante. Quitter.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "Renseignements personnels"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "Changement des informations personnelles"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "Nom et prénom :"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "Téléphone domicile :"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "Shell de connexion :"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "Téléphone bureau :"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "Bureau :"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "Informations utilisateur"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "_Monter"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "Dé_monter"
+
+#: ../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"Êtes-vous sûr de vouloir formater ce disque ? Vous détruiriez toutes les "
+"données qu'il contient."
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "Effectuer un formatage de _bas niveau."
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "Sélectionner un type de système de _fichiers à créer :"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"Il n'y a pas de système de fichiers montable ou démontable par les "
+"utilisateurs.\n"
+"Contactez votre administrateur."
+
+#. Create the dialog.
+#: ../usermount.c:508 ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "Outil de montage de l'utilisateur"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "_Formater"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "Périphérique"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "Répertoire"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "Système de fichiers"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Le périphérique « %s » ne peut pas être formaté."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "Gestion du disque"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "Monter et démonter les systèmes de fichiers"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "Modifier votre mot de passe de connexion"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "Mot de passe"
+

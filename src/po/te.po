@@ -1,0 +1,513 @@
+# translation of usermode.tip.te.po to Telugu
+# translation of te.po to
+# translation of te౧.po to
+# translation of te.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2006.
+#
+# Sree Ganesh <sthottem@redhat.com>, 2006.
+# Krishna Babu K <kkrothap@redhat.com>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode.tip.te\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-24 18:21+0000\n"
+"PO-Revision-Date: 2008-03-26 20:55+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "సరే"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "బయటకు"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "రద్దు"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "హక్కులేకుండా ఉపయోగించు"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(ప్రస్తుత) UNIX అనుమతిపదం: "
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "కొత్త UNIX అనుమతిపదం: "
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "కొత్త UNIX అనుమతిపదాన్ని తిరిగి ముద్రించు: "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "చెడ్డ అనుమతిపదం:ఇది చాలా చిన్నగా ఉంది"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "చెడ్డ అనుమతిపదం: అది చాలా చిన్నగా ఉంది"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "అనుమతిపదం మార్చబడదు"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "క్షమించండి, అనుమతిపదం సరిపోలలేదు"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "సిస్టం-వైడ్ ఆకృతీకరణ ఉపకరణాలను ఒక అనుమతిపదంలేకుండా ప్రారంభించు."
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "ప్రవేశం: "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "అనుమతిపదం: "
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s సమకూర్పు నిర్వాహికకు అనుసంధానమగుటలో విఫలమైంది: %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "నిర్వాహకుని అదనపుహక్కులను ఉంచటంలో వైఫల్యం: %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr "నిర్వాహకుని అదనపుహక్కులను ఉంచటంలో వైఫల్యం: pam_timestamp_check వైఫల్య కోడుకి తిరిగి వెళ్లు %d"
+
+#: ../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"ఇప్పుడు మీరు system-wide అమర్పుల ఆకృతీకరణకు అధికారాన్ని వహిస్తునారు నిర్వహణా అనుమతిపదాన్ని మళ్లీ "
+"ముద్రించకుండా (అది వినియోగాలన్నింటినీ ప్రభావితంచేస్తుంది). మీరు ఈ అధికారాన్ని ఇవ్వగలరు."
+
+#: ../pam-panel-icon.c:151 ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "అధికారత్వాన్ని ఉంచు"
+
+#: ../pam-panel-icon.c:154 ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "అధికారాన్ని మర్చిపో"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check setuid రూట్ కాదు"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "pam_timestamp_check కోసం tty నియంత్రణ లేదు"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "వినియోగదారుడు pam_timestamp_checkకి తెలియదు"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "pam_timestamp_checkలో అనుమతి దోషం"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "pam_timestamp_checkలో చెల్లని tty నియంత్రణ"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "దోషం: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "ఆదేశం ఉపయోగించటంలో వైఫల్యం \"%s\": %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "IO చానల్ నాన్ బ్లాకింగుని అమర్చటంలో వైఫల్యం: %s\n"
+
+#: ../pam-panel-icon.c:476
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: సెషన్ నిర్వాహకుడికి అనుసంధించటంలో వైఫల్యం\n"
+
+#: ../userhelper-wrap.c:204
+msgid "Unknown exit code."
+msgstr "తెలియని బయటకు వచ్చే కోడు."
+
+#: ../userhelper-wrap.c:206
+msgid "Information updated."
+msgstr "సమాచార నవీకరణ"
+
+#: ../userhelper-wrap.c:208
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"మీరు టైపుచేసిన అనుమతిపదం సరైనదికాదు.\n"
+"దయచేసి మళ్లీ ప్రయత్నించండి."
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"ఒకటి లేదా ఎక్కువ క్షేత్రమార్పిడి చెల్లనిది.\n"
+"ఈ సమస్య క్షేత్రంలో కోలన్లు లేదా కామాలవల్ల కావచ్చు.\n"
+"దయచేసి వాటిని తొలగించండి మరియూ ప్రయత్నించండి."
+
+#: ../userhelper-wrap.c:212
+msgid "Password resetting error."
+msgstr "అనుమతిపదాన్ని తిరిగి అమర్చటంలో దోషం."
+
+#: ../userhelper-wrap.c:214
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"కొన్ని సిస్టం ఫైళ్లు లాక్ చేయబడ్డాయి.\n"
+"కొన్ని సమయాల్లో తిరిగి ప్రయత్నించండి."
+
+#: ../userhelper-wrap.c:216
+msgid "Unknown user."
+msgstr "తెలియని వినియోగదారుడు."
+
+#: ../userhelper-wrap.c:218
+msgid "Insufficient rights."
+msgstr "చాలని హక్కులు."
+
+#: ../userhelper-wrap.c:220
+msgid "Invalid call to subprocess."
+msgstr "ఉపవిధానానికి చెల్లని పిలుపు."
+
+#: ../userhelper-wrap.c:222
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"మీ ప్రస్తుత షల్ /etc/shells లో తెల్పబడలేదు.\n"
+"మీరు మీ షల్ మార్పిడికి అనుమతించబడలేదు.\n"
+"మీ కంప్యూటరు నిర్వహణదారును సంప్రదించండి."
+
+#: ../userhelper-wrap.c:225
+msgid "Out of memory."
+msgstr "మెమోరీ లేదు."
+
+#: ../userhelper-wrap.c:227
+msgid "The exec() call failed."
+msgstr "exec() పిలుపు విఫలమైంది."
+
+#: ../userhelper-wrap.c:229
+msgid "Failed to find selected program."
+msgstr "ఎన్నుకున్న పరిక్రమాన్ని కనుగొనటంలో వైఫల్యం."
+
+#: ../userhelper-wrap.c:232
+msgid "Request canceled."
+msgstr "విన్నపం రద్దయ్యింది."
+
+#: ../userhelper-wrap.c:234
+msgid "Internal PAM error occured."
+msgstr "అంతర్గత PAM దీషం సంభవించింది."
+
+#: ../userhelper-wrap.c:236
+msgid "Unknown error."
+msgstr "తెలియని దోషం."
+
+#: ../userhelper-wrap.c:504
+msgid "Query"
+msgstr "ప్రశ్న"
+
+#: ../userhelper-wrap.c:581 ../userhelper-wrap.c:732
+msgid "Error"
+msgstr "దోషం"
+
+#: ../userhelper-wrap.c:581
+msgid "Information"
+msgstr "సమాచారం"
+
+#: ../userhelper-wrap.c:724
+msgid "Placeholder text."
+msgstr "స్థాన యజమాని పాఠం."
+
+#: ../userhelper-wrap.c:753 ../userhelper.c:627
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "\"%s\" లా ప్రామాణీకరించండి"
+
+#: ../userhelper-wrap.c:782
+msgid "Changing password."
+msgstr "అనుమతిపదాన్ని మార్చండి."
+
+#: ../userhelper-wrap.c:784
+msgid "Changing personal information."
+msgstr "వ్యక్తిగత సమాచారం మార్చుతోంది."
+
+#: ../userhelper-wrap.c:787
+msgid "Changing login shell."
+msgstr "ప్రవేశ షల్ మార్చుతోంది."
+
+#: ../userhelper-wrap.c:791
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"మీరు \"%s\" ఉపయోగించటానికి ప్రయత్నిస్తున్నారు ఇవి నిర్వహణా\n"
+"అదనపు హక్కులనుండీ లాభాన్ని పొందవచ్చు, కానీ దాన్ని చేయటానికి అధిక సమాచారం కూడా అవసరంకావచ్చు."
+
+#: ../userhelper-wrap.c:793
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"మీరు \"%s\" ఉపయోగించటానికి ప్రయత్నిస్తున్నారు వీటికి నిర్వహణ\n"
+"అదనపు హక్కులు కావలసి ఉంది, కానీ దాన్ని చేయటానికి అధిక సమాచారం కూడా అవసరంకావచ్చు."
+
+#: ../userhelper-wrap.c:798
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"మీరు ఇప్పుడు నిర్వహణ అదనపు హక్కులనుండీ లాభాలు పొందేఆదేశాన్ని ఉపయోగించటానికి ప్రయత్నిస్తున్నారు, కానీ "
+"దాన్ని చేయటానికి అదనపు సమాచారంకూడా అవసరంకావచ్చు."
+
+#: ../userhelper-wrap.c:800
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"మీరు నిర్వహణ అదనపు హక్కులు కావలసి ఉన్న ఆదేశాన్ని ఉపయోగిస్తున్నారు, కానీ అది చేయటానికి అధిక సమాచారంకూడా "
+"అవసరంకావచ్చు."
+
+#: ../userhelper-wrap.c:810
+msgid "_Run Unprivileged"
+msgstr "అదనపు హక్కులేనిదాన్ని ఉపయోగించు (_R)"
+
+#: ../userhelper-wrap.c:968
+#, c-format
+msgid "Pipe error.\n"
+msgstr "పైప్ దోషం.\n"
+
+#: ../userhelper-wrap.c:975
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "fork() చేయలేదు.\n"
+
+#: ../userhelper-wrap.c:1001
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr "charset %s ను IO చానల్: %s లో మార్చలేము \n"
+
+#: ../userhelper-wrap.c:1077 ../userhelper-wrap.c:1081
+#, c-format
+msgid "dup2() error.\n"
+msgstr "డప్2() దీషం.\n"
+
+#: ../userhelper-wrap.c:1093
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() దోషం, errno=%d\n"
+
+#: ../userhelper.c:609
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"మీరు \"%s\" ఉపయోగించటానికి ప్రయత్నిస్తున్నారు ఇవి నిర్వహణా\n"
+"అదనపు హక్కులనుండీ లాభాన్ని పొందవచ్చు, కానీ దాన్ని చేయటానికి అధిక సమాచారం కూడా అవసరంకావచ్చు."
+
+#: ../userhelper.c:611
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"మీరు \"%s\" ఉపయోగించటానికి ప్రయత్నిస్తున్నారు వీటికి నిర్వహణా\n"
+"అదనపు హక్కులు కావలసి ఉంది, కానీ దాన్ని చేయటానికి అధిక సమాచారం కూడా అవసరంకావచ్చు."
+
+#: ../userhelper.c:615
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"మీరు ఇప్పుడు నిర్వహణ అదనపు హక్కులనుండీ లాభాలను పొందే\n"
+"ఆదేశాన్ని ఉపయోగించటానికి ప్రయత్నిస్తున్నారు, దాన్ని చేయటానికి అదనపు సమాచారంకూడా అవసరంకావచ్చు."
+
+#: ../userhelper.c:617
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"మీరు ఇప్పుడు నిర్వహణ అదనపు హక్కులనుండీ లాభాలు అవసరమయ్యే\n"
+"ఆదేశాన్ని ఉపయోగించటానికి ప్రయత్నిస్తున్నారు, దాన్ని చేయటానికి అదనపు సమాచారంకూడా అవసరంకావచ్చు."
+
+#: ../userhelper.c:2171
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "వినియోగదారుని సహాయకుడు తప్పక రూట్ అమర్చాలి\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2269
+#, c-format
+msgid "Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "చిత్ర విండోని తెరవటానికి కుదరదు, మరియూ టెర్మినలుని నియంత్రణను కనుగొనటం కుదరదు.\n"
+
+#: ../userinfo.c:370
+#, c-format
+msgid "Unexpected argument"
+msgstr "ఊహించని వాదన"
+
+#: ../userinfo.c:395
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "మీరు బయటకు రావద్దు.  కొనసాగండి.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "నా గురించి"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "వ్యక్తిగత సమాచారం మార్చు"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "పూర్తి పేరు:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "ఇంటి ఫోను నెంబరు:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "షల్ ప్రవేశమ్:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "కార్యాలయ ఫోను నంబరు:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "కార్యాలయం:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "వినియోగదారుని సమాచారం"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "మరల్పు (_M)"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "మరల్చలేము (_m)"
+
+#: ../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"మీరు నిజంగా ఈ డిస్కును ఆకృతీకరించాలనుకుంటున్నారా?  ఇది ప్రస్తుతం కలిగిఉన్న సమాచారాన్ని మీరు నాశనం "
+"చేస్తారు."
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "ఒక తక్కువ-స్థాయి ఆకృతిని చేయి. (_l)"
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "సృష్టించటానికి ఒక ఫైలు విధాన వర్గాన్ని ఎన్నుకో:"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"మీరు మౌంటు చేయటానికి చేయకపోవటానికి తగిన ఫైళ్ల వ్యవస్థ లేదు.\n"
+"మీ నిర్వహణాధికారిని సంప్రదించండి."
+
+#. Create the dialog.
+#: ../usermount.c:508 ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "వినియోగదారుని మౌంటు సాధనం"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "ఆకృతి (_F)"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "సాధనం"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "డైరెక్టరీ"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "ఫైళ్లవ్యవస్థ"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "ఈ '%s' సాధనం ఆకృతీకరించబడదు."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "డిస్కు నిర్వహ"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "Mount మరియూ unmount ఫైళ్ల విధానా"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "మీ ప్రవేశ అనుమతిపదాన్ని మార్చు"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "అనుమతిపదం"
+

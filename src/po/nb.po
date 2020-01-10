@@ -1,0 +1,515 @@
+# Norwegian bokmål translation of usermode.
+# Copyright Red Hat, Inc. 2007.
+# Kjartan Maraas <kmaraas@gnome.org>, 2007-2008.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode 1.96\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-29 17:47+0000\n"
+"PO-Revision-Date: 2008-03-13 14:25+0100\n"
+"Last-Translator: Kjartan Maraas <kmaraas@broadpark.no>\n"
+"Language-Team: Norwegian/Bokmaal <i18n-nb@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "OK"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "Avslutt"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "Kjør upriviligert"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(nåværende) UNIX passord: "
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Nytt UNIX passord:"
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Tast inn nytt UNIX passord på nytt: "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "UGYLDIG PASSORD: det er altfor kort"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "UGYLDIG PASSORD: det er for kort"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "Passord ikke endret"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "Beklager, passordene er ikke de samme"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "Start konfigurasjonsverktøy for systemet uten passord."
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "Brukernavn: "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "Passord: "
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s klarte ikke å koble til sesjonshåndtereren: %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "Kunne ikke gi slipp på administratorrettigheter: %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr ""
+"Klarte ikke å gi slipp på administratorrettigheter: pam_timestamp_check "
+"returnerte feilkode %d"
+
+#: ../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"Du er nå autorisert for å gjøre endringer for hele systemet (som påvirker "
+"alle brukere) uten å oppgi passord for administrator igjen. Du kan gi slipp "
+"på denne autoriseringen."
+
+#: ../pam-panel-icon.c:151 ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Behold autorisering"
+
+#: ../pam-panel-icon.c:154 ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "Gi slipp på autorisering"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check er ikke setuid root"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "ingen tty kontrollerer pam_timestamp_check"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "bruker ukjent for pam_timestamp_check"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "feil med rettigheter i pam_timestamp_check"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "ugyldig tty for kontroll av pam_timestamp_check"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Feil: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Feil under kjøring av kommando «%s»: %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "Kunne ikke sette IU-kanal til å ikke blokkere: %s\n"
+
+#: ../pam-panel-icon.c:476
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: kunne ikke koble til sesjonshåndtereren\n"
+
+#: ../userhelper-wrap.c:204
+msgid "Unknown exit code."
+msgstr "Ukjent avsluttingskode."
+
+#: ../userhelper-wrap.c:206
+msgid "Information updated."
+msgstr "Informasjon oppdatert."
+
+#: ../userhelper-wrap.c:208
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"Passordet du oppga er ugyldig.\n"
+"Vennligst prøv igjen."
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"Ett eller flere endrede felt er ugyldige.\n"
+"Dette skyldes sannsynligvis et kolon eller komma i ett av feltene.\n"
+"Vennligst fjern disse og prøv igjen."
+
+#: ../userhelper-wrap.c:212
+msgid "Password resetting error."
+msgstr "Feil under nullstilling av passord."
+
+#: ../userhelper-wrap.c:214
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"Noen systemfiler er låst.\n"
+"Prøv igjen om et øyeblikk."
+
+#: ../userhelper-wrap.c:216
+msgid "Unknown user."
+msgstr "Ukjent bruker."
+
+#: ../userhelper-wrap.c:218
+msgid "Insufficient rights."
+msgstr "Utilstrekkelige rettigheter."
+
+#: ../userhelper-wrap.c:220
+msgid "Invalid call to subprocess."
+msgstr "Ugyldig kall til underprosess."
+
+#: ../userhelper-wrap.c:222
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"Ditt nåværende skall finnes ikke i /etc/shells.\n"
+"Du kan ikke endre ditt skall.\n"
+"Kontakt din systemadministrator."
+
+#: ../userhelper-wrap.c:225
+msgid "Out of memory."
+msgstr "Ikke mer minne."
+
+#: ../userhelper-wrap.c:227
+msgid "The exec() call failed."
+msgstr "exec()-kallet feilet."
+
+#: ../userhelper-wrap.c:229
+msgid "Failed to find selected program."
+msgstr "Kunne ikke finne valgt program."
+
+#: ../userhelper-wrap.c:232
+msgid "Request canceled."
+msgstr "Forespørsel avbrutt"
+
+#: ../userhelper-wrap.c:234
+msgid "Internal PAM error occured."
+msgstr "Intern feil oppsto i PAM."
+
+#: ../userhelper-wrap.c:236
+msgid "Unknown error."
+msgstr "Ukjent feil."
+
+#: ../userhelper-wrap.c:504
+msgid "Query"
+msgstr "Spør"
+
+#: ../userhelper-wrap.c:581 ../userhelper-wrap.c:732
+msgid "Error"
+msgstr "Feil"
+
+#: ../userhelper-wrap.c:581
+msgid "Information"
+msgstr "Informasjon"
+
+#: ../userhelper-wrap.c:724
+msgid "Placeholder text."
+msgstr "Plassholdertekst"
+
+#: ../userhelper-wrap.c:753 ../userhelper.c:627
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "Autentiserer som «%s»"
+
+#: ../userhelper-wrap.c:782
+msgid "Changing password."
+msgstr "Endre passord."
+
+#: ../userhelper-wrap.c:784
+msgid "Changing personal information."
+msgstr "Endrer personlig informasjon."
+
+#: ../userhelper-wrap.c:787
+msgid "Changing login shell."
+msgstr "Endrer innloggingsskall."
+
+#: ../userhelper-wrap.c:791
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Du prøver å kjøre «%s» og dette programmet kan med fordel kjøres med "
+"rettigheter som superbruker, men du må oppgi mer informasjon for å kunne "
+"gjøre dette."
+
+#: ../userhelper-wrap.c:793
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"Du prøver å kjøre «%s» som krever rettigheter som superbruker, men du må "
+"oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../userhelper-wrap.c:798
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Du prøver å kjøre en kommando som med fordel kan kjøres med rettigheter som "
+"superbruker, men mer informasjon må oppgis for å kunne gjøre dette."
+
+#: ../userhelper-wrap.c:800
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Du prøver å kjøre en kommando som krever rettigheter som superbruker, men du "
+"må oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../userhelper-wrap.c:810
+msgid "_Run Unprivileged"
+msgstr "Kjø_r upriviligert"
+
+#: ../userhelper-wrap.c:968
+#, c-format
+msgid "Pipe error.\n"
+msgstr "Feil med rør.\n"
+
+#: ../userhelper-wrap.c:975
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Kan ikke kjøre fork().\n"
+
+#: ../userhelper-wrap.c:1001
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr "Kan ikke sette tegnsett %s på en IO-kanal: %s\n"
+
+#: ../userhelper-wrap.c:1077 ../userhelper-wrap.c:1081
+#, c-format
+msgid "dup2() error.\n"
+msgstr "feil ved kjøring av dup2().\n"
+
+#: ../userhelper-wrap.c:1093
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() feil, errno=%d\n"
+
+#: ../userhelper.c:609
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Du prøver å kjøre «%s» og dette programmet kan med fordel kjøres med\n"
+"rettigheter som superbruker, men du må oppgi mer informasjon for å kunne "
+"gjøre dette."
+
+#: ../userhelper.c:611
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Du prøver å kjøre «%s» som krever rettigheter som superbruker, men du\n"
+"må oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../userhelper.c:615
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"Du prøver å kjøre en kommando som med fordel kan kjøres med\n"
+"rettigheter som superbruker, men mer informasjon må oppgis for å kunne gjøre "
+"dette."
+
+#: ../userhelper.c:617
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Du prøver å kjøre en kommando som krever rettigheter som superbruker\n"
+"men du må oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../userhelper.c:2171
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper må være setuid root\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2269
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr ""
+"Kunne ikke åpne grafisk vindu; og er ute av stand til å finne en "
+"kontrollerende terminal.\n"
+
+#: ../userinfo.c:370
+#, c-format
+msgid "Unexpected argument"
+msgstr "Uventet argument"
+
+#: ../userinfo.c:395
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Du eksisterer ikke. Ha deg vekk.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "Om meg selv"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "Endre personlig informasjon"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "Fullt navn:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "Hjemmetelefon:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "Loginskall:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "Jobbtelefon:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "Kontor:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "Brukerinformasjon"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "_Monter"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "Av_monter"
+
+#: ../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"Er du sikker på at du vil formatere denne disken? Du vil ødelegge alle data "
+"på den."
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "Utfør _lavnivå-formatering."
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "Velg type _filsystem du vil opprette:"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"Det finnes ingen filsystemer du kan montere eller avmontere.\n"
+"Kontakt din administrator."
+
+#. Create the dialog.
+#: ../usermount.c:508 ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "Brukerverktøy for montering"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "_Formater"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "Enhet"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "Katalog"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "Filsystem"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Enhet «%s» kan ikke formatteres."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "Diskhåndtering"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "Monter og avmonter filsystemer"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "Endre passord for pålogging"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "Passord"

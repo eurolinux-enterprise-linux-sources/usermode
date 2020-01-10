@@ -1,0 +1,314 @@
+.\" Copyright (C) 1997, 1999, 2001, 2003, 2007, 2008 Red Hat, Inc.
+.\"
+.\" This is free software; you can redistribute it and/or modify it
+.\" under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful, but
+.\" WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+.\" General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; if not, write to the Free Software
+.\" Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+.\"
+.TH USERHELPER 8 "January 8 2008" "Red Hat, Inc."
+.SH NAME
+userhelper \- A helper interface to PAM.
+.SH SYNOPSIS
+.B userhelper
+[\ -t\ ] [\ -w\ prog\ args\ ] [\ -c\ ] [\ \-f\ full-name\ ] [\ \-o\ office\ ] [\ \-p\ office-phone\ ] [\ \-h\ home-phone\ ] [\ \-s\ shell\ ] [\ username \]
+
+.SH DESCRIPTION
+NOTE this program is NOT intended to be run interactively.  If you
+want to change this information on the command line use
+.IR passwd (1),
+.IR chfn (1), 
+or
+.IR chsh (1).
+.PP
+This program provides a basic interface to change a user's password, gecos
+information, and shell.  The main difference between this program and
+its traditional equivalents is that prompts are written to standard out
+to make it easy for a GUI wrapper to interface to it as a child process.
+.PP
+The output is in the form of:
+.TP
+<number> <string>
+.PP
+Where the number is the type of prompt returned from libpam, and the
+string is the prompt to give the user.
+.PP
+The prompt numbers are as follows:
+.TP
+1
+Prompt with visible input.
+.TP
+2
+Prompt with invisible input.
+.TP
+3
+Suggested answer for the current prompt.
+.TP
+4
+Informational message.
+.TP
+5
+Error message.
+.TP
+6
+Count of messages sent in this block so far.
+.TP
+7
+The name of the service being used.
+.TP
+8
+Whether or not the command will be executed as the user if authentication fails.
+.TP
+9
+The name of the user being authenticated.
+
+.SH OPTIONS
+.TP
+.I -t
+Use text mode authentication instead of the numbered message types
+just described; only used with -w.
+.TP
+.I -w
+Specify a program name to be run and arguments to be passed to it.  userhelper
+will look in the file @SYSCONFDIR@/security/console.apps/\fIprogramname\fP
+for the name of a user to authenticate, the path of the binary to be run, and
+other settings described below.
+userhelper will then attempt to authenticate the user using PAM,
+specifying \fIprogramname\fP as the PAM service name.  If authentication
+succeeds, the binary will be run with superuser privileges.  If the
+configuration file specifies that PAM session management should be
+performed, userhelper will also open a PAM session before starting the
+program, and close the session when the program terminates.  If authentication
+fails, userhelper can be configured run the program with the user's privileges
+instead.
+.TP
+.I -c 
+Change the current user's password.  Note that this option cannot be
+used with any of the other options.  This is due to the limitation in
+the interface to libpam.
+.TP
+.I -f
+Specify a new Full Name.
+.TP
+.I -o
+Specify a new Office.
+.TP
+.I -p
+Specify a new Office Phone.
+.TP
+.I -h
+Specify a new Home Phone.
+.TP
+.I -s
+Specify a new shell.
+.SH WRAPPER CONFIGURATION
+The wrapper configuration file used with \fI-w\fP contains variable assignments
+and file inclusions.
+
+A file inclusion line has the following form:
+.RS
+.B . \fIpath\fR
+.RE
+(that is a dot and a space, followed by \fIpath\fR).
+If
+.I path
+is relative, it is interpreted relative to the directory containing the current
+file.
+The file inclusion line is interpreted by inserting contents of
+.I path
+to the current file.
+Nested file inclusions are possible,
+recursive file inclusion results in undefined behavior.
+
+A variable assignment line has the following form:
+.RS
+\fIname\fB=\fIvalue\fR
+.RE
+No additional white space is allowed.
+If
+.I value
+is surrounded by a matching pair of
+.B """"
+or
+.B '
+quotes, the quotes are removed;
+otherwise, the
+.B \e
+characters are removed, except that
+.B \e\e
+is replaced by a single \fB\e\fP.
+
+The following variables are recognized:
+.TP
+.I USER
+The name of the user userhelper should attempt to authenticate the invoking
+user as.  Typically this is \fIroot\fP.  The special value \fI<user>\fP (which
+is also the default) indicates that userhelper should authenticate the invoking
+user. 
+
+The special value \fI<none>\fP indicates that access should be denied;
+when used in conjunction with UGROUPS, members of the given groups can
+authenticate but all others are given an Insufficient Rights message.
+.TP
+.I UGROUPS
+A comma-separated list of groups whose members will be authenticated as if
+USER were set to the special value \fI<user>\fP. If the invoking user is not
+a member of one of these groups, the name defined in USER will be used as
+normal. For example, setting UGROUPS to \fIwheel\fP and USER to \fIroot\fP
+allows members of \fIwheel\fP (traditionally used for administrative
+privileges) to authenticate with their own credentials and requires
+other users to provide the root password.
+.TP
+.I PROGRAM
+The name of the binary to execute if authentication succeeds.  This should
+always be specified as an absolute path.  If not specified, userhelper will
+attempt to run /sbin/\fIprogramname\fP first, and failing that, it will attempt
+to run /usr/sbin/\fIprogramname\fP.
+.TP
+.I SESSION
+Specifies whether or not userhelper should perform PAM session management
+when running the program.  Typically this is needed if the PAM configuration
+uses a module such as \fIpam_xauth.so\fP to forward X11 authentication tokens
+for use by the program.
+Valid values are \fIyes\fP and \fIno\fP, with the default being \fIno\fP.
+.TP
+.I KEEP_ENV_VARS
+A comma-separated list of names of environment variables that should be kept
+in the environment of the wrapped program.
+The environment is cleared by default
+and only a few selected variables are kept in the environment
+if they do not contain any potentially dangerous substrings.
+.TP
+.I RETRY
+Specifies the number of times userhelper should attempt to authenticate the
+user if the initial attempt fails.  The default value is 2, which causes
+userhelper to attempt to authenticate the user a total of 3 times.
+.TP
+.I FALLBACK
+Specifies whether or not the specified binary should be run with the invoking
+user's privileges if authentication fails.  This option is useful for running
+applications which gain additional abilities when run with superuser privileges,
+but which are still useful when run without them.
+.TP
+.I NOXOPTION
+The name of an option which, if passed to userhelper as an argument for the
+program it will run, will cause userhelper to behave as if the \fI-t\fP flag
+had been passed to it.
+.TP
+.I GUI
+Specifies whether or not userhelper should use consolehelper to present
+graphical dialog boxes when prompting the user for information.  This is
+the inverse of the \fI-t\fP option.
+Valid values are \fIyes\fP and \fIno\fP, with the default being \fIyes\fP.
+.TP
+.I BANNER
+Specifies specific text which userhelper should present to the user when
+userhelper prompts for information.  The default is a generic message based
+on the PAM service name.
+.TP
+.I BANNER_DOMAIN
+Specifies the text domain in which translations of the banner are stored.  This
+setting is deprecated in favor of the
+.I DOMAIN
+setting.
+.TP
+.I DOMAIN
+Specifies the text domain in which translations of strings are stored.  If this
+setting is specified, it overrides any setting for
+.I BANNER_DOMAIN
+which may also be set.
+.TP
+.I STARTUP_NOTIFICATION_NAME
+Specifies the startup notification name used for startup notification.
+.TP
+.I STARTUP_NOTIFICATION_DESCRIPTION
+Specifies the startup notification name used for startup notification.
+.TP
+.I STARTUP_NOTIFICATION_WORKSPACE
+Specifies the startup notification workspace used for startup notification.
+.TP
+.I STARTUP_NOTIFICATION_WMCLASS
+Specifies the startup notification binary wmclass used for startup notification.
+.TP
+.I STARTUP_NOTIFICATION_BINARY_NAME
+Specifies the startup notification binary name used for startup notification.
+.TP
+.I STARTUP_NOTIFICATION_ICON_NAME
+Specifies the startup notification icon name used for startup notification.
+
+.SH EXIT STATUS
+A non-zero exit status indicates an error occurred.  Those errors are:
+.TP
+1
+The authentication passwords was incorrect.
+.TP
+2
+One or more of the GECOS fields is invalid.  This occurs when there is
+a colon supplied in one of the fields.
+.TP
+3
+Password resetting error.
+.TP
+4
+Some system files are locked.
+.TP
+5
+User unknown.
+.TP
+6
+Insufficient rights.
+.TP
+7
+Invalid call to this program.
+.TP
+8
+The shell provided is not valid (i.e., does not exist in /etc/shells).
+.TP
+9
+Ran out of memory.
+.TP
+10
+Could not find the program.
+.TP
+11
+exec failed even though program exists.
+.TP
+12
+the user canceled the operation.
+.TP
+255
+Unknown error.
+.SH FILES
+.TP 25
+.I /etc/passwd
+The gecos and shell information is stored in this file.
+.TP 25
+.I /etc/shells
+This file is checked to see if the new shell supplied is valid.
+.TP 25
+.I /etc/security/console.apps/\fIprog\fP
+This file contains the values which will be used for the variables when
+userhelper is used with the \fI-w\fP flag.
+.TP 25
+.I /etc/pam.d/\fIprog\fP
+This file contains the PAM configuration used when userhelper is used with
+the \fI-w\fP flag.
+.SH "SEE ALSO"
+.IR userpasswd (1),
+.IR userinfo (1),
+.IR consolehelper (8),
+.IR chfn (1),
+.IR chsh (1),
+.IR passwd (5)
+.SH AUTHOR
+Otto Hammersmith <otto@redhat.com>
+.br
+Michael K. Johnson <johnsonm@redhat.com>

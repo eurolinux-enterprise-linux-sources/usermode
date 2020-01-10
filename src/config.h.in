@@ -1,0 +1,107 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Enable debugging messages */
+#undef DEBUG_USERHELPER
+
+/* always defined to indicate that i18n is enabled */
+#undef ENABLE_NLS
+
+/* Disable use of deprecated GTK+ APIs. */
+#undef GTK_DISABLE_DEPRECATED
+
+/* Disable use of deprecated GLib APIs. */
+#undef G_DISABLE_DEPRECATED
+
+/* Define to 1 if you have the `bind_textdomain_codeset' function. */
+#undef HAVE_BIND_TEXTDOMAIN_CODESET
+
+/* Define to 1 if you have the `dcgettext' function. */
+#undef HAVE_DCGETTEXT
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define if your <locale.h> file defines LC_MESSAGES. */
+#undef HAVE_LC_MESSAGES
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if your C compiler doesn't accept -c and -o together. */
+#undef NO_MINUS_C_MINUS_O
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Path to the fdformat command */
+#undef PATH_FDFORMAT
+
+/* Path to the mkfs command */
+#undef PATH_MKFS
+
+/* Path to the mount command */
+#undef PATH_MOUNT
+
+/* Path to the umount command */
+#undef PATH_UMOUNT
+
+/* Define if you want to use libsn, even though it is not yet API-stabilized,
+   because we need to use it. */
+#undef SN_API_NOT_YET_FROZEN
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Define if consolehelper should interact with startup notification. */
+#undef USE_STARTUP_NOTIFICATION
+
+/* Version number of package */
+#undef VERSION
+
+/* Use SELinux features */
+#undef WITH_SELINUX
+
+/* Define to 1 if the X Window System is missing or not being used. */
+#undef X_DISPLAY_MISSING

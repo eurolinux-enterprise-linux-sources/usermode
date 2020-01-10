@@ -1,0 +1,563 @@
+# translation of ja.po to Japanese
+# usermode Japanese translation
+# Copyright (C) 2001,2002,2004 Free Software Foundation, Inc.
+# Yukihiro Nakai <ynakai@redhat.com>, 2001.
+# James Hashida <khashida@redhat.com>, 2002
+# Noriko Mizumoto <noriko@redhat.com>, 2004
+# Hirofumi Saito <hi_saito@yk.rim.or.jp>, 2004, 2005.
+# Hyu_gabaru Ryu_ichi <hyu_gabaru@yahoo.co.jp>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ja\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-29 10:14-0700\n"
+"PO-Revision-Date: 2007-07-15 15:45+0900\n"
+"Last-Translator: Hyu_gabaru Ryu_ichi <hyu_gabaru@yahoo.co.jp>\n"
+"Language-Team: Fedora Trans Japanese <fedora-trans-ja@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "OK"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "終了"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "権限なしで実行"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(現在の)UNIXパスワード: "
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "新規UNIXパスワード: "
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "新規UNIXパスワードをもう一度入力してください: "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "不正なパスワード: かなり短すぎます"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "不正なパスワード: 短すぎます"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "パスワードが変更されていません"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "パスワードが一致していません"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "パスワードを使用せずにシステム全体の設定ツールを開始"
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "ログイン: "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "パスワード: "
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s がセッションマネージャーへの接続に失敗しました: %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "管理者権限を破棄することに失敗しました: %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr ""
+"管理者権限を破棄することに失敗しました: pam_timestamp_check はエラーコード %"
+"d を返しました"
+
+#: ../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"管理者のパスワードを再入力することなく、システム全体の設定 (すなわち全ユー"
+"ザーに対する設定) に現在認証されています。また、認証を解除することができま"
+"す。"
+
+#: ../pam-panel-icon.c:151 ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "認証を続行"
+
+#: ../pam-panel-icon.c:154 ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "認証を解除"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check は setuid root ではありません。"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "pam_timestamp_check の制御不能な tty"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "pam_timestamp_check の不明なユーザー"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "pam_timestamp_check のパーミッションエラー"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "pam_timestamp_check の無効な制御の tty"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "エラー: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "コマンド \"%s\" の実行に失敗しました: %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "IO チャンネルのブロック解除に失敗しました: %s\n"
+
+#: ../pam-panel-icon.c:476
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: セッションマネージャーの接続に失敗しました\n"
+
+#: ../userhelper-wrap.c:204
+msgid "Unknown exit code."
+msgstr "不明な終了コードです。"
+
+#: ../userhelper-wrap.c:206
+msgid "Information updated."
+msgstr "情報は更新されました。"
+
+#: ../userhelper-wrap.c:208
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"入力したパスワードは間違っています。\n"
+"もう一度入力してください。"
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"ひとつかそれ以上の変更されたフィールドが間違っています。\n"
+"フィールドのどこかにコロンかコンマがあるかもしれません。\n"
+"それらを削除してもう一度入力してください。"
+
+#: ../userhelper-wrap.c:212
+msgid "Password resetting error."
+msgstr "パスワードのリセットでエラーが発生しました。"
+
+#: ../userhelper-wrap.c:214
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"ロックされいているシステムファイルがあります。\n"
+"しばらく待ってからもう一度やってみてください。"
+
+#: ../userhelper-wrap.c:216
+msgid "Unknown user."
+msgstr "不明なユーザーです。"
+
+#: ../userhelper-wrap.c:218
+msgid "Insufficient rights."
+msgstr "権限がありません。"
+
+#: ../userhelper-wrap.c:220
+msgid "Invalid call to subprocess."
+msgstr "サブプロセスの呼び出し方が間違っています。"
+
+#: ../userhelper-wrap.c:222
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"現在選択されているシェルは/etc/shellsの中にありません。\n"
+" したがってシェルを変更することはできません。\n"
+"システム管理者に相談してみてください。"
+
+#: ../userhelper-wrap.c:225
+msgid "Out of memory."
+msgstr "メモリが足りません。"
+
+#: ../userhelper-wrap.c:227
+msgid "The exec() call failed."
+msgstr "exec()の呼び出しに失敗しました。"
+
+#: ../userhelper-wrap.c:229
+msgid "Failed to find selected program."
+msgstr "選択したプログラムは見つかりませんでした。"
+
+#: ../userhelper-wrap.c:232
+msgid "Request canceled."
+msgstr "要求はキャンセルされました。"
+
+#: ../userhelper-wrap.c:234
+msgid "Internal PAM error occured."
+msgstr "内部 PAM エラーが発生しました。"
+
+#: ../userhelper-wrap.c:236
+msgid "Unknown error."
+msgstr "不明なエラーです。"
+
+#: ../userhelper-wrap.c:504
+msgid "Query"
+msgstr "質問"
+
+#: ../userhelper-wrap.c:581 ../userhelper-wrap.c:732
+msgid "Error"
+msgstr "エラー"
+
+#: ../userhelper-wrap.c:581
+msgid "Information"
+msgstr "情報"
+
+#: ../userhelper-wrap.c:724
+msgid "Placeholder text."
+msgstr "プレースホルダテキスト。"
+
+#: ../userhelper-wrap.c:753 ../userhelper.c:627
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "\"%s\" として認証しています"
+
+#: ../userhelper-wrap.c:782
+msgid "Changing password."
+msgstr "パスワードを変更中。"
+
+#: ../userhelper-wrap.c:784
+msgid "Changing personal information."
+msgstr "個人情報を変更中。"
+
+#: ../userhelper-wrap.c:787
+msgid "Changing login shell."
+msgstr "ログイン シェルを変更中。"
+
+#: ../userhelper-wrap.c:791
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"スーパーユーザー権限により有効になる\"%s\"を実行しようとしていますが、実行す"
+"るには追加情報が必要です。"
+
+#: ../userhelper-wrap.c:793
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"スーパーユーザー権限を必要とする\"%s\"を実行しようとしていますが、実行するに"
+"は追加情報が必要です。"
+
+#: ../userhelper-wrap.c:798
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"スーパーユーザー権限により有効になるコマンドを実行しようとしていますが、実行"
+"するには追加情報が必要です。"
+
+#: ../userhelper-wrap.c:800
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"スーパーユーザー権限を必要とするコマンドを実行しようとしていますが、実行する"
+"には追加情報が必要です。"
+
+#: ../userhelper-wrap.c:810
+msgid "_Run Unprivileged"
+msgstr "権限なしで実行(_R)"
+
+#: ../userhelper-wrap.c:968
+#, c-format
+msgid "Pipe error.\n"
+msgstr "パイプエラー。\n"
+
+#: ../userhelper-wrap.c:975
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "fork()できません。\n"
+
+#: ../userhelper-wrap.c:1001
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr "文字セット %s を IO チャネル: %s に設定できません\n"
+
+#: ../userhelper-wrap.c:1077 ../userhelper-wrap.c:1081
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2()エラー。\n"
+
+#: ../userhelper-wrap.c:1093
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl()エラー、errno=%d\n"
+
+#: ../userhelper.c:609
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"スーパーユーザー権限により有効になる\"%s\"を実行しようとしていますが、\n"
+" 実行するには追加情報が必要です。"
+
+#: ../userhelper.c:611
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"スーパーユーザー権限を必要とする\"%s\"を実行しようとしていますが、\n"
+" 実行するには追加情報が必要です。"
+
+#: ../userhelper.c:615
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"スーパーユーザー権限により有効になるコマンドを実行しようとしていますが、\n"
+" 実行するには追加情報が必要です。"
+
+#: ../userhelper.c:617
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"スーパーユーザー権限を必要とするコマンドを実行しようとしていますが、実行する"
+"には\n"
+"追加情報が必要です。"
+
+#: ../userhelper.c:2171
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "ユーザーヘルパーは root に setuid されていなければなりません\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2269
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr ""
+"グラフィカルウィンドウを開けません。またコントロールターミナルを見つけられま"
+"せんでした。\n"
+
+#: ../userinfo.c:370
+#, c-format
+msgid "Unexpected argument"
+msgstr "予期しない引数"
+
+#: ../userinfo.c:395
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "あなたは存在しません。続けられません。\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "ユーザーの個人情報"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "個人情報を変更"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "フルネーム:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "自宅の電話番号:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "ログインシェル:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "オフィスの電話番号:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "オフィス:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "ユーザー情報"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "マウント(_M)"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "マウント解除(_m)"
+
+#: ../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"本当にこのディスクをフォーマットしますか?ディスクに現在あるデータはすべて破壊"
+"されます。"
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "lowレベルフォーマットをする(_l)。"
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "作成するファイルシステムタイプの選択(_f):"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"マウントが許可されているファイルシステムはありません。\n"
+"管理者に相談してください。"
+
+#. Create the dialog.
+#: ../usermount.c:508 ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "ユーザーマウントツール"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "フォーマット(_F)"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "デバイス"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "ディレクトリ"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "ファイルシステム"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "デバイス '%s' がフォーマットされていません。"
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "ディスク管理"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "ファイルシステムをマウント/マウント解除をします"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "ログインパスワードを変更"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "パスワード"
+
+#~ msgid "Could not set default context for %s for program %s.\n"
+#~ msgstr "%s にプログラム %s のデフォルト権限を与えられませんでした。\n"
+
+#~ msgid "Could not set exec context to %s.\n"
+#~ msgstr "%s に実行権限を与えられませんでした。\n"
+
+#~ msgid "Password for %s"
+#~ msgstr "%sのパスワード"
+
+#~ msgid "Password for %s: "
+#~ msgstr "%s用のパスワード:"
+
+#~ msgid "Message"
+#~ msgstr "メッセージ"
+
+#~ msgid "Help"
+#~ msgstr "ヘルプ"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "_Ok"
+#~ msgstr "OK(_O)"
+
+#~ msgid "_Cancel"
+#~ msgstr "キャンセル(_C)"
+
+#~ msgid "_Close"
+#~ msgstr "閉じる(_C)"
+
+#~ msgid "Type"
+#~ msgstr "タイプ"
+
+#~ msgid "_Unmount"
+#~ msgstr "マウント解除(_U)"
+
+#~ msgid "E_xit"
+#~ msgstr "終了(_x)"
+
+#~ msgid "about to exec \"%s\"\n"
+#~ msgstr "\"%s\"を実行しようとしています\n"
+
+#~ msgid "Need %d responses.\n"
+#~ msgstr "%d 応答が必要です。\n"

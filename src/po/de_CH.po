@@ -1,0 +1,506 @@
+# German translation of usermode
+# Copyright (C) 2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the usermode package.
+#
+# Ronny Buchmann <ronny-vlug@vlugnet.org>, 2004,2006.
+# Claudia Krug <fhonig@redhat.it>, YEAR.
+# Bernd Groh <bgroh@redhat.com>, 2003.
+# Andreas Müller <redhat@andreas-mueller.com>, 2003.
+# Bernd Bartmann <Bernd.Bartmann@sohanet.de>, 2004.
+# Marcus Gloeckner <mgloeckner@gmail.com>, 2005.
+# Severin Heiniger <severinheiniger@gmail.com>, 2005.
+# Timo Trinks <ttrinks@redhat.com>, 2007.
+# Fabian Affolter <fab@fedoraproject.org>, 2008-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-17 19:42+0000\n"
+"PO-Revision-Date: 2009-04-18 00:41+0100\n"
+"Last-Translator: Fabian Affolter <fab@fedoraproject.org>\n"
+"Language-Team: German <fedora-trans-de@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: German\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:21
+msgid "OK"
+msgstr "OK"
+
+#: ../dummy.h:22
+msgid "Exit"
+msgstr "Beenden"
+
+#: ../dummy.h:23
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "Läuft nicht unberechtigt"
+
+#: ../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(aktuelles) UNIX-Passwort:"
+
+#: ../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Neues UNIX-Passwort: "
+
+#: ../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Neues UNIX-Passwort nochmal eingeben: "
+
+#: ../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "UNGÜLTIGES PASSWORT: Es ist viel zu kurz"
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "UNGÜLTIGES PASSWORT: Es ist zu kurz"
+
+#: ../dummy.h:30
+msgid "Password unchanged"
+msgstr "Passwort nicht geändert"
+
+#: ../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "Entschuldigung, die Passwörter stimmen nicht überein"
+
+#: ../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "Konfigurationswerkzeug für das gesamte System ohne Passwort starten."
+
+#: ../dummy.h:33
+msgid "login: "
+msgstr "Login: "
+
+#: ../dummy.h:34
+msgid "Password: "
+msgstr "Passwort: "
+
+#: ../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s konnte nicht mit Session-Manager verbinden: %s\n"
+
+#: ../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "Fehler beim Abgeben der Administrator-Privilegien: %s"
+
+#: ../pam-panel-icon.c:98
+#, c-format
+msgid "Failed to drop administrator privileges: pam_timestamp_check returned failure code %d"
+msgstr "Fehler beim Abgeben der Administrator-Privilegien: pam_timestamp_check meldet Fehler-Code %d"
+
+#: ../pam-panel-icon.c:146
+msgid "You're currently authorized to configure system-wide settings (that affect all users) without typing the administrator password again. You can give up this authorization."
+msgstr "Sie sind gegenwärtig berechtigt Systemeinstellungen (die alle Benutzer betreffen) zu konfigurieren, ohne das Administrator-Passwort noch einmal einzugeben. Sie können diese Autorisierung aufgeben."
+
+#: ../pam-panel-icon.c:151
+#: ../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Autorisierung beibehalten"
+
+#: ../pam-panel-icon.c:154
+#: ../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "Autorisierung vergessen"
+
+#: ../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check ist nicht setuid root"
+
+#: ../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "kein massgebendes Terminal für pam_timestamp_check"
+
+#: ../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "Benutzer unbekannt für pam_timestamp_check"
+
+#: ../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "Berechtigungsfehler in pam_timestamp_check"
+
+#: ../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "Ungültiges massgebendes Terminal in pam_timestamp_check"
+
+#: ../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Fehler: %s\n"
+
+#: ../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Fehler beim Ausführen von \"%s\": %s\n"
+
+#: ../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "Fehler beim Setzen des E/A-Kanals auf nicht-blockierend: %s\n"
+
+#: ../pam-panel-icon.c:476
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: konnte nicht mit Session-Manager verbinden\n"
+
+#: ../userhelper-wrap.c:206
+msgid "Unknown exit code."
+msgstr "Unbekannter Exit-Code."
+
+#: ../userhelper-wrap.c:208
+msgid "Information updated."
+msgstr "Information aktualisiert."
+
+#: ../userhelper-wrap.c:210
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"Das eingegebene Passwort ist ungültig.\n"
+"Versuchen Sie es erneut."
+
+#: ../userhelper-wrap.c:212
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"Eines oder mehrere der geänderten Felder sind ungültig.\n"
+"Die Gründe sind wahrscheinlich Doppelpunkte oder Kommas in einem der\n"
+"Felder.\n"
+"Bitte entfernen Sie diese und versuchen Sie es erneut."
+
+#: ../userhelper-wrap.c:214
+msgid "Password resetting error."
+msgstr "Fehler beim Zurücksetzen des Passworts."
+
+#: ../userhelper-wrap.c:216
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"Einige Systemdateien sind gesperrt.\n"
+"Bitte versuchen Sie es einen Augenblick später erneut."
+
+#: ../userhelper-wrap.c:218
+msgid "Unknown user."
+msgstr "Unbekannter Benutzer."
+
+#: ../userhelper-wrap.c:220
+msgid "Insufficient rights."
+msgstr "Nicht genügend Rechte."
+
+#: ../userhelper-wrap.c:222
+msgid "Invalid call to subprocess."
+msgstr "Ungültiger Aufruf des Unterprozesses."
+
+#: ../userhelper-wrap.c:224
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"Ihre aktuelle Shell ist nicht in /etc/shells aufgelistet.\n"
+"Das Ändern Ihrer Shell ist nicht zulässig.\n"
+"Setzen Sie sich mit Ihrem Systemadministrator in Verbindung."
+
+#: ../userhelper-wrap.c:227
+msgid "Out of memory."
+msgstr "Nicht genügend Speicher."
+
+#: ../userhelper-wrap.c:229
+msgid "The exec() call failed."
+msgstr "Aufruf von exec() fehlgeschlagen."
+
+#: ../userhelper-wrap.c:231
+msgid "Failed to find selected program."
+msgstr "Fehler beim Finden des ausgewählten Programms."
+
+#: ../userhelper-wrap.c:234
+msgid "Request canceled."
+msgstr "Anfrage abgebrochen."
+
+#: ../userhelper-wrap.c:236
+msgid "Internal PAM error occured."
+msgstr "Interner PAM-Fehler aufgetreten."
+
+#: ../userhelper-wrap.c:238
+msgid "Unknown error."
+msgstr "Unbekannter Fehler."
+
+#: ../userhelper-wrap.c:487
+msgid "Query"
+msgstr "Abfrage"
+
+#: ../userhelper-wrap.c:546
+#: ../userhelper.c:604
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "Als \"%s\" authentifizieren"
+
+#: ../userhelper-wrap.c:565
+#: ../userhelper-wrap.c:701
+msgid "Error"
+msgstr "Fehler"
+
+#: ../userhelper-wrap.c:565
+msgid "Information"
+msgstr "Informationen"
+
+#: ../userhelper-wrap.c:726
+msgid "Changing password."
+msgstr "Das Passwort ändern."
+
+#: ../userhelper-wrap.c:728
+msgid "Changing personal information."
+msgstr "Ändern der persönlichen Informationen."
+
+#: ../userhelper-wrap.c:731
+msgid "Changing login shell."
+msgstr "Ändern der Login-Shell."
+
+#: ../userhelper-wrap.c:735
+#, c-format
+msgid "You are attempting to run \"%s\" which may benefit from administrative privileges, but more information is needed in order to do so."
+msgstr "Sie versuchen \"%s\" auszuführen, das administrative Privilegien nutzen könnte. Dafür werden jedoch weitere Informationen benötigt."
+
+#: ../userhelper-wrap.c:737
+#, c-format
+msgid "You are attempting to run \"%s\" which requires administrative privileges, but more information is needed in order to do so."
+msgstr "Sie versuchen \"%s\" auszuführen, das administrative Privilegien erfordert. Dazu werden jedoch weitere Informationen benötigt."
+
+#: ../userhelper-wrap.c:741
+msgid "You are attempting to run a command which may benefit from administrative privileges, but more information is needed in order to do so."
+msgstr "Sie versuchen einen Befehl auszuführen, der administrative Privilegien nutzen könnte. Dafür werden jedoch weitere Informationen benötigt."
+
+#: ../userhelper-wrap.c:743
+msgid "You are attempting to run a command which requires administrative privileges, but more information is needed in order to do so."
+msgstr "Sie versuchen einen Befehl auszuführen, der administrative Privilegien erfordert. Dazu werden jedoch weitere Informationen benötigt."
+
+#: ../userhelper-wrap.c:779
+msgid "_Run Unprivileged"
+msgstr "Ohne Rechte ausfüh_ren"
+
+#: ../userhelper-wrap.c:924
+#, c-format
+msgid "Pipe error.\n"
+msgstr "Pipe-Fehler.\n"
+
+#: ../userhelper-wrap.c:931
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Kann fork() nicht aufrufen.\n"
+
+#: ../userhelper-wrap.c:957
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr "Kann Zeichensatz %s nicht auf einem E/A-Kanal setzen: %s\n"
+
+#: ../userhelper-wrap.c:1029
+#: ../userhelper-wrap.c:1033
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2()-Fehler.\n"
+
+#: ../userhelper-wrap.c:1044
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl()-Fehler, errno=%d\n"
+
+#: ../userhelper.c:586
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Sie versuchen \"%s\" auszuführen, das administrative Privilegien\n"
+"nutzen könnte. Dafür werden jedoch weitere Informationen benötigt."
+
+#: ../userhelper.c:588
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Sie versuchen \"%s\" auszuführen, das administrative Privilegien\n"
+"erfordert. Dazu werden jedoch weitere Informationen benötigt."
+
+#: ../userhelper.c:592
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"Sie versuchen einen Befehl auszuführen, der administrative Privilegien\n"
+"nutzen könnte. Dafür werden jedoch weitere Informationen benötigt."
+
+#: ../userhelper.c:594
+#, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"Sie versuchen einen Befehl auszuführen, der administrative Privilegien\n"
+"erfordert. Dazu werden jedoch weitere Informationen benötigt."
+
+#: ../userhelper.c:2025
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper muss setuid-root sein\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2117
+#, c-format
+msgid "Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "Grafisches Fenster kann nicht geöffnet und der Kontroll-Terminal nicht gefunden werden.\n"
+
+#: ../userinfo.c:376
+#, c-format
+msgid "Unexpected argument"
+msgstr "Unerwartetes Argument"
+
+#: ../userinfo.c:401
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Benutzer-ID existiert nicht. Verlassen Sie den Bereich.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "Über mich"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "Persönliche Informationen ändern"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "Vollständiger Name:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "Telefonnummer Privat:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "Login-Shell:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "Telefonnummer Büro:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "Büro:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "Benutzerinformationen"
+
+#: ../usermount.c:61
+msgid "_Mount"
+msgstr "_Einhängen"
+
+#: ../usermount.c:62
+msgid "Un_mount"
+msgstr "_Aushängen"
+
+#: ../usermount.c:289
+msgid "Are you sure you want to format this disk?  You will destroy any data it currently contains."
+msgstr "Möchten Sie diese Festplatte wirklich formatieren? Alle Daten, die diese Festplatte zur Zeit enthält, werden gelöscht."
+
+#: ../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "_Low-Level-Formatierung ausführen."
+
+#: ../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "Wählen Sie den _Dateisystemtyp aus:"
+
+#: ../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"Es gibt keine Dateisysteme, die Sie ein- oder aushängen können.\n"
+"Setzen Sie sich mit Ihrem Administrator in Verbindung."
+
+#. Create the dialog.
+#: ../usermount.c:508
+#: ../usermount.c:520
+msgid "User Mount Tool"
+msgstr "Benutzer Einhänge-Werkzeug"
+
+#. Create the other buttons.
+#: ../usermount.c:538
+msgid "_Format"
+msgstr "_Formatieren"
+
+#: ../usermount.c:574
+msgid "Device"
+msgstr "Gerät"
+
+#: ../usermount.c:580
+msgid "Directory"
+msgstr "Verzeichnis"
+
+#: ../usermount.c:586
+msgid "Filesystem"
+msgstr "Dateisystem"
+
+#: ../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Das Gerät '%s' kann nicht formatiert werden."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "Festplatten-Management"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "Dateisysteme ein- und aushängen"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "Ihr Anmelde-Passwort ändern"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "Passwort"
+
+#~ msgid "Placeholder text."
+#~ msgstr "Platzhalter-Text."
+#~ msgid "Could not set default context for %s for program %s.\n"
+#~ msgstr ""
+#~ "Konnte standardmäßigen Kontext für %s für das Programm %s nicht setzen.\n"
+#~ msgid "Could not set exec context to %s.\n"
+#~ msgstr "Konnte exec-Kontext nicht auf %s setzen.\n"
+

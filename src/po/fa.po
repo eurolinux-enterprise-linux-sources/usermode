@@ -1,0 +1,541 @@
+# Persian translation of usermode
+# Copyright (C) 2006 Sharif FarsiWeb, Inc.
+# This file is distributed under the same license as the usermode package.
+# Meelad Zakaria <meelad@farsiweb.info>, 2006.
+# Elnaz Sarbar <elnaz@farsiweb.info>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode 1.80\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-25 00:26+0100\n"
+"PO-Revision-Date: 2006-05-06 22:06+0330\n"
+"Last-Translator: Elnaz Sarbar <elnaz@farsiweb.info>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../../po/../dummy.h:21
+msgid "OK"
+msgstr "تأیید"
+
+#: ../../po/../dummy.h:22
+msgid "Exit"
+msgstr "خروج"
+
+#: ../../po/../dummy.h:23
+msgid "Cancel"
+msgstr "انصراف"
+
+#: ../../po/../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "اجرای بدون امتیاز"
+
+#: ../../po/../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "گذرواژهٔ (فعلی) یونیکس: "
+
+#: ../../po/../dummy.h:26
+msgid "New UNIX password: "
+msgstr "گذرواژهٔ جدید یونیکس: "
+
+#: ../../po/../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "گذرواژهٔ جدید یونیکس را دوباره وارد کنید: "
+
+#: ../../po/../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "گذرواژهٔ نامناسب: این گذرواژه خیلی کوتاه است"
+
+#: ../../po/../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "گذرواژهٔ نامناسب: این گذرواژه کوتاه است"
+
+#: ../../po/../dummy.h:30
+msgid "Password unchanged"
+msgstr "گذرواژه تغییری نکرد"
+
+#: ../../po/../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "گذرواژه‌ها مطابقت نمی‌کنند"
+
+#: ../../po/../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "راه‌اندازی ابزارهای پیکربندی سیستم بدون گذرواژه."
+
+#: ../../po/../dummy.h:33
+msgid "login: "
+msgstr "ورود به سیستم: "
+
+#: ../../po/../dummy.h:34
+msgid "Password: "
+msgstr "گذرواژه: "
+
+#: ../../po/../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr ""
+
+#: ../../po/../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "کنار گذاشتن امتیازات مدیر شکست خورد: %s"
+
+#: ../../po/../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr ""
+"کنار گذاشتن امتیازات مدیر شکست خورد: pam_timestamp_check کد خطای %Id را "
+"برگرداند"
+
+#: ../../po/../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"شما در حال حاضر اختیار پیکربندی تنظیمات سیستمی (که همهٔ کاربران را تحت تأثیر "
+"قرار می‌دهد) بدون وارد کردن دوبارهٔ گذرواژهٔ مدیر را دارید. می‌توانید از این "
+"اختیارات چشم بپوشید."
+
+#: ../../po/../pam-panel-icon.c:151 ../../po/../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "نگه داشتن اختیارات"
+
+#: ../../po/../pam-panel-icon.c:154 ../../po/../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "فراموش کردن اختیارات"
+
+#: ../../po/../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr ""
+
+#: ../../po/../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr ""
+
+#: ../../po/../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr ""
+
+#: ../../po/../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr ""
+
+#: ../../po/../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr ""
+
+#: ../../po/../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "خطا: %s\n"
+
+#: ../../po/../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "اجرای فرمان «%s» شکست خورد: %s\n"
+
+#: ../../po/../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr ""
+
+#: ../../po/../pam-panel-icon.c:476
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr ""
+
+#: ../../po/../userhelper-wrap.c:204
+msgid "Unknown exit code."
+msgstr "کد خروج نامعلوم."
+
+#: ../../po/../userhelper-wrap.c:206
+msgid "Information updated."
+msgstr "اطلاعات به‌هنگام‌سازی شد."
+
+#: ../../po/../userhelper-wrap.c:208
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"گذرواژه‌ای که وارد کردید نامعتبر است.\n"
+"لطفاً دوباره سعی کنید."
+
+#: ../../po/../userhelper-wrap.c:210
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"یک یا چند فیلد تغییر داده شده نامعتبر است.\n"
+"دلیل این مسئله احتمالاً وجود دونقطه یا ویرگول در یکی از فیلدها است.\n"
+"لطفاً آن را حذف کرده و دوباره امتحان کنید."
+
+#: ../../po/../userhelper-wrap.c:212
+msgid "Password resetting error."
+msgstr "خطای برگرداندن گذرواژه به مقدار پیش‌فرض."
+
+#: ../../po/../userhelper-wrap.c:214
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"بعضی پرونده‌های سیستمی قفل شده‌اند.\n"
+"لطفاً چند لحظهٔ دیگر دوباره امتحان کنید."
+
+#: ../../po/../userhelper-wrap.c:216
+msgid "Unknown user."
+msgstr "کاربر نامعلوم."
+
+#: ../../po/../userhelper-wrap.c:218
+msgid "Insufficient rights."
+msgstr "اجازه‌ها کافی نیستند."
+
+#: ../../po/../userhelper-wrap.c:220
+msgid "Invalid call to subprocess."
+msgstr "فراخوانی نامعتبر زیرفراروند."
+
+#: ../../po/../userhelper-wrap.c:222
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"پوستهٔ فعلی شما در ‎/etc/shells فهرست نشده است.\n"
+"شما اجازه ندارید پوسته‌تان را تغییر دهید.\n"
+"مسئله را با مدیر سیستم‌تان در میان بگذارید."
+
+#: ../../po/../userhelper-wrap.c:225
+msgid "Out of memory."
+msgstr "حافظه تمام شد."
+
+#: ../../po/../userhelper-wrap.c:227
+msgid "The exec() call failed."
+msgstr "فراخوانی exec() شکست خورد."
+
+#: ../../po/../userhelper-wrap.c:229
+msgid "Failed to find selected program."
+msgstr "برنامهٔ انتخاب شده پیدا نشد."
+
+#: ../../po/../userhelper-wrap.c:232
+msgid "Request canceled."
+msgstr "از درخواست صرف نظر شد."
+
+#: ../../po/../userhelper-wrap.c:234
+msgid "Internal PAM error occured."
+msgstr "خطای داخلی PAM رخ داد."
+
+#: ../../po/../userhelper-wrap.c:236
+msgid "Unknown error."
+msgstr "خطای نامعلوم."
+
+#: ../../po/../userhelper-wrap.c:504
+msgid "Query"
+msgstr "پرس و جو"
+
+#: ../../po/../userhelper-wrap.c:581 ../../po/../userhelper-wrap.c:732
+msgid "Error"
+msgstr "خطا"
+
+#: ../../po/../userhelper-wrap.c:581
+msgid "Information"
+msgstr "اطلاعات"
+
+#: ../../po/../userhelper-wrap.c:724
+msgid "Placeholder text."
+msgstr "متن جانگهدار."
+
+#: ../../po/../userhelper-wrap.c:753 ../../po/../userhelper.c:821
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr ""
+
+#: ../../po/../userhelper-wrap.c:782
+#, fuzzy
+msgid "Changing password."
+msgstr "تغییر گذرواژهٔ ورود به سیستم شما"
+
+#: ../../po/../userhelper-wrap.c:784
+msgid "Changing personal information."
+msgstr "در حال تغییر اطلاعات شخصی."
+
+#: ../../po/../userhelper-wrap.c:787
+msgid "Changing login shell."
+msgstr "در حال تغییر پوستهٔ ورود به سیستم."
+
+#: ../../po/../userhelper-wrap.c:791
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"شما می‌خواهید «%s» را اجرا کنید که به اختیارات مدیریتی نیاز دارد، برای این "
+"کار گذرواژه root لازم است."
+
+#: ../../po/../userhelper-wrap.c:793
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"شما می‌خواهید «%s» را اجرا کنید که به اختیارات مدیریتی نیاز دارد، برای این "
+"کار گذرواژه root لازم است."
+
+#: ../../po/../userhelper-wrap.c:798
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"شما می‌خواهید فرمانی اجرا کنید که به اختیارات مدیریتی نیاز دارد، برای این کار "
+"گذرواژه root لازم است."
+
+#: ../../po/../userhelper-wrap.c:800
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"شما می‌خواهید فرمانی اجرا کنید که به اختیارات مدیریتی نیاز دارد، برای این کار "
+"گذرواژه root لازم است."
+
+#: ../../po/../userhelper-wrap.c:810
+msgid "_Run Unprivileged"
+msgstr "ا_جرا بدون امتیازات"
+
+#: ../../po/../userhelper-wrap.c:968
+#, c-format
+msgid "Pipe error.\n"
+msgstr "خطای لوله‌کشی.\n"
+
+#: ../../po/../userhelper-wrap.c:975
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "نمی‌توان fork() اجرا کرد.\n"
+
+#: ../../po/../userhelper-wrap.c:1001
+#, c-format
+msgid "Can't set charset %s on an IO channel: %s\n"
+msgstr ""
+
+#: ../../po/../userhelper-wrap.c:1077 ../../po/../userhelper-wrap.c:1081
+#, c-format
+msgid "dup2() error.\n"
+msgstr "خطای dup2().\n"
+
+#: ../../po/../userhelper-wrap.c:1093
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "خطای execl()، شمارهٔ خطا=%Id\n"
+
+#: ../../po/../userhelper.c:201
+#, c-format
+msgid "Could not set default context for %s for program %s.\n"
+msgstr ""
+
+#: ../../po/../userhelper.c:212 ../../po/../userhelper.c:214
+#, c-format
+msgid "Could not set exec context to %s.\n"
+msgstr ""
+
+#: ../../po/../userhelper.c:803
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"شما می‌خواهید «%s» را اجرا کنید که به اختیارات مدیریتی \n"
+"نیاز دارد، برای این کار گذرواژه root لازم است."
+
+#: ../../po/../userhelper.c:805
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"شما می‌خواهید «%s» را اجرا کنید که به اختیارات مدیریتی \n"
+"نیاز دارد، برای این کار گذرواژه root لازم است."
+
+#: ../../po/../userhelper.c:809
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"شما می‌خواهید فرمانی اجرا کنید که به اختیارات مدیریتی \n"
+"نیاز دارد، برای این کار گذرواژه root لازم است."
+
+#: ../../po/../userhelper.c:811
+#, fuzzy, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"شما می‌خواهید «%s» را اجرا کنید که به اختیارات مدیریتی \n"
+"نیاز دارد، برای این کار گذرواژه root لازم است."
+
+#: ../../po/../userhelper.c:2372
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr ""
+
+#. FIXME: print a warning here?
+#: ../../po/../userhelper.c:2470
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+
+#: ../../po/../userinfo.c:370
+#, c-format
+msgid "Unexpected argument"
+msgstr ""
+
+#: ../../po/../userinfo.c:395
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr ""
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "دربارهٔ خودتان"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "تغییر اطلاعات شخصی"
+
+#: ../usermode.glade.h:1
+msgid "Full Name:"
+msgstr "نام و نام خانوادگی:"
+
+#: ../usermode.glade.h:2
+msgid "Home Phone Number:"
+msgstr "شمارهٔ تلفن خانه:"
+
+#: ../usermode.glade.h:3
+msgid "Login Shell:"
+msgstr "پوستهٔ ورود به سیستم:"
+
+#: ../usermode.glade.h:4
+msgid "Office Phone Number:"
+msgstr "شمارهٔ تلفن دفتر:"
+
+#: ../usermode.glade.h:5
+msgid "Office:"
+msgstr "دفتر:"
+
+#: ../usermode.glade.h:6
+msgid "User Information"
+msgstr "اطلاعات کاربر"
+
+#: ../../po/../usermount.c:61
+msgid "_Mount"
+msgstr "سوار _کردن"
+
+#: ../../po/../usermount.c:62
+msgid "Un_mount"
+msgstr "پیاده _کردن"
+
+#: ../../po/../usermount.c:289
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"آیا مطمئنید که می‌خواهید این دیسک را قالب‌بندی کنید؟ همهٔ داده‌هایی که در حال "
+"حاضر روی دیسک موجود است از بین خواهد رفت."
+
+#: ../../po/../usermount.c:300
+msgid "Perform a _low-level format."
+msgstr "اجرای قالب‌بندی سطح _پایین."
+
+#: ../../po/../usermount.c:337
+msgid "Select a _filesystem type to create:"
+msgstr "انتخاب کنید چه نوع _سیستم پرونده‌ای ایجاد شود:"
+
+#: ../../po/../usermount.c:507
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"سیستم پرونده‌ای‌ای که مجاز به سوار یا پیاده کردن آن باشید وجود ندارد.\n"
+"با مدیر سیستم‌تان تماس بگیرید."
+
+#. Create the dialog.
+#: ../../po/../usermount.c:508 ../../po/../usermount.c:520
+msgid "User Mount Tool"
+msgstr "ابزار سوار کردن کاربر"
+
+#. Create the other buttons.
+#: ../../po/../usermount.c:538
+msgid "_Format"
+msgstr "_قالب‌بندی"
+
+#: ../../po/../usermount.c:574
+msgid "Device"
+msgstr "دستگاه"
+
+#: ../../po/../usermount.c:580
+msgid "Directory"
+msgstr "شاخه"
+
+#: ../../po/../usermount.c:586
+msgid "Filesystem"
+msgstr "سیستم پرونده‌ای"
+
+#: ../../po/../usermount.c:633
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr ""
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "مدیریت دیسک"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "سوار و پیاده کردن سیستم‌های پرونده‌ای"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Change your login password"
+msgstr "تغییر گذرواژهٔ ورود به سیستم شما"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Password"
+msgstr "گذرواژه"
+
+#~ msgid "Password for %s"
+#~ msgstr "گذرواژهٔ %s"
+
+#~ msgid "Password for %s: "
+#~ msgstr "گذرواژهٔ %s: "
+
+#~ msgid "Message"
+#~ msgstr "پیغام"
+
+#~ msgid "Help"
+#~ msgstr "راهنما"
+
+#~ msgid "*"
+#~ msgstr "*"
