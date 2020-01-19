@@ -1,0 +1,26 @@
+From 677ad13794d5aa82c849cfdef81f66a397e48fce Mon Sep 17 00:00:00 2001
+From: Miloslav Trmač <mitr@redhat.com>
+Date: Oct 24 2015 01:25:03 +0000
+Subject: Fix up exit status description and consistency
+
+
+---
+
+diff --git a/userhelper.8.in b/userhelper.8.in
+index dd9fe59..4e7aff1 100644
+--- a/userhelper.8.in
++++ b/userhelper.8.in
+@@ -279,10 +279,10 @@ Ran out of memory.
+ Could not find the program.
+ .TP
+ 11
+-exec failed even though program exists.
++Executing the program failed even though it exists.
+ .TP
+ 12
+-the user canceled the operation.
++The user canceled the operation.
+ .TP
+ 255
+ Unknown error.
+

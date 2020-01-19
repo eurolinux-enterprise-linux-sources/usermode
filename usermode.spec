@@ -1,12 +1,15 @@
 Summary: Tools for certain user account management tasks
 Name: usermode
 Version: 1.111
-Release: 5%{?dist}
+Release: 6%{?dist}
 License: GPLv2+
 Group: Applications/System
-URL: https://fedorahosted.org/usermode/
-Source: https://fedorahosted.org/releases/u/s/usermode/usermode-%{version}.tar.xz
+URL: https://pagure.io/%{name}/
+Source: http://releases.pagure.org/%{name}/%{name}-%{version}.tar.xz
 Source1: config-util
+# Fix inconsistent capitalization in userhelper.8 manual page
+# - upstream commit 677ad13794d5aa82c849cfdef81f66a397e48fce
+Patch0: usermode-1.111-userhelper-manpage-fix-exit-status-description.patch
 Requires: pam, passwd, util-linux
 BuildRequires: desktop-file-utils, gettext, glib2-devel, gtk2-devel, intltool
 BuildRequires: libblkid-devel, libSM-devel, libselinux-devel, libuser-devel
@@ -37,6 +40,7 @@ graphical tools for certain account management tasks.
 
 %prep
 %setup -q
+%patch0 -p1 -b .userhelper.8
 
 %build
 %configure --with-selinux
@@ -90,6 +94,12 @@ done
 %{_datadir}/applications/*
 
 %changelog
+* Tue Mar 26 2019 Jiri Kucera <jkucera@redhat.com> - 1.111-6
+- Fix inconsistent capitalization in userhelper.8
+  Fix URL and Source
+  Fix bogus dates
+  Resolves: #1349840, #1502441
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.111-5
 - Mass rebuild 2014-01-24
 
@@ -459,10 +469,10 @@ done
 - Add getenforce checks
 - Add root_passwd check
 
-* Tue Jul 1 2004 Dan Walsh <dwalsh@redhat.com> 1.70-6
+* Thu Jul 1 2004 Dan Walsh <dwalsh@redhat.com> 1.70-6
 - More fixes to make targeted policy work correctly
 
-* Tue Jul 1 2004 Dan Walsh <dwalsh@redhat.com> 1.70-5
+* Thu Jul 1 2004 Dan Walsh <dwalsh@redhat.com> 1.70-5
 - Fix to use root if user not defined
 
 * Tue May 25 2004 Dan Walsh <dwalsh@redhat.com> 1.70-4
@@ -631,7 +641,7 @@ done
 - remove the pixmap we don't use any more (we use stock pixmaps now)
 - update translations
 
-* Thu Apr 16 2002 Nalin Dahyabhai <nalin@redhat.com> 1.54-1
+* Tue Apr 16 2002 Nalin Dahyabhai <nalin@redhat.com> 1.54-1
 - suppress even error messages from Xlib when consolehelper calls
   gtk_init_check() to see if the display is available
 
@@ -708,7 +718,7 @@ done
 * Fri Nov  2 2001 Nalin Dahyabhai <nalin@redhat.com> 1.45-1
 - propagate environment variables from libpam to applications
 
-* Fri Oct  3 2001 Nalin Dahyabhai <nalin@redhat.com> 1.44-1
+* Wed Oct  3 2001 Nalin Dahyabhai <nalin@redhat.com> 1.44-1
 - only try to call gtk_main_quit() if we've got a loop to get out of (#54109)
 - obey RPM_OPT_FLAGS, obey
 
@@ -848,7 +858,7 @@ done
 * Tue Mar 07 2000 Nalin Dahyabhai <nalin@redhat.com>
 - queue notice messages until we get prompts in userhelper to fix bug #8745
 
-* Fri Feb 03 2000 Nalin Dahyabhai <nalin@redhat.com>
+* Thu Feb 03 2000 Nalin Dahyabhai <nalin@redhat.com>
 - free trip through the build system
 
 * Tue Jan 11 2000 Nalin Dahyabhai <nalin@redhat.com>
