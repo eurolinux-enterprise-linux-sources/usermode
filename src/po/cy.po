@@ -1,0 +1,493 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Dafydd Walters <dwalters@dragontechnology.com>, 2004.
+# Dimitris Glezos <glezos@indifex.com>, 2011.
+# Owain Green <owaing@oceanfree.net>, 2004.
+# Rhoslyn Prys <rhoslyn.prys@ntlworld.com>, 2002.
+msgid ""
+msgstr ""
+"Project-Id-Version: Usermode\n"
+"Report-Msgid-Bugs-To: https://fedorahosted.org/usermode/\n"
+"POT-Creation-Date: 2012-08-21 00:32+0200\n"
+"PO-Revision-Date: 2012-08-20 22:33+0000\n"
+"Last-Translator: Miloslav Trmač <mitr@volny.cz>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cy\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#. 
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../../po/../dummy.h:21
+msgid "OK"
+msgstr "Iawn"
+
+#: ../../po/../dummy.h:22
+msgid "Exit"
+msgstr "Gadael"
+
+#: ../../po/../dummy.h:23
+msgid "Cancel"
+msgstr "Dileu"
+
+#: ../../po/../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "Rhedeg Heb Freintiau"
+
+#: ../../po/../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "Cyfrinair UNIX (cyfredol)"
+
+#: ../../po/../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Cyfrinair UNIX (newydd)"
+
+#: ../../po/../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Aildeipiwch cyfrinair UNIX newydd:"
+
+#: ../../po/../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "CYFRINAIR GWAEL: mae'n LLAWER rhy fyr"
+
+#: ../../po/../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "CYFRINAIR GWAEL: mae'n rhy fyr"
+
+#: ../../po/../dummy.h:30
+msgid "Password unchanged"
+msgstr "Cyfrinair heb ei newid"
+
+#: ../../po/../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "Nid yw'r cyfrineiriau'n cydweddu."
+
+#: ../../po/../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "Cychwyn erfynnau cyflunio system-eang heb gyfrinair"
+
+#: ../../po/../dummy.h:33
+msgid "login: "
+msgstr "mewngofnod: "
+
+#: ../../po/../dummy.h:34
+msgid "Password: "
+msgstr "Cyfrinair: "
+
+#: ../../po/../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr ""
+
+#: ../../po/../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "Methu colli hawliau gweinyddwr: %s"
+
+#: ../../po/../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr "Methu colli hawliau gweinyddwr: dychwelodd pam_timestamp_check côd methiant %d"
+
+#: ../../po/../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr "Mae'r hawl gennych i fyrfweddu gosodiadau system-eang (sy'n effeithio pob defnyddiwr) heb teipio'r cyfrinair gwraidd eto. Gallwch ildio'r hawl yma. "
+
+#: ../../po/../pam-panel-icon.c:151 ../../po/../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Cadw awdurdod"
+
+#: ../../po/../pam-panel-icon.c:154 ../../po/../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "Anghofio awdurdod"
+
+#: ../../po/../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "Nid setuid root yw pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "dim tty rheoli am pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "defnyddiwr anhysbys i pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "gwall hawliau yn pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "tty rheoli annilys yn pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Gwall: %s\n"
+
+#: ../../po/../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Methu rhedeg gorchymyn \"%s\": %s\n"
+
+#: ../../po/../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "Wedi methu gwneud sianel IO yn ddi-rwystrus: %s\n"
+
+#: ../../po/../pam-panel-icon.c:476
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: methu cysylltu i'r rheolydd sesiwn\n"
+
+#: ../../po/../userhelper-messages.c:29
+msgid "Information updated."
+msgstr "Diweddarwyd y wybodaeth"
+
+#: ../../po/../userhelper-messages.c:32
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr "Mae'r gyfrinair a deipioch yn annilys\nCeisiwch eto."
+
+#: ../../po/../userhelper-messages.c:37
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr "Mae un neu fwy o'r meysydd sydd wedi newid yn annilys.\nMae hyn oherwydd naill ai gorwahannodau neu atalnodau yn un o'r meysydd.\nTynnwch rheini a cheisiwch eto."
+
+#: ../../po/../userhelper-messages.c:42
+msgid "Password resetting error."
+msgstr "Gwall wrth ailosod cyfrinair."
+
+#: ../../po/../userhelper-messages.c:45
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr "Mae rhai ffeiliau system wedi eu cloi.\nCeisiwch eto mewn ychydig."
+
+#: ../../po/../userhelper-messages.c:48
+msgid "Unknown user."
+msgstr "Defnyddiwr anhysbys"
+
+#: ../../po/../userhelper-messages.c:49
+msgid "Insufficient rights."
+msgstr "Hawliau annigonol"
+
+#: ../../po/../userhelper-messages.c:50
+msgid "Invalid call to subprocess."
+msgstr "Galwad annilys i is-broses."
+
+#: ../../po/../userhelper-messages.c:53
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr "Nid yw eich plisgyn cyfredol wedi ei restri yn /etc/shells.\nNid oes hawl gennych i newid eich plisgyn.\nGofynnwch i'ch gweinyddwr system."
+
+#. well, this is unlikely to work, but at least we tried...
+#: ../../po/../userhelper-messages.c:58
+msgid "Out of memory."
+msgstr "Allan o gof"
+
+#: ../../po/../userhelper-messages.c:59
+msgid "The exec() call failed."
+msgstr "Methodd yr alwad exec()."
+
+#: ../../po/../userhelper-messages.c:60
+msgid "Failed to find selected program."
+msgstr "Methu canfod y raglen ddewisiedig."
+
+#. special no-display dialog
+#: ../../po/../userhelper-messages.c:62
+msgid "Request canceled."
+msgstr "Diddymwyd y cais."
+
+#: ../../po/../userhelper-messages.c:63
+msgid "Internal PAM error occured."
+msgstr "Digwyddodd gwall mewnol PAM."
+
+#: ../../po/../userhelper-messages.c:64
+msgid "No more retries allowed"
+msgstr ""
+
+#: ../../po/../userhelper-messages.c:65
+msgid "Unknown error."
+msgstr "Gwall anhysbys"
+
+#. First entry is default
+#: ../../po/../userhelper-messages.c:67
+msgid "Unknown exit code."
+msgstr "Côd gadael anhysbys"
+
+#: ../../po/../userhelper-wrap.c:455
+msgid "Query"
+msgstr "Ymholiad"
+
+#: ../../po/../userhelper-wrap.c:514 ../../po/../userhelper.c:607
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr ""
+
+#: ../../po/../userhelper-wrap.c:533 ../../po/../userhelper-wrap.c:673
+msgid "Error"
+msgstr "Gwall"
+
+#: ../../po/../userhelper-wrap.c:533
+msgid "Information"
+msgstr "Gwybodaeth"
+
+#: ../../po/../userhelper-wrap.c:698
+msgid "Changing password."
+msgstr ""
+
+#: ../../po/../userhelper-wrap.c:700
+msgid "Changing personal information."
+msgstr "Newid gwybodaeth bersonol"
+
+#: ../../po/../userhelper-wrap.c:703
+msgid "Changing login shell."
+msgstr "Newid plisgyn mewngofnodi"
+
+#: ../../po/../userhelper-wrap.c:707
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Rydych yn ceisio rhedeg \"%s\"  a allai elwa o freintiau gweinyddol, ond mae angen rhagor o wybodaeth er mwyn gwneud hynny."
+
+#: ../../po/../userhelper-wrap.c:709
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr "Rydych yn ceisio rhedeg \"%s\"  sy'n mynnu breintiau gweinyddol, ond mae angen rhagor o wybodaeth er mwyn gwneud hynny."
+
+#: ../../po/../userhelper-wrap.c:713
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Rydych yn ceisio rhedeg gorchymyn a allai elwa o freintiau gweinyddol, ond mae angen rhagor o wybodaeth er mwyn gwneud hynny."
+
+#: ../../po/../userhelper-wrap.c:715
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Rydych yn ceisio rhedeg gorchymyn sy'n mynnu breintiau gweinyddol, ond mae angen rhagor o wybodaeth er mwyn gwneud hynny."
+
+#: ../../po/../userhelper-wrap.c:752
+msgid "_Run Unprivileged"
+msgstr "_Rhedeg Heb Freintiau"
+
+#: ../../po/../userhelper-wrap.c:899
+#, c-format
+msgid "Pipe error.\n"
+msgstr "Gwall pibell.\n"
+
+#: ../../po/../userhelper-wrap.c:906
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Methu fforchio().\n"
+
+#: ../../po/../userhelper-wrap.c:930
+#, c-format
+msgid "Can't set binary encoding on an IO channel: %s\n"
+msgstr ""
+
+#: ../../po/../userhelper-wrap.c:999 ../../po/../userhelper-wrap.c:1003
+#, c-format
+msgid "dup2() error.\n"
+msgstr "gwall dup2().\n"
+
+#: ../../po/../userhelper-wrap.c:1014
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "gwall execl() , rhif gwall=%d\n"
+
+#: ../../po/../userhelper.c:589
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Rydych yn ceisio rhedeg \"%s\"  a allai elwa o freintiau gweinyddol,\nond mae angen rhagor o wybodaeth er mwyn gwneud hynny."
+
+#: ../../po/../userhelper.c:591
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Rydych yn ceisio rhedeg \"%s\"  sy'n mynnu breintiau gweinyddol,\nond mae angen rhagor o wybodaeth er mwyn gwneud hynny."
+
+#: ../../po/../userhelper.c:595
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr "Rydych yn ceisio rhedeg gorchymyn a allai elwa o freintiau\ngweinyddol, ond mae angen rhagor o wybodaeth er mwyn gwneud hynny."
+
+#: ../../po/../userhelper.c:597
+#, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Rydych yn ceisio rhedeg gorchymyn sy'n mynnu breintiau gweinyddol,\nond mae angen rhagor o wybodaeth er mwyn gwneud hynny."
+
+#: ../../po/../userhelper.c:2085
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "Rhaid i userhelper fod yn setuid root\n"
+
+#. FIXME: print a warning here?
+#: ../../po/../userhelper.c:2177
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "Methu agor ffenestr raffigol, ac yn methu canfod terfynell reoli.\n"
+
+#: ../../po/../userhelper.c:2230 ../../po/../userinfo.c:387
+#: ../../po/../usermount.c:672 ../../po/../usermount.c:681
+#: ../../po/../userpasswd.c:37
+#, c-format
+msgid "Unexpected command-line arguments\n"
+msgstr ""
+
+#: ../../po/../userinfo.c:411
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Nid ydych yn bodoli. Ewch i ffwrdd.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr ""
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr ""
+
+#: ../usermode.ui.h:1
+msgid "User Information"
+msgstr "Gwybodaeth Defnyddiwr"
+
+#: ../usermode.ui.h:2
+msgid "Full Name:"
+msgstr "Enw Llawn:"
+
+#: ../usermode.ui.h:3
+msgid "Office:"
+msgstr "Swyddfa:"
+
+#: ../usermode.ui.h:4
+msgid "Office Phone Number:"
+msgstr "Rhif Ffôn y Swyddfa:"
+
+#: ../usermode.ui.h:5
+msgid "Home Phone Number:"
+msgstr "Rhif Ffôn Cartref:"
+
+#: ../usermode.ui.h:6
+msgid "Login Shell:"
+msgstr "Plisgyn Mewngofnodi:"
+
+#: ../../po/../usermount.c:61
+msgid "_Mount"
+msgstr "_Gosod"
+
+#: ../../po/../usermount.c:62
+msgid "Un_mount"
+msgstr "Dad_osod"
+
+#: ../../po/../usermount.c:150
+msgid "Error loading list of file systems"
+msgstr ""
+
+#. Create the dialog.
+#: ../../po/../usermount.c:151 ../../po/../usermount.c:525
+#: ../../po/../usermount.c:537
+msgid "User Mount Tool"
+msgstr "Erfyn Gosod y Defnyddiwr"
+
+#: ../../po/../usermount.c:306
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr "Ydych chi'n siwr eich bod am fformadu'r ddisg?  Byddwch yn dinistrio unrhyw ddata arni."
+
+#: ../../po/../usermount.c:317
+msgid "Perform a _low-level format."
+msgstr "Cyflawni fformadiad lefel_isel."
+
+#: ../../po/../usermount.c:354
+msgid "Select a _filesystem type to create:"
+msgstr "Dewiswch math system _ffeil i'w chreu:"
+
+#: ../../po/../usermount.c:524
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr "Nid oes systemau ffeil y mae gennych hawl i'w gosod neu eu dadosod.\nGofynnwch i'ch gweinyddwr system."
+
+#. Create the other buttons.
+#: ../../po/../usermount.c:555
+msgid "_Format"
+msgstr "_Fformat"
+
+#: ../../po/../usermount.c:591
+msgid "Device"
+msgstr "Dyfais"
+
+#: ../../po/../usermount.c:597
+msgid "Directory"
+msgstr "Cyfeiriadur"
+
+#: ../../po/../usermount.c:603
+msgid "Filesystem"
+msgstr "System ffeil"
+
+#: ../../po/../usermount.c:651
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Ni ellir fformatio y dyfais '%s'."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr ""
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr ""
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Password"
+msgstr ""
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Change your login password"
+msgstr ""

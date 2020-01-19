@@ -1,0 +1,491 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Dimitris Glezos <glezos@indifex.com>, 2011.
+# Kjartan Maraas <kmaraas@gnome.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: Usermode\n"
+"Report-Msgid-Bugs-To: https://fedorahosted.org/usermode/\n"
+"POT-Creation-Date: 2012-08-21 00:32+0200\n"
+"PO-Revision-Date: 2012-08-20 22:33+0000\n"
+"Last-Translator: Miloslav Trmač <mitr@volny.cz>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#. 
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../../po/../dummy.h:21
+msgid "OK"
+msgstr "OK"
+
+#: ../../po/../dummy.h:22
+msgid "Exit"
+msgstr "Avslutt"
+
+#: ../../po/../dummy.h:23
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../../po/../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "Kjør upriviligert"
+
+#: ../../po/../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(nåværende) UNIX passord: "
+
+#: ../../po/../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Nytt UNIX passord:"
+
+#: ../../po/../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Tast inn nytt UNIX passord på nytt: "
+
+#: ../../po/../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "UGYLDIG PASSORD: det er altfor kort"
+
+#: ../../po/../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "UGYLDIG PASSORD: det er for kort"
+
+#: ../../po/../dummy.h:30
+msgid "Password unchanged"
+msgstr "Passord ikke endret"
+
+#: ../../po/../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "Beklager, passordene er ikke de samme"
+
+#: ../../po/../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "Start konfigurasjonsverktøy for systemet uten passord."
+
+#: ../../po/../dummy.h:33
+msgid "login: "
+msgstr "Brukernavn: "
+
+#: ../../po/../dummy.h:34
+msgid "Password: "
+msgstr "Passord: "
+
+#: ../../po/../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s klarte ikke å koble til sesjonshåndtereren: %s\n"
+
+#: ../../po/../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "Kunne ikke gi slipp på administratorrettigheter: %s"
+
+#: ../../po/../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr "Klarte ikke å gi slipp på administratorrettigheter: pam_timestamp_check returnerte feilkode %d"
+
+#: ../../po/../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr "Du er nå autorisert for å gjøre endringer for hele systemet (som påvirker alle brukere) uten å oppgi passord for administrator igjen. Du kan gi slipp på denne autoriseringen."
+
+#: ../../po/../pam-panel-icon.c:151 ../../po/../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Behold autorisering"
+
+#: ../../po/../pam-panel-icon.c:154 ../../po/../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "Gi slipp på autorisering"
+
+#: ../../po/../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check er ikke setuid root"
+
+#: ../../po/../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "ingen tty kontrollerer pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "bruker ukjent for pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "feil med rettigheter i pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "ugyldig tty for kontroll av pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Feil: %s\n"
+
+#: ../../po/../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Feil under kjøring av kommando «%s»: %s\n"
+
+#: ../../po/../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "Kunne ikke sette IU-kanal til å ikke blokkere: %s\n"
+
+#: ../../po/../pam-panel-icon.c:476
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: kunne ikke koble til sesjonshåndtereren\n"
+
+#: ../../po/../userhelper-messages.c:29
+msgid "Information updated."
+msgstr "Informasjon oppdatert."
+
+#: ../../po/../userhelper-messages.c:32
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr "Passordet du oppga er ugyldig.\nVennligst prøv igjen."
+
+#: ../../po/../userhelper-messages.c:37
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr "Ett eller flere endrede felt er ugyldige.\nDette skyldes sannsynligvis et kolon eller komma i ett av feltene.\nVennligst fjern disse og prøv igjen."
+
+#: ../../po/../userhelper-messages.c:42
+msgid "Password resetting error."
+msgstr "Feil under nullstilling av passord."
+
+#: ../../po/../userhelper-messages.c:45
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr "Noen systemfiler er låst.\nPrøv igjen om et øyeblikk."
+
+#: ../../po/../userhelper-messages.c:48
+msgid "Unknown user."
+msgstr "Ukjent bruker."
+
+#: ../../po/../userhelper-messages.c:49
+msgid "Insufficient rights."
+msgstr "Utilstrekkelige rettigheter."
+
+#: ../../po/../userhelper-messages.c:50
+msgid "Invalid call to subprocess."
+msgstr "Ugyldig kall til underprosess."
+
+#: ../../po/../userhelper-messages.c:53
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr "Ditt nåværende skall finnes ikke i /etc/shells.\nDu kan ikke endre ditt skall.\nKontakt din systemadministrator."
+
+#. well, this is unlikely to work, but at least we tried...
+#: ../../po/../userhelper-messages.c:58
+msgid "Out of memory."
+msgstr "Ikke mer minne."
+
+#: ../../po/../userhelper-messages.c:59
+msgid "The exec() call failed."
+msgstr "exec()-kallet feilet."
+
+#: ../../po/../userhelper-messages.c:60
+msgid "Failed to find selected program."
+msgstr "Kunne ikke finne valgt program."
+
+#. special no-display dialog
+#: ../../po/../userhelper-messages.c:62
+msgid "Request canceled."
+msgstr "Forespørsel avbrutt"
+
+#: ../../po/../userhelper-messages.c:63
+msgid "Internal PAM error occured."
+msgstr "Intern feil oppsto i PAM."
+
+#: ../../po/../userhelper-messages.c:64
+msgid "No more retries allowed"
+msgstr "Tillater ingen flere forsøk"
+
+#: ../../po/../userhelper-messages.c:65
+msgid "Unknown error."
+msgstr "Ukjent feil."
+
+#. First entry is default
+#: ../../po/../userhelper-messages.c:67
+msgid "Unknown exit code."
+msgstr "Ukjent avsluttingskode."
+
+#: ../../po/../userhelper-wrap.c:455
+msgid "Query"
+msgstr "Spør"
+
+#: ../../po/../userhelper-wrap.c:514 ../../po/../userhelper.c:607
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "Autentiserer som «%s»"
+
+#: ../../po/../userhelper-wrap.c:533 ../../po/../userhelper-wrap.c:673
+msgid "Error"
+msgstr "Feil"
+
+#: ../../po/../userhelper-wrap.c:533
+msgid "Information"
+msgstr "Informasjon"
+
+#: ../../po/../userhelper-wrap.c:698
+msgid "Changing password."
+msgstr "Endre passord."
+
+#: ../../po/../userhelper-wrap.c:700
+msgid "Changing personal information."
+msgstr "Endrer personlig informasjon."
+
+#: ../../po/../userhelper-wrap.c:703
+msgid "Changing login shell."
+msgstr "Endrer innloggingsskall."
+
+#: ../../po/../userhelper-wrap.c:707
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Du prøver å kjøre «%s» og dette programmet kan med fordel kjøres med rettigheter som superbruker, men du må oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../../po/../userhelper-wrap.c:709
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr "Du prøver å kjøre «%s» som krever rettigheter som superbruker, men du må oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../../po/../userhelper-wrap.c:713
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Du prøver å kjøre en kommando som med fordel kan kjøres med rettigheter som superbruker, men mer informasjon må oppgis for å kunne gjøre dette."
+
+#: ../../po/../userhelper-wrap.c:715
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Du prøver å kjøre en kommando som krever rettigheter som superbruker, men du må oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../../po/../userhelper-wrap.c:752
+msgid "_Run Unprivileged"
+msgstr "Kjø_r upriviligert"
+
+#: ../../po/../userhelper-wrap.c:899
+#, c-format
+msgid "Pipe error.\n"
+msgstr "Feil med rør.\n"
+
+#: ../../po/../userhelper-wrap.c:906
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Kan ikke kjøre fork().\n"
+
+#: ../../po/../userhelper-wrap.c:930
+#, c-format
+msgid "Can't set binary encoding on an IO channel: %s\n"
+msgstr "Kan ikke sette binærkoding på en IO-kanal: %s\n"
+
+#: ../../po/../userhelper-wrap.c:999 ../../po/../userhelper-wrap.c:1003
+#, c-format
+msgid "dup2() error.\n"
+msgstr "feil ved kjøring av dup2().\n"
+
+#: ../../po/../userhelper-wrap.c:1014
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() feil, errno=%d\n"
+
+#: ../../po/../userhelper.c:589
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Du prøver å kjøre «%s» og dette programmet kan med fordel kjøres med\nrettigheter som superbruker, men du må oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../../po/../userhelper.c:591
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Du prøver å kjøre «%s» som krever rettigheter som superbruker, men du\nmå oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../../po/../userhelper.c:595
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr "Du prøver å kjøre en kommando som med fordel kan kjøres med\nrettigheter som superbruker, men mer informasjon må oppgis for å kunne gjøre dette."
+
+#: ../../po/../userhelper.c:597
+#, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Du prøver å kjøre en kommando som krever rettigheter som superbruker\nmen du må oppgi mer informasjon for å kunne gjøre dette."
+
+#: ../../po/../userhelper.c:2085
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper må være setuid root\n"
+
+#. FIXME: print a warning here?
+#: ../../po/../userhelper.c:2177
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "Kunne ikke åpne grafisk vindu; og er ute av stand til å finne en kontrollerende terminal.\n"
+
+#: ../../po/../userhelper.c:2230 ../../po/../userinfo.c:387
+#: ../../po/../usermount.c:672 ../../po/../usermount.c:681
+#: ../../po/../userpasswd.c:37
+#, c-format
+msgid "Unexpected command-line arguments\n"
+msgstr ""
+
+#: ../../po/../userinfo.c:411
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Du eksisterer ikke. Ha deg vekk.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "Om meg selv"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "Endre personlig informasjon"
+
+#: ../usermode.ui.h:1
+msgid "User Information"
+msgstr "Brukerinformasjon"
+
+#: ../usermode.ui.h:2
+msgid "Full Name:"
+msgstr "Fullt navn:"
+
+#: ../usermode.ui.h:3
+msgid "Office:"
+msgstr "Kontor:"
+
+#: ../usermode.ui.h:4
+msgid "Office Phone Number:"
+msgstr "Jobbtelefon:"
+
+#: ../usermode.ui.h:5
+msgid "Home Phone Number:"
+msgstr "Hjemmetelefon:"
+
+#: ../usermode.ui.h:6
+msgid "Login Shell:"
+msgstr "Loginskall:"
+
+#: ../../po/../usermount.c:61
+msgid "_Mount"
+msgstr "_Monter"
+
+#: ../../po/../usermount.c:62
+msgid "Un_mount"
+msgstr "Av_monter"
+
+#: ../../po/../usermount.c:150
+msgid "Error loading list of file systems"
+msgstr "Feil under lasting av liste med filsystemer"
+
+#. Create the dialog.
+#: ../../po/../usermount.c:151 ../../po/../usermount.c:525
+#: ../../po/../usermount.c:537
+msgid "User Mount Tool"
+msgstr "Brukerverktøy for montering"
+
+#: ../../po/../usermount.c:306
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr "Er du sikker på at du vil formatere denne disken? Du vil ødelegge alle data på den."
+
+#: ../../po/../usermount.c:317
+msgid "Perform a _low-level format."
+msgstr "Utfør _lavnivå-formatering."
+
+#: ../../po/../usermount.c:354
+msgid "Select a _filesystem type to create:"
+msgstr "Velg type _filsystem du vil opprette:"
+
+#: ../../po/../usermount.c:524
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr "Det finnes ingen filsystemer du kan montere eller avmontere.\nKontakt din administrator."
+
+#. Create the other buttons.
+#: ../../po/../usermount.c:555
+msgid "_Format"
+msgstr "_Formater"
+
+#: ../../po/../usermount.c:591
+msgid "Device"
+msgstr "Enhet"
+
+#: ../../po/../usermount.c:597
+msgid "Directory"
+msgstr "Katalog"
+
+#: ../../po/../usermount.c:603
+msgid "Filesystem"
+msgstr "Filsystem"
+
+#: ../../po/../usermount.c:651
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Enhet «%s» kan ikke formatteres."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "Diskhåndtering"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "Monter og avmonter filsystemer"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Password"
+msgstr "Passord"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Change your login password"
+msgstr "Endre passord for pålogging"

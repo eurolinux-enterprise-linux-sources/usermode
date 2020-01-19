@@ -1,0 +1,96 @@
+.\" Copyright (C) 1997, 2007 Red Hat Software, Inc.
+.\"
+.\" This is free software; you can redistribute it and/or modify it
+.\" under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful, but
+.\" WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+.\" General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; if not, write to the Free Software
+.\" Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+.\"
+.TH USERMOUNT 1 "March 13 2007" "Red Hat"
+.SH NAME
+usermount \- A graphical tool to mount, unmount and format filesystems.
+.SH SYNOPSIS
+.B usermount
+[
+.I options
+]
+
+.B userformat
+[
+.I options
+]
+.I device
+.SH DESCRIPTION
+.B usermount
+is a graphical tool to allow users to easily manage removable media,
+such as floppy disks or zip disks.  When the tool starts up, it scans
+.I /etc/fstab
+for all filesystems that have been configured to allow users to mount
+and unmount them.  The filesystem can be mounted or unmounted by
+pressing the toggle button labeled \fIMount\fR.
+.PP
+Also, if the user has the appropriate permissions for the device, the
+.I Format
+button will be active.  This allows the user to format disks using
+.B fdformat
+and create a new filesystem of the type listed (using
+.B mkfs
+with the appropriate option).  Naturally, the user will be prompted for
+confirmation before actually destroying data on the device.
+.PP
+Note that if a device is already mounted, the format button is
+inactive for all entries that share the same device.
+.PP
+When run as root,
+.B usermount
+displays all of the entries in
+.I /etc/fstab
+rather than just the ones with the
+.I user
+option.
+
+Invoking
+.B userformat
+.I device
+allows formatting \fIdevice\fR,
+as if by selecting
+.I device
+in the
+.B userformat
+window, and by clicking the
+.I Format
+button.
+.SH OPTIONS
+This program has no command line options of it's own, but it does take
+the standard X program options like
+.B -display
+and such.  See the
+.IR X (1)
+man page for some of the common options.
+.SH FILES
+.TP 25
+.I /etc/fstab
+The system file describing the mountable filesystems.
+.SH "SEE ALSO"
+.IR mount (8),
+.IR fdformat (8),
+.IR mkfs (8),
+.IR fstab (5)
+.IR X (1)
+.SH BUGS
+Mount entries with a filesystem type of iso9660 are outright
+considered CD-ROMs and the format button is always disabled.
+.PP
+Mount entries for swap files or partitions are also ignored.  A nice
+feature might be to allow root to turn swap on and off for swap
+partitions.
+.SH AUTHOR
+Otto Hammersmith <otto@redhat.com>

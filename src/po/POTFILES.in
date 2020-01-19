@@ -1,0 +1,17 @@
+consolehelper-nox.c
+consolehelper.c
+dummy.h
+gsmclient.c
+pam-panel-icon.c
+userdialogs.h
+userhelper-messages.c
+userhelper-wrap.c
+userhelper.c
+userhelper.h
+userinfo.c
+userinfo.desktop.in
+[type: gettext/glade] usermode.ui
+usermount.c
+usermount.desktop.in
+userpasswd.c
+userpasswd.desktop.in

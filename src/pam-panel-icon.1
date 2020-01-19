@@ -1,0 +1,65 @@
+.\" Copyright (C) 2009 Red Hat, Inc.
+.\"
+.\" This is free software; you can redistribute it and/or modify it
+.\" under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful, but
+.\" WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+.\" General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; if not, write to the Free Software
+.\" Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+.\"
+.\" Red Hat author: Miloslav Trmač <mitr@redhat.com>
+.TH PAM-PANEL-ICON 1 "2009-10-05" "Red Hat"
+.SH NAME
+pam-panel-icon \- A notification area indicator of pam_timestamp status
+.SH SYNOPSIS
+.B pam\-panel\-icon
+.SH DESCRIPTION
+.B pam\-panel\-icon
+should be automatically started when starting an X11 desktop environment.
+For example, in GNOME
+.B gnome-session
+should be configured to start \fBpam\-panel\-icon\fR.
+In a properly configured system it should never be necessary to start
+.B pam\-panel\-icon
+manually.
+
+.B pam\-panel\-icon
+uses
+.BR pam_timestamp_check (8)
+to watch the
+.B pam_timestamp
+timestamp status.
+If the
+.B pam_timestamp
+authorization is active,
+allowing an unprivileted user to temporarily authenticate as the
+.B root
+user without providing a password,
+an icon in the notification area of the panel is displayed.
+The icon allows dropping the authorization immediately.
+
+.SH EXIT STATUS
+Ordinarily,
+.B pam\-panel\-icon
+keeps running until the X11 desktop session ends, and then returns 0.
+.B pam\-panel\-icon
+only returns with non-zero status on unexpected error.
+
+.SH FILES
+.TP
+\fB/sbin/pam_timestamp_check\fR
+A hard-coded location of the
+.B pam_timestamp_check
+executable.
+
+.SH SEE ALSO
+.BR pam_timestamp (8),
+.BR pam_timestamp_check (8)
+

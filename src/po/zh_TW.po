@@ -1,0 +1,495 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ben Wu <hpwu@redhat.com>, 2002, 2003.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2011.
+# Chester Cheng <ccheng@redhat.com>, 2004, 2005, 2006.
+# Dimitris Glezos <glezos@indifex.com>, 2011.
+# Leah Liu <weliu@redhat.com>, 2005.
+# Terry Chuang <tchuang@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: Usermode\n"
+"Report-Msgid-Bugs-To: https://fedorahosted.org/usermode/\n"
+"POT-Creation-Date: 2012-08-21 00:32+0200\n"
+"PO-Revision-Date: 2012-08-20 22:33+0000\n"
+"Last-Translator: Miloslav Trmač <mitr@volny.cz>\n"
+"Language-Team: Chinese (Taiwan) <trans-zh_TW@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#. 
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../../po/../dummy.h:21
+msgid "OK"
+msgstr "確定"
+
+#: ../../po/../dummy.h:22
+msgid "Exit"
+msgstr "離開"
+
+#: ../../po/../dummy.h:23
+msgid "Cancel"
+msgstr "取消"
+
+#: ../../po/../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "以無特權身分執行"
+
+#: ../../po/../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(目前的) UNIX 密碼："
+
+#: ../../po/../dummy.h:26
+msgid "New UNIX password: "
+msgstr "新的 UNIX 密碼："
+
+#: ../../po/../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "再次輸入新的 UNIX 密碼："
+
+#: ../../po/../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "不良的密碼：密碼太短"
+
+#: ../../po/../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "不良的密碼：密碼太短"
+
+#: ../../po/../dummy.h:30
+msgid "Password unchanged"
+msgstr "密碼未更改。"
+
+#: ../../po/../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "抱歉，密碼不符"
+
+#: ../../po/../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "在不輸入密碼的情況下啟動全系統性的設定工具。"
+
+#: ../../po/../dummy.h:33
+msgid "login: "
+msgstr "登入帳號："
+
+#: ../../po/../dummy.h:34
+msgid "Password: "
+msgstr "密碼："
+
+#: ../../po/../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s 連接到工作階段失敗：%s\n"
+
+#: ../../po/../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "無法卸下管理員特權：%s"
+
+#: ../../po/../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr "無法卸下管理員特權：pam_timestamp_check 傳回失敗代碼 %d"
+
+#: ../../po/../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr "您目前已被授權為可以設定系統全域設定 (會影響所有使用者)，不需要再次輸入管理員密碼。您可以放棄本次授權。"
+
+#: ../../po/../pam-panel-icon.c:151 ../../po/../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "保留授權"
+
+#: ../../po/../pam-panel-icon.c:154 ../../po/../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "放棄授權"
+
+#: ../../po/../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check 並非 setuid root"
+
+#: ../../po/../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "pam_timestamp_check 沒有控制用 tty "
+
+#: ../../po/../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "pam_timestamp_check 的使用者未知"
+
+#: ../../po/../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "pam_timestamp_check 內的許可授權有錯誤"
+
+#: ../../po/../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "pam_timestamp_check 內的控制用 tty 無效"
+
+#: ../../po/../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "錯誤：%s\n"
+
+#: ../../po/../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "執行「%s」指令失敗：%s\n"
+
+#: ../../po/../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "無法將 IO 通道設為 nonblocking：%s\n"
+
+#: ../../po/../pam-panel-icon.c:476
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon：無法連接到工作階段管理程式\n"
+
+#: ../../po/../userhelper-messages.c:29
+msgid "Information updated."
+msgstr "資訊已更新。"
+
+#: ../../po/../userhelper-messages.c:32
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr "您輸入的密碼無效。\n請重試。"
+
+#: ../../po/../userhelper-messages.c:37
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr "一個或多個更改的欄位無效。\n也許是由於有冒號「:」或逗號「,」在欄位裡。\n請移除它們然後重試。"
+
+#: ../../po/../userhelper-messages.c:42
+msgid "Password resetting error."
+msgstr "重設密碼時發生錯誤。"
+
+#: ../../po/../userhelper-messages.c:45
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr "某些系統檔案已上鎖。\n請稍候再重試。"
+
+#: ../../po/../userhelper-messages.c:48
+msgid "Unknown user."
+msgstr "未知使用者。"
+
+#: ../../po/../userhelper-messages.c:49
+msgid "Insufficient rights."
+msgstr "沒有足夠的權力。"
+
+#: ../../po/../userhelper-messages.c:50
+msgid "Invalid call to subprocess."
+msgstr "無效的子程序呼叫。"
+
+#: ../../po/../userhelper-messages.c:53
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr "您目前的 shell 沒有列出在 /etc/shells 中。\n無法更改您的 shell。\n請諮詢您的系統管理員。"
+
+#. well, this is unlikely to work, but at least we tried...
+#: ../../po/../userhelper-messages.c:58
+msgid "Out of memory."
+msgstr "記憶體不足。"
+
+#: ../../po/../userhelper-messages.c:59
+msgid "The exec() call failed."
+msgstr "exec() 呼叫失敗。"
+
+#: ../../po/../userhelper-messages.c:60
+msgid "Failed to find selected program."
+msgstr "找不到所選的程式。"
+
+#. special no-display dialog
+#: ../../po/../userhelper-messages.c:62
+msgid "Request canceled."
+msgstr "要求已取消。"
+
+#: ../../po/../userhelper-messages.c:63
+msgid "Internal PAM error occured."
+msgstr "內部 PAM 遭遇錯誤。"
+
+#: ../../po/../userhelper-messages.c:64
+msgid "No more retries allowed"
+msgstr "不允許再繼續重試"
+
+#: ../../po/../userhelper-messages.c:65
+msgid "Unknown error."
+msgstr "未知錯誤。"
+
+#. First entry is default
+#: ../../po/../userhelper-messages.c:67
+msgid "Unknown exit code."
+msgstr "未知的離開代碼。"
+
+#: ../../po/../userhelper-wrap.c:455
+msgid "Query"
+msgstr "查詢"
+
+#: ../../po/../userhelper-wrap.c:514 ../../po/../userhelper.c:607
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "正在驗證「%s」的身分"
+
+#: ../../po/../userhelper-wrap.c:533 ../../po/../userhelper-wrap.c:673
+msgid "Error"
+msgstr "錯誤"
+
+#: ../../po/../userhelper-wrap.c:533
+msgid "Information"
+msgstr "資訊"
+
+#: ../../po/../userhelper-wrap.c:698
+msgid "Changing password."
+msgstr "正在更改密碼。"
+
+#: ../../po/../userhelper-wrap.c:700
+msgid "Changing personal information."
+msgstr "正在更改個人資訊。"
+
+#: ../../po/../userhelper-wrap.c:703
+msgid "Changing login shell."
+msgstr "正在更改登入用 shell。"
+
+#: ../../po/../userhelper-wrap.c:707
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "您正試圖執行可能受益於管理者特權的「%s」，但若要這麼做您需要更多資訊。"
+
+#: ../../po/../userhelper-wrap.c:709
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr "您正試圖執行需要有管理者特權的「%s」，但若要這麼做您需要更多資訊。"
+
+#: ../../po/../userhelper-wrap.c:713
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "您正試圖執行可能受益於管理者特權的指令，但若要這麼做您需要更多資訊。"
+
+#: ../../po/../userhelper-wrap.c:715
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "您正試圖執行需要有管理者特權的指令，但若要這麼做您需要更多資訊。"
+
+#: ../../po/../userhelper-wrap.c:752
+msgid "_Run Unprivileged"
+msgstr "以無特權身分執行(_R)"
+
+#: ../../po/../userhelper-wrap.c:899
+#, c-format
+msgid "Pipe error.\n"
+msgstr "導管錯誤。\n"
+
+#: ../../po/../userhelper-wrap.c:906
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "無法 fork()。\n"
+
+#: ../../po/../userhelper-wrap.c:930
+#, c-format
+msgid "Can't set binary encoding on an IO channel: %s\n"
+msgstr "無法在 IO 頻道上設置二進位編碼：%s\n"
+
+#: ../../po/../userhelper-wrap.c:999 ../../po/../userhelper-wrap.c:1003
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2() 錯誤。\n"
+
+#: ../../po/../userhelper-wrap.c:1014
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() 錯誤，errno=%d\n"
+
+#: ../../po/../userhelper.c:589
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "您正試圖執行可能受益於管理者特權的「%s」，\n但若要這麼做您需要更多資訊。"
+
+#: ../../po/../userhelper.c:591
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "您正試圖執行需要有管理者特權的「%s」，\n但若要這麼做您需要更多資訊。"
+
+#: ../../po/../userhelper.c:595
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr "您正試圖執行可能受益於管理者特權的指令，\n但若要這麼做您需要更多資訊。"
+
+#: ../../po/../userhelper.c:597
+#, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "您正試圖執行需要有管理者特權的指令，\n但若要這麼做您需要更多資訊。"
+
+#: ../../po/../userhelper.c:2085
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper 必須為 setuid root\n"
+
+#. FIXME: print a warning here?
+#: ../../po/../userhelper.c:2177
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "無法開啟圖形視窗，且找不到控制用終端機。\n"
+
+#: ../../po/../userhelper.c:2230 ../../po/../userinfo.c:387
+#: ../../po/../usermount.c:672 ../../po/../usermount.c:681
+#: ../../po/../userpasswd.c:37
+#, c-format
+msgid "Unexpected command-line arguments\n"
+msgstr ""
+
+#: ../../po/../userinfo.c:411
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "您不存在。請離開。\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "關於自己"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "更改個人資訊"
+
+#: ../usermode.ui.h:1
+msgid "User Information"
+msgstr "使用者資訊"
+
+#: ../usermode.ui.h:2
+msgid "Full Name:"
+msgstr "全名："
+
+#: ../usermode.ui.h:3
+msgid "Office:"
+msgstr "辦公室："
+
+#: ../usermode.ui.h:4
+msgid "Office Phone Number:"
+msgstr "辦公室電話號碼："
+
+#: ../usermode.ui.h:5
+msgid "Home Phone Number:"
+msgstr "住家電話號碼："
+
+#: ../usermode.ui.h:6
+msgid "Login Shell:"
+msgstr "登入的 Shell："
+
+#: ../../po/../usermount.c:61
+msgid "_Mount"
+msgstr "掛載(_M)"
+
+#: ../../po/../usermount.c:62
+msgid "Un_mount"
+msgstr "卸載(_M)"
+
+#: ../../po/../usermount.c:150
+msgid "Error loading list of file systems"
+msgstr "載入檔案系統清單時發生錯誤"
+
+#. Create the dialog.
+#: ../../po/../usermount.c:151 ../../po/../usermount.c:525
+#: ../../po/../usermount.c:537
+msgid "User Mount Tool"
+msgstr "使用者掛載工具"
+
+#: ../../po/../usermount.c:306
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr "您確定要格式化磁碟嗎？您將摧毀它原有的資料。"
+
+#: ../../po/../usermount.c:317
+msgid "Perform a _low-level format."
+msgstr "執行低階格式化(_L)。"
+
+#: ../../po/../usermount.c:354
+msgid "Select a _filesystem type to create:"
+msgstr "選取要建立的檔案系統(_F)："
+
+#: ../../po/../usermount.c:524
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr "沒有任何檔案系統可被您掛載或卸載。\n請聯絡系統管理員。"
+
+#. Create the other buttons.
+#: ../../po/../usermount.c:555
+msgid "_Format"
+msgstr "格式化(_F)"
+
+#: ../../po/../usermount.c:591
+msgid "Device"
+msgstr "裝置"
+
+#: ../../po/../usermount.c:597
+msgid "Directory"
+msgstr "目錄"
+
+#: ../../po/../usermount.c:603
+msgid "Filesystem"
+msgstr "檔案系統"
+
+#: ../../po/../usermount.c:651
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "無法格式化「%s」裝置。"
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "磁碟管理"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "掛載與卸載檔案系統"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Password"
+msgstr "密碼"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Change your login password"
+msgstr "變更您的登入密碼"

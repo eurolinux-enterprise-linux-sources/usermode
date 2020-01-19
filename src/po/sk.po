@@ -1,0 +1,493 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Dimitris Glezos <glezos@indifex.com>, 2011.
+# feonsu <feonsu@gmail.com>, 2011.
+# Marcel Telka <marcel@telka.sk>, 2004, 2005.
+# Marek Mahut <mmahut@fedoraproject.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: Usermode\n"
+"Report-Msgid-Bugs-To: https://fedorahosted.org/usermode/\n"
+"POT-Creation-Date: 2012-08-21 00:32+0200\n"
+"PO-Revision-Date: 2012-08-20 22:33+0000\n"
+"Last-Translator: Miloslav Trmač <mitr@volny.cz>\n"
+"Language-Team: Slovak (http://www.transifex.com/projects/p/fedora/language/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#. 
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../../po/../dummy.h:21
+msgid "OK"
+msgstr "Ok"
+
+#: ../../po/../dummy.h:22
+msgid "Exit"
+msgstr "Koniec"
+
+#: ../../po/../dummy.h:23
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: ../../po/../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "Spustiť bez práv"
+
+#: ../../po/../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(aktuálne) UNIXové heslo: "
+
+#: ../../po/../dummy.h:26
+msgid "New UNIX password: "
+msgstr "Nové UNIXové heslo: "
+
+#: ../../po/../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "Zadajte nové UNIXové heslo znova: "
+
+#: ../../po/../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "ZLÉ HESLO: POSTUP PÍSANIA je veľmi krátky"
+
+#: ../../po/../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "ZLÉ HESLO: je veľmi krátke"
+
+#: ../../po/../dummy.h:30
+msgid "Password unchanged"
+msgstr "Heslo nezmenené"
+
+#: ../../po/../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "Ľutujem, ale heslá sa nezhodujú"
+
+#: ../../po/../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "Spúšťať systémové konfiguračné nástroje bez hesla."
+
+#: ../../po/../dummy.h:33
+msgid "login: "
+msgstr "prihlásenie: "
+
+#: ../../po/../dummy.h:34
+msgid "Password: "
+msgstr "Heslo: "
+
+#: ../../po/../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s zlyhalo pripojenie k správcovi sedení: %s\n"
+
+#: ../../po/../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "Zlyhalo vzdanie sa správcovských privilégií: %s"
+
+#: ../../po/../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr "Zlyhalo vzdanie sa správcovských privilégií: pam_timestamp_check vrátil kód zlyhania %d"
+
+#: ../../po/../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr "Práve ste autorizovaný na konfiguráciu systémových nastavení (ktoré ovplyvňujú všetkých používateľov) bez opätovného zadávania hesla správcu. Môžete sa vzdať tejto autorizácie."
+
+#: ../../po/../pam-panel-icon.c:151 ../../po/../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "Ponechať autorizáciu"
+
+#: ../../po/../pam-panel-icon.c:154 ../../po/../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "Zabudnúť autorizáciu"
+
+#: ../../po/../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check nie je setuid root"
+
+#: ../../po/../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "nie je rolovacie tty pre pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "neznámy používateľ pre pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "chyba práv v pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "neplatné riadiace tty v pam_timestamp_check"
+
+#: ../../po/../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "Chyba: %s\n"
+
+#: ../../po/../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "Spustenie príkazu zlyhalo \"%s\": %s\n"
+
+#: ../../po/../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "Zlyhalo nastavenie neblokujúceho V/V kanála: %s\n"
+
+#: ../../po/../pam-panel-icon.c:476
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: zlyhalo pripojenie k správcovi sedení\n"
+
+#: ../../po/../userhelper-messages.c:29
+msgid "Information updated."
+msgstr "Informácie aktualizované."
+
+#: ../../po/../userhelper-messages.c:32
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr "Heslo, ktoré ste zadali je neplatné.\nProsím, skúste znova."
+
+#: ../../po/../userhelper-messages.c:37
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr "Jedno alebo viacero zmenených polí je neplatných.\nJe to pravdepodobne kvôli dvojbodkám alebo čiarkám v jednom z polí.\nProsím, odstráňte ich a skúste znova."
+
+#: ../../po/../userhelper-messages.c:42
+msgid "Password resetting error."
+msgstr "Chyba pri vynulovaní hesla."
+
+#: ../../po/../userhelper-messages.c:45
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr "Niektoré systémové súbory sú zamknuté.\nProsím, skúste o chvíľu znova."
+
+#: ../../po/../userhelper-messages.c:48
+msgid "Unknown user."
+msgstr "Neznámy používateľ."
+
+#: ../../po/../userhelper-messages.c:49
+msgid "Insufficient rights."
+msgstr "Nedostatočné práva."
+
+#: ../../po/../userhelper-messages.c:50
+msgid "Invalid call to subprocess."
+msgstr "Neplatné volanie podprocesu."
+
+#: ../../po/../userhelper-messages.c:53
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr "Váš aktuálny shell nie je uvedený v /etc/shells.\nNemáte dovolené zmeniť si svoj shell.\nKonzultujte to s vašim správcom systému."
+
+#. well, this is unlikely to work, but at least we tried...
+#: ../../po/../userhelper-messages.c:58
+msgid "Out of memory."
+msgstr "Došla pamäť."
+
+#: ../../po/../userhelper-messages.c:59
+msgid "The exec() call failed."
+msgstr "Volanie exec() zlyhalo."
+
+#: ../../po/../userhelper-messages.c:60
+msgid "Failed to find selected program."
+msgstr "Hľadanie zvoleného programu zlyhalo."
+
+#. special no-display dialog
+#: ../../po/../userhelper-messages.c:62
+msgid "Request canceled."
+msgstr "Požiadavka zrušená."
+
+#: ../../po/../userhelper-messages.c:63
+msgid "Internal PAM error occured."
+msgstr "Vyskytla sa interná chyba PAM."
+
+#: ../../po/../userhelper-messages.c:64
+msgid "No more retries allowed"
+msgstr "Viac opakovaní nie je povolené"
+
+#: ../../po/../userhelper-messages.c:65
+msgid "Unknown error."
+msgstr "Neznáma chyba."
+
+#. First entry is default
+#: ../../po/../userhelper-messages.c:67
+msgid "Unknown exit code."
+msgstr "Neznámy návratový kód."
+
+#: ../../po/../userhelper-wrap.c:455
+msgid "Query"
+msgstr "Otázka"
+
+#: ../../po/../userhelper-wrap.c:514 ../../po/../userhelper.c:607
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "Overujem sa ako \"%s\""
+
+#: ../../po/../userhelper-wrap.c:533 ../../po/../userhelper-wrap.c:673
+msgid "Error"
+msgstr "Chyba"
+
+#: ../../po/../userhelper-wrap.c:533
+msgid "Information"
+msgstr "Informácie"
+
+#: ../../po/../userhelper-wrap.c:698
+msgid "Changing password."
+msgstr "Mením heslo."
+
+#: ../../po/../userhelper-wrap.c:700
+msgid "Changing personal information."
+msgstr "Zmena osobných údajov."
+
+#: ../../po/../userhelper-wrap.c:703
+msgid "Changing login shell."
+msgstr "Zmena prihlasovacieho shellu."
+
+#: ../../po/../userhelper-wrap.c:707
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Pokúšate sa spustiť \"%s\", ktorý môže mať osoh z práv správcu. Je však potrebných viac informácií, aby sa tak mohlo stať."
+
+#: ../../po/../userhelper-wrap.c:709
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr "Pokúšate sa spustiť \"%s\", ktorý vyžaduje práva správcu. Je však potrebných viac informácií, aby sa tak mohlo stať."
+
+#: ../../po/../userhelper-wrap.c:713
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Pokúšate sa spustiť príkaz, ktorý môže mať osoh z práv správcu. Je však potrebných viac informácií, aby sa tak mohlo stať."
+
+#: ../../po/../userhelper-wrap.c:715
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "Pokúšate sa spustiť príkaz, ktorý vyžaduje práva správcu. Je však potrebných viac informácií, aby sa tak mohlo stať."
+
+#: ../../po/../userhelper-wrap.c:752
+msgid "_Run Unprivileged"
+msgstr "_Spustiť bez práv"
+
+#: ../../po/../userhelper-wrap.c:899
+#, c-format
+msgid "Pipe error.\n"
+msgstr "Chyba rúry.\n"
+
+#: ../../po/../userhelper-wrap.c:906
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "Nepodarilo sa vykonať fork().\n"
+
+#: ../../po/../userhelper-wrap.c:930
+#, c-format
+msgid "Can't set binary encoding on an IO channel: %s\n"
+msgstr "Nie je možné nastaviť binárne kódovanie na IO kanáli: %s\n"
+
+#: ../../po/../userhelper-wrap.c:999 ../../po/../userhelper-wrap.c:1003
+#, c-format
+msgid "dup2() error.\n"
+msgstr "Chyba dup2().\n"
+
+#: ../../po/../userhelper-wrap.c:1014
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "Chyba execl(), errno=%d\n"
+
+#: ../../po/../userhelper.c:589
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Pokúšate sa spustiť \"%s\", ktorý môže mať osoh zo správcovských práv.\nJe však potrebných viac informácií, aby sa tak mohlo stať."
+
+#: ../../po/../userhelper.c:591
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Pokúšate sa spustiť \"%s\", ktorý vyžaduje správcovské práva.\nJe však potrebných viac informácií, aby sa tak mohlo stať."
+
+#: ../../po/../userhelper.c:595
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr "Pokúšate sa spustiť príkaz, ktorý môže mať osoh zo správcovských práv.\nJe však potrebných viac informácií, aby sa tak mohlo stať."
+
+#: ../../po/../userhelper.c:597
+#, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "Pokúšate sa spustiť príkaz, ktorý vyžaduje správcovské práva.\nJe však potrebných viac informácií, aby sa tak mohlo stať."
+
+#: ../../po/../userhelper.c:2085
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "program userhelper musí byť setuid správcu\n"
+
+#. FIXME: print a warning here?
+#: ../../po/../userhelper.c:2177
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "Nepodarilo sa otvoriť grafické okno a nepodarilo sa nájsť riadiaci terminál.\n"
+
+#: ../../po/../userhelper.c:2230 ../../po/../userinfo.c:387
+#: ../../po/../usermount.c:672 ../../po/../usermount.c:681
+#: ../../po/../userpasswd.c:37
+#, c-format
+msgid "Unexpected command-line arguments\n"
+msgstr ""
+
+#: ../../po/../userinfo.c:411
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "Neexistujete. Choďte preč.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "O mne"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "Zmeniť osobné informácie"
+
+#: ../usermode.ui.h:1
+msgid "User Information"
+msgstr "Informácie o používateľovi"
+
+#: ../usermode.ui.h:2
+msgid "Full Name:"
+msgstr "Celé meno:"
+
+#: ../usermode.ui.h:3
+msgid "Office:"
+msgstr "Kancelária:"
+
+#: ../usermode.ui.h:4
+msgid "Office Phone Number:"
+msgstr "Telefónne číslo do kancelárie:"
+
+#: ../usermode.ui.h:5
+msgid "Home Phone Number:"
+msgstr "Telefónne číslo domov:"
+
+#: ../usermode.ui.h:6
+msgid "Login Shell:"
+msgstr "Prihlasovací shell:"
+
+#: ../../po/../usermount.c:61
+msgid "_Mount"
+msgstr "_Pripojiť"
+
+#: ../../po/../usermount.c:62
+msgid "Un_mount"
+msgstr "O_dpojiť"
+
+#: ../../po/../usermount.c:150
+msgid "Error loading list of file systems"
+msgstr ""
+
+#. Create the dialog.
+#: ../../po/../usermount.c:151 ../../po/../usermount.c:525
+#: ../../po/../usermount.c:537
+msgid "User Mount Tool"
+msgstr "Používateľský nástroj na pripájanie"
+
+#: ../../po/../usermount.c:306
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr "Ste si istý, že chcete naformátovať tento disk? Zničíte všetky údaje, ktoré teraz obsahuje."
+
+#: ../../po/../usermount.c:317
+msgid "Perform a _low-level format."
+msgstr "Vykonať _nízkoúrovňové formátovanie."
+
+#: ../../po/../usermount.c:354
+msgid "Select a _filesystem type to create:"
+msgstr "Vyberte si typ _súborového systému, ktorý chcete vytvoriť:"
+
+#: ../../po/../usermount.c:524
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr "Neexistujú žiadne súborové systémy, ktoré máte dovolené pripájať alebo odpájať.\nKontaktujte svojho správcu."
+
+#. Create the other buttons.
+#: ../../po/../usermount.c:555
+msgid "_Format"
+msgstr "_Formátovať"
+
+#: ../../po/../usermount.c:591
+msgid "Device"
+msgstr "Zariadenie"
+
+#: ../../po/../usermount.c:597
+msgid "Directory"
+msgstr "Priečinok"
+
+#: ../../po/../usermount.c:603
+msgid "Filesystem"
+msgstr "Súborový systém"
+
+#: ../../po/../usermount.c:651
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "Zariadenie '%s' nemôže byť formátované."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "Správa diskov"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "Pripojiť a odpojiť súborové systémy"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Password"
+msgstr "Heslo"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Change your login password"
+msgstr "Zmeniť vaše prihlasovacie heslo"

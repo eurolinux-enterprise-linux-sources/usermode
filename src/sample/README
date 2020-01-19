@@ -1,0 +1,21 @@
+This directory contains sample configuration files and scripts for using
+consolehelper(8) as a wrapper for the shutdown-related commands halt(8),
+poweroff(8) and reboot(8).
+
+We generally suggest that such wrapping configuration should be packaged in
+distributions together with the wrapped commands instead.
+
+* shutdown: A wrapper script that allows users to use a subset of shutdown(8)
+  invocations by redirecting them to wrapped versions of halt or poweroff,
+  without giving them privileges to run shutdown(8) with other flags.
+
+* wrapped.console: consolehelper(8) configuration for the wrapped commands.
+  To be installed to /etc/security/console.apps/{halt,poweroff,reboot} .
+
+  Also create a symlink from e.g. /usr/bin/{halt,poweroff,reboot} to
+  /usr/bin/consolehelper .  The minimal configuration assumes that the
+  underlying commands are installed in /usr/sbin/{halt,poweroff,reboot} .
+
+* wrapped.pamd: A PAM configuration for the wrapped commands, allowing them to
+  be run by anyone logged in at a local console.  To be installed to
+  /etc/pam.d/{halt,poweroff,reboot} .

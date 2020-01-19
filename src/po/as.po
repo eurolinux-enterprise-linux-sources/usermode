@@ -1,0 +1,495 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Amitakhya Phukan <amitakhya.phukan@gmail.com>, 2006.
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2008.
+# Amitakhya Phukan <aphukan@redhat.com>, 2006, 2007.
+# Dimitris Glezos <glezos@indifex.com>, 2011.
+# ngoswami <ngoswami@redhat.com>, 2011.
+# Nilamdyuti Goswami <ngoswami@redhat.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Usermode\n"
+"Report-Msgid-Bugs-To: https://fedorahosted.org/usermode/\n"
+"POT-Creation-Date: 2012-08-21 00:32+0200\n"
+"PO-Revision-Date: 2012-08-20 22:33+0000\n"
+"Last-Translator: Miloslav Trmač <mitr@volny.cz>\n"
+"Language-Team: Assamese (http://www.transifex.com/projects/p/fedora/language/as/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: as\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#. 
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../../po/../dummy.h:21
+msgid "OK"
+msgstr "ঠিক আছে"
+
+#: ../../po/../dummy.h:22
+msgid "Exit"
+msgstr "প্ৰস্থান"
+
+#: ../../po/../dummy.h:23
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: ../../po/../dummy.h:24
+msgid "Run Unprivileged"
+msgstr "বিশেষাধিকাৰ নোহোৱাকে চলাওক"
+
+#: ../../po/../dummy.h:25
+msgid "(current) UNIX password: "
+msgstr "(বৰ্ত্তমানৰ) UNIX গুপ্তশব্দ:"
+
+#: ../../po/../dummy.h:26
+msgid "New UNIX password: "
+msgstr "নতুন UNIX গুপ্তশব্দ:"
+
+#: ../../po/../dummy.h:27
+msgid "Retype new UNIX password: "
+msgstr "নতুন UNIX গুপ্তশব্দ পুনঃ লিখক:"
+
+#: ../../po/../dummy.h:28
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "বেয়া গুপ্তশব্দ: এইটো বহুত বেচি সৰু"
+
+#: ../../po/../dummy.h:29
+msgid "BAD PASSWORD: it is too short"
+msgstr "বেয়া গুপ্তশব্দ: এইটো বৰ সৰু"
+
+#: ../../po/../dummy.h:30
+msgid "Password unchanged"
+msgstr "গুপ্তশব্দ সলনি ন'হ'ল"
+
+#: ../../po/../dummy.h:31
+msgid "Sorry, passwords do not match"
+msgstr "ক্ষমা কৰিব, গুপ্তশব্দ একেই নহয় "
+
+#: ../../po/../dummy.h:32
+msgid "Launch system-wide configuration tools without a password."
+msgstr "গুপ্তশব্দ নোহোৱাকৈ ব্যৱস্থাপ্ৰনালী ব্যাপক বিন্যাস সৰঞ্জাম আৰম্ভ কৰক ।"
+
+#: ../../po/../dummy.h:33
+msgid "login: "
+msgstr "প্ৰৱেশ:"
+
+#: ../../po/../dummy.h:34
+msgid "Password: "
+msgstr "গুপ্তশব্দ:"
+
+#: ../../po/../gsmclient.c:362
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s এ অধিবেশন পৰিচালকলৈ সংযোগ কৰাত অক্ষম: %s\n"
+
+#: ../../po/../pam-panel-icon.c:89
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "প্ৰশাসকৰ অধিকাৰসমূহ এৰিব'লৈ অক্ষম: %s"
+
+#: ../../po/../pam-panel-icon.c:98
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr "প্ৰশাসকৰ অধিকাৰসমূহ এৰিব'লৈ অক্ষম: pam_timestamp_check -এ অক্ষম হোৱা কোড দিলে %d"
+
+#: ../../po/../pam-panel-icon.c:146
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr "প্ৰশাসক গুপ্তশব্দ আকৌ নিলিখাকে ব্যৱস্থাপ্ৰণালী ব্যাপক পছন্দ বিন্যাস কৰাৰ অধিকাৰ আপুনাৰ লগত বৰ্ত্তমানে আছে (যি সকলো ব্যৱহাৰকৰ্তাক প্ৰভাবান্বিত কৰিব) । আপুনি এই  অধিকাৰ এৰিব পাৰে ।"
+
+#: ../../po/../pam-panel-icon.c:151 ../../po/../pam-panel-icon.c:178
+msgid "Keep Authorization"
+msgstr "অধিকাৰ ৰাখক"
+
+#: ../../po/../pam-panel-icon.c:154 ../../po/../pam-panel-icon.c:185
+msgid "Forget Authorization"
+msgstr "অধিকাৰ পাহৰি যাওক"
+
+#: ../../po/../pam-panel-icon.c:285
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check ৰূট setuid নহয় ।"
+
+#: ../../po/../pam-panel-icon.c:289
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "pam_timestamp_check ৰ বাবে কোনো নিয়ন্ত্ৰক tty নাই"
+
+#: ../../po/../pam-panel-icon.c:293
+msgid "user unknown to pam_timestamp_check"
+msgstr "pam_timestamp_check লৈ ব্যৱহাৰক্ৰতা অজ্ঞাত"
+
+#: ../../po/../pam-panel-icon.c:297
+msgid "permissions error in pam_timestamp_check"
+msgstr "pam_timestamp_check ত অনুমতিৰ ভুল"
+
+#: ../../po/../pam-panel-icon.c:301
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "pam_timestamp_check ত অসিদ্ধ নিয়ন্ত্ৰক tty"
+
+#: ../../po/../pam-panel-icon.c:319
+#, c-format
+msgid "Error: %s\n"
+msgstr "ভুল: %s\n"
+
+#: ../../po/../pam-panel-icon.c:384
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "\"%s\" আদেশ চলাবলৈ অক্ষম: %s\n"
+
+#: ../../po/../pam-panel-icon.c:396
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "IO প্ৰবাহ প্ৰতিবন্ধনোহোৱালৈ নিৰ্দ্দিষ্ট কৰাত অক্ষম: %s\n"
+
+#: ../../po/../pam-panel-icon.c:476
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: অধিবেশন পৰিচালকলৈ সংযোগ কৰাত অক্ষম\n"
+
+#: ../../po/../userhelper-messages.c:29
+msgid "Information updated."
+msgstr "তথ্য বৰ্ত্তমানলৈ অনা হ'ল ।"
+
+#: ../../po/../userhelper-messages.c:32
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr "আপুনি লিখা গুপ্তশব্দ অবৈধ ।\nঅনুগ্ৰহ কৰি পুনঃ চেষ্টা কৰক ।"
+
+#: ../../po/../userhelper-messages.c:37
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr "সলনি কৰা একাধিক ক্ষেত্ৰ অবৈধ ।\nএইটো বোধকৰো কোনো এটা ক্ষেত্ৰত ক'ল'ন বা ক'মামাবাবে হৈছে ।\nঅনুগ্ৰহ কৰি সেইবোৰ আঁতৰাওক আৰু পুনঃ চেষ্টা কৰক ।ৰ "
+
+#: ../../po/../userhelper-messages.c:42
+msgid "Password resetting error."
+msgstr "গুপ্তশব্দ পুনৰায় সজ্জিত কৰোঁতে ভুল ।"
+
+#: ../../po/../userhelper-messages.c:45
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr "কিছুমান নথি-পত্ৰৰ প্ৰনালী বন্ধ আছে ।\nকিছু সময়ৰ পিছত পুনঃ চেষ্টা কৰক ।"
+
+#: ../../po/../userhelper-messages.c:48
+msgid "Unknown user."
+msgstr "অজ্ঞাত ব্যৱহাৰকৰ্তা"
+
+#: ../../po/../userhelper-messages.c:49
+msgid "Insufficient rights."
+msgstr "অপৰ্য্যাপ্ত অধিকাৰ"
+
+#: ../../po/../userhelper-messages.c:50
+msgid "Invalid call to subprocess."
+msgstr "উপ-প্ৰণালী অবৈধভাবে আহ্বান কৰা হৈছে ।"
+
+#: ../../po/../userhelper-messages.c:53
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr "/etc/shells ত আপোনাৰ বৰ্ত্তমানৰ শ্বেল তালিকাভুক্ত নহয় ।\nশ্বেল সলনি কৰিব'লৈ আপোনাৰ অনুমতি নাই ।\nআপোনাৰ ব্যৱস্থাপ্ৰণালীৰ পৰিচালকৰ সৈতে পৰামৰ্শ কৰক ।"
+
+#. well, this is unlikely to work, but at least we tried...
+#: ../../po/../userhelper-messages.c:58
+msgid "Out of memory."
+msgstr "স্মৃতিশক্তিৰ বাহিৰৰ ।"
+
+#: ../../po/../userhelper-messages.c:59
+msgid "The exec() call failed."
+msgstr "exec() আহ্বানত ভুল"
+
+#: ../../po/../userhelper-messages.c:60
+msgid "Failed to find selected program."
+msgstr "নিৰ্ব্বাচিত কাৰ্য্যক্ৰম পোৱা ন'গ'ল ।"
+
+#. special no-display dialog
+#: ../../po/../userhelper-messages.c:62
+msgid "Request canceled."
+msgstr "অনুমোদন বাতিল কৰা হ'ল ।"
+
+#: ../../po/../userhelper-messages.c:63
+msgid "Internal PAM error occured."
+msgstr "ভিতৰুৱা PAM ভুল হৈছে ।"
+
+#: ../../po/../userhelper-messages.c:64
+msgid "No more retries allowed"
+msgstr "আৰু পুনৰ চেষ্টাৰ অনুমতি দিয়া নহয়"
+
+#: ../../po/../userhelper-messages.c:65
+msgid "Unknown error."
+msgstr "অজ্ঞাগ ভুল ।"
+
+#. First entry is default
+#: ../../po/../userhelper-messages.c:67
+msgid "Unknown exit code."
+msgstr "অজ্ঞাত প্ৰস্থান কোড্ ।"
+
+#: ../../po/../userhelper-wrap.c:455
+msgid "Query"
+msgstr "অনুসন্ধান"
+
+#: ../../po/../userhelper-wrap.c:514 ../../po/../userhelper.c:607
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "\"%s\" হিচাপে প্ৰমাণীকৰণ কৰা হৈছে"
+
+#: ../../po/../userhelper-wrap.c:533 ../../po/../userhelper-wrap.c:673
+msgid "Error"
+msgstr "ভুল"
+
+#: ../../po/../userhelper-wrap.c:533
+msgid "Information"
+msgstr "তথ্য"
+
+#: ../../po/../userhelper-wrap.c:698
+msgid "Changing password."
+msgstr "গুপ্তশব্দ সলনি কৰা হৈছে ।"
+
+#: ../../po/../userhelper-wrap.c:700
+msgid "Changing personal information."
+msgstr "ব্যক্তিগত তথ্য সলনি কৰা হৈছে ।"
+
+#: ../../po/../userhelper-wrap.c:703
+msgid "Changing login shell."
+msgstr "প্ৰবেশ শ্বেল সলনি কৰা হৈছে ।"
+
+#: ../../po/../userhelper-wrap.c:707
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "আপুনি \"%s\" চলাবলৈ চেষ্টা কৰিছে যিটো প্ৰশাসনিক অধিকাৰসমূহৰ পৰা উপকাৰিত হ'ব পাৰে,কিন্তু ইয়াৰ বাবে আৰু তথ্যৰ প্ৰয়োজন ।"
+
+#: ../../po/../userhelper-wrap.c:709
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr "আপুনি \"%s\" চলাবলৈ চেষ্টা কৰিছে যাৰ বাবে প্ৰশাসনিক অধিকাৰসমূহৰ প্ৰয়োজন,কিন্তু ইয়াৰ বাবে আৰু তথ্যৰ প্ৰয়োজন ।"
+
+#: ../../po/../userhelper-wrap.c:713
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "আপুনি এটা আদেশ চলাবলৈ চেষ্টা কৰিছে যিটো প্ৰশাসনিক অধিকাৰসমূহৰ পৰা উপকাৰিত হ'ব পাৰেকিন্তু ইয়াৰ বাবে আৰু তথ্যৰ প্ৰয়োজন ।"
+
+#: ../../po/../userhelper-wrap.c:715
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr "আপুনি এটা আদেশ চলাবলৈ চেষ্টা কৰিছে যাৰ বাবে প্ৰশাসনিক অধিকাৰসমূহৰ প্ৰয়োজনকিন্তু ইয়াৰ বাবে আৰু তথ্যৰ প্ৰয়োজন ।"
+
+#: ../../po/../userhelper-wrap.c:752
+msgid "_Run Unprivileged"
+msgstr "বিশেষাধিকাৰ নোহোৱাকে চলাওক (_R)"
+
+#: ../../po/../userhelper-wrap.c:899
+#, c-format
+msgid "Pipe error.\n"
+msgstr "পাইপ্ কৰোঁতে ভুল ।\n"
+
+#: ../../po/../userhelper-wrap.c:906
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "fork() কৰিব নোৱাৰি ।\n"
+
+#: ../../po/../userhelper-wrap.c:930
+#, c-format
+msgid "Can't set binary encoding on an IO channel: %s\n"
+msgstr "এখন IO চেনেলত বাইনাৰি এনকোডিং সংহতি কৰিব নোৱাৰি: %s\n"
+
+#: ../../po/../userhelper-wrap.c:999 ../../po/../userhelper-wrap.c:1003
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2() ভুল ।\n"
+
+#: ../../po/../userhelper-wrap.c:1014
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() ভুল, ভুল সংখ্যা=%d\n"
+
+#: ../../po/../userhelper.c:589
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "আপুনি \"%s\" চলাবলৈ চেষ্টা কৰিছে যিটো প্ৰশাসনিক অধিকাৰসমূহৰ পৰা উপকাৰিত হ'ব পাৰে ,\nকিন্তু ইয়াৰ বাবে আৰু তথ্যৰ প্ৰয়োজন ।"
+
+#: ../../po/../userhelper.c:591
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "আপুনি \"%s\" চলাবলৈ চেষ্টা কৰিছে যাৰ বাবে প্ৰশাসনিক অধিকাৰসমূহৰ প্ৰয়োজন,\nকিন্তু ইয়াৰ বাবে আৰু তথ্যৰ প্ৰয়োজন ।"
+
+#: ../../po/../userhelper.c:595
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr "আপুনি এটা আদেশ চলাবলৈ চেষ্টা কৰিছে যিটো প্ৰশাসনিক অধিকাৰসমূহৰ পৰা উপকাৰিত হ'ব পাৰে ,\nকিন্তু ইয়াৰ বাবে আৰু তথ্যৰ প্ৰয়োজন ।"
+
+#: ../../po/../userhelper.c:597
+#, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr "আপুনি এটা আদেশ চলাবলৈ চেষ্টা কৰিছে যাৰ বাবে প্ৰশাসনিক অধিকাৰসমূহৰ প্ৰয়োজন\nকিন্তু ইয়াৰ বাবে আৰু তথ্যৰ প্ৰয়োজন ।"
+
+#: ../../po/../userhelper.c:2085
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper ৰূট setuid ত হ'ব লাগে\n"
+
+#. FIXME: print a warning here?
+#: ../../po/../userhelper.c:2177
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr "চিত্ৰালকিত পৰ্দ্দা খুলিব পৰা ন'গ'ল, আৰু নিয়ন্ত্ৰক টাৰ্মিনেল পোৱা ন'গ'ল ।\n"
+
+#: ../../po/../userhelper.c:2230 ../../po/../userinfo.c:387
+#: ../../po/../usermount.c:672 ../../po/../usermount.c:681
+#: ../../po/../userpasswd.c:37
+#, c-format
+msgid "Unexpected command-line arguments\n"
+msgstr ""
+
+#: ../../po/../userinfo.c:411
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "আপুনি বাস নকৰে । প্ৰস্থান কৰক ।\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "নিজৰ বিষয়ে"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "ব্যক্তিগত তথ্য সলনি কৰক"
+
+#: ../usermode.ui.h:1
+msgid "User Information"
+msgstr "ব্যৱহাৰকৰ্তাৰ তথ্য"
+
+#: ../usermode.ui.h:2
+msgid "Full Name:"
+msgstr "সম্পূৰ্ণ নাম:"
+
+#: ../usermode.ui.h:3
+msgid "Office:"
+msgstr "ক্ৰ্য্যালয়:"
+
+#: ../usermode.ui.h:4
+msgid "Office Phone Number:"
+msgstr "কাৰ্য্যালয়ৰ দূৰভাষ সংখ্যা:"
+
+#: ../usermode.ui.h:5
+msgid "Home Phone Number:"
+msgstr "ঘৰৰ দূৰভাষ সংখ্যা:"
+
+#: ../usermode.ui.h:6
+msgid "Login Shell:"
+msgstr "প্ৰৱেশৰ শ্বেল:"
+
+#: ../../po/../usermount.c:61
+msgid "_Mount"
+msgstr "তোলক (_M)"
+
+#: ../../po/../usermount.c:62
+msgid "Un_mount"
+msgstr "বাহিৰ কৰক (_m)"
+
+#: ../../po/../usermount.c:150
+msgid "Error loading list of file systems"
+msgstr "নথিপত্ৰ প্ৰণালীসমূহৰ তালিকা ল'ড কৰোতে ত্ৰুটি"
+
+#. Create the dialog.
+#: ../../po/../usermount.c:151 ../../po/../usermount.c:525
+#: ../../po/../usermount.c:537
+msgid "User Mount Tool"
+msgstr "ব্যৱহাৰক্ৰতাৰ তুলি লোৱা যন্ত্ৰ"
+
+#: ../../po/../usermount.c:306
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr "এই ডিষ্ক পুনৰাকৃত কৰিব'লৈ আপুনি নিশ্চিত নে?  আপুনি বৰ্ত্তমান অৱস্থিত সকলো তথ্য নাশ কৰিব ।"
+
+#: ../../po/../usermount.c:317
+msgid "Perform a _low-level format."
+msgstr "নিম্নস্তৰৰ পুনৰাকৃতি কৰক । (_l)"
+
+#: ../../po/../usermount.c:354
+msgid "Select a _filesystem type to create:"
+msgstr "সৃষ্টি কৰিব'লৈ এটা নথি-পত্ৰৰ প্ৰণালী নিৰ্ব্বাচন কৰক (_f):"
+
+#: ../../po/../usermount.c:524
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr "এনে কোনো নথি-পত্ৰৰ প্ৰণালী নাই যি আপুনি তুলি ল'ব বা অৱৰোহন কৰিব পাৰে ।\nআপোনাৰ পৰিচালকৰ সৈতে যোগাযোগ কৰক ।"
+
+#. Create the other buttons.
+#: ../../po/../usermount.c:555
+msgid "_Format"
+msgstr "পুনৰাকৃতি (_F)"
+
+#: ../../po/../usermount.c:591
+msgid "Device"
+msgstr "যন্ত্ৰ"
+
+#: ../../po/../usermount.c:597
+msgid "Directory"
+msgstr "পঞ্জিকা"
+
+#: ../../po/../usermount.c:603
+msgid "Filesystem"
+msgstr "নথি-পত্ৰৰ প্ৰণালী"
+
+#: ../../po/../usermount.c:651
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "'%s' যন্ত্ৰক পুনৰাকৃত কৰিব নোাৰি ।"
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "ডিষ্কৰ পৰিচালনা"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "নথিপত্ৰৰপ্ৰণালী তোলক আৰু অৱৰোহণ কৰক"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Password"
+msgstr "গুপ্তশব্দ"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Change your login password"
+msgstr "আপোনাৰ প্ৰৱেশৰ গুপ্তশব্দ সলনি কৰক"
