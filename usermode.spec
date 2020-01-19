@@ -1,7 +1,7 @@
 Summary: Tools for certain user account management tasks
 Name: usermode
 Version: 1.111
-Release: 3%{?dist}
+Release: 5%{?dist}
 License: GPLv2+
 Group: Applications/System
 URL: https://fedorahosted.org/usermode/
@@ -90,6 +90,12 @@ done
 %{_datadir}/applications/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.111-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.111-4
+- Mass rebuild 2013-12-27
+
 * Tue May 21 2013 Miloslav Trmač <mitr@redhat.com> - 1.111-3
 - Enable hardened build
   Resolves: #965471
